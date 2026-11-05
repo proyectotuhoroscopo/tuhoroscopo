@@ -1,0 +1,548 @@
+{
+ "aries-aries": {
+  "amor": "Cuando dos volcanes se encuentran, la pasión es inmediata y el ritmo de la relación resulta electrizante. Ambos comparten el mismo deseo de conquista y honestidad, lo que les permite ir directo al grano sin juegos. Sin embargo, el desafío surge cuando ninguno de los dos quiere ceder el mando en las decisiones cotidianas. Para que funcione a largo plazo, deben aprender a turnarse en el liderazgo de la pareja.",
+  "amistad": "Como amigos, son dinamita pura y se convierten rápidamente en compañeros de aventuras inseparables. Se entienden sin necesidad de dar explicaciones largas porque sus impulsos suelen ir en la misma dirección. Es probable que compitan un poco entre sí, pero esa misma chispa es la que mantiene el vínculo vibrante. Disfrutan de actividades físicas o retos que pongan a prueba su valentía constante.",
+  "trabajo": "En el entorno laboral, la velocidad para ejecutar tareas es asombrosa porque ambos odian la burocracia y las demoras. El problema puede aparecer si se enfocan solo en el inicio de los proyectos y descuidan los detalles finales por puro aburrimiento. Les conviene delegar la revisión minuciosa a terceros para no cometer errores por las prisas. La competencia interna puede ser sana si se canaliza hacia objetivos externos comunes.",
+  "consejo": "Aprendan a escuchar el doble de lo que hablan.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-tauro": {
+  "amor": "Esta unión mezcla la velocidad del fuego con la calma de la tierra, creando una dinámica de atracción por lo opuesto. Mientras tú buscas emoción y novedad, tu pareja prefiere la seguridad y los placeres lentos. Esta diferencia puede generar roces si uno se siente presionado o el otro ignorado en sus necesidades de estabilidad. La clave está en disfrutar de la intensidad de uno y la calidez del otro sin intentar cambiarse.",
+  "amistad": "Como amigos, se convierten en un equipo equilibrado donde uno pone la idea y el otro la constancia para mantenerla. Tú aportas el entusiasmo inicial para salir de casa, mientras que tu amigo asegura que el plan sea cómodo y placentero. Necesitan cultivar la paciencia, ya que tus ganas de correr chocarán con sus tiempos pausados de reflexión. Si logran acoplarse, tendrán un vínculo sólido que sobrevivirá a cualquier tormenta.",
+  "trabajo": "En la oficina, esta combinación es sumamente productiva porque cubren todos los frentes del proceso creativo. Tú eres quien abre puertas y toma riesgos, mientras que tu contraparte se encarga de consolidar los resultados y cuidar el presupuesto. El éxito llegará si dividen sus funciones claramente para evitar que tu impaciencia agobie su metodología detallista. Juntos forman una estructura donde la innovación se encuentra con la ejecución impecable.",
+  "consejo": "Valoren el ritmo del otro para evitar tensiones innecesarias.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-geminis": {
+  "amor": "La conexión entre ustedes es aire que aviva el fuego, resultando en una relación dinámica y llena de estímulos intelectuales. No hay espacio para el aburrimiento porque siempre encuentran un nuevo tema de conversación o un lugar por descubrir. Tú aportas la pasión decidida y tu pareja la versatilidad necesaria para seguirte el ritmo sin cansarse. Deben cuidar que tanta actividad no les impida profundizar en los compromisos emocionales serios.",
+  "amistad": "Esta es una de las amistades más divertidas del zodiaco, basada en la risa espontánea y la curiosidad compartida. Son el tipo de amigos que pueden pasar horas planeando viajes o debatiendo ideas locas sin juzgarse nunca. Se apoyan en los momentos de crisis con soluciones rápidas y una perspectiva optimista que los saca adelante. La clave de su unión es la libertad total que se otorgan para ser auténticos.",
+  "trabajo": "En el plano laboral, la comunicación fluye con una agilidad envidiable que les permite resolver problemas en tiempo récord. Tú te encargas de la dirección y el empuje, mientras que tu socio aporta las ideas frescas y la capacidad de negociación. Son ideales para proyectos de marketing, ventas o cualquier área que requiera creatividad constante. Solo deben cuidarse de no dispersar la energía en demasiados frentes a la vez.",
+  "consejo": "Mantengan siempre el diálogo para que la chispa no se apague.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-cancer": {
+  "amor": "La relación entre el fuego directo y el agua sensible requiere de mucho esfuerzo y comprensión mutua para prosperar. Tú sueles ser impulsivo y frontal, lo que a veces puede herir la susceptibilidad de tu pareja, que necesita más ternura y refugio. Sin embargo, la química es magnética y ambos son signos que valoran la lealtad por sobre todas las cosas. Si logran equilibrar tu necesidad de independencia con su búsqueda de seguridad emocional, construirán un hogar indestructible.",
+  "amistad": "Como amigos, representan un desafío constante que los obliga a salir de su zona de confort emocional. Tú aprendes a conectar con tus sentimientos más profundos gracias a su empatía, y tu amigo se vuelve más valiente bajo tu influencia. Pueden surgir malentendidos si no cuidas tus palabras, ya que tu franqueza a veces resulta demasiado ruda para su delicadeza. El respeto por los tiempos de cada uno será el pegamento que mantenga la unión.",
+  "trabajo": "En el trabajo, sus prioridades suelen chocar porque tú buscas resultados rápidos y tu compañero prefiere la seguridad y el cuidado de los procesos. Es fundamental que definan quién tiene la última palabra en cada área para evitar discusiones de poder innecesarias. Cuando logran coordinarse, tú aportas la fuerza de ventas y el ímpetu, mientras que ellos cuidan el clima laboral y la organización interna. La clave es la negociación previa a cualquier ejecución.",
+  "consejo": "La suavidad al hablar les evitará muchos conflictos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-leo": {
+  "amor": "Esta pareja brilla con luz propia, ya que ambos comparten el elemento fuego y una generosidad de corazón inmensa. Se admiran mutuamente y disfrutan de un romance digno de película, lleno de detalles grandiosos y mucha pasión física. El único peligro es que sus egos compitan por el protagonismo en lugar de celebrar los éxitos del otro como propios. Si mantienen la lealtad y el respeto, serán una de las parejas más estables y envidiadas.",
+  "amistad": "Su amistad es cálida, leal y extremadamente protectora, pues ambos se defienden con uñas y dientes ante cualquier amenaza externa. Se entienden con una mirada y suelen compartir los mismos valores de honor y valentía en la vida cotidiana. Disfrutan de salidas donde puedan lucirse y compartir su alegría contagiosa con el resto del mundo. Es un vínculo que se fortalece con el tiempo y que rara vez conoce la traición.",
+  "trabajo": "Trabajar juntos es un motor de alta potencia porque ambos van tras objetivos ambiciosos sin miedo al fracaso. Tienen una visión clara del éxito y no se detienen hasta alcanzar la cima de cualquier proyecto que emprendan. El riesgo es que se acomoden en su zona de confort al estar tan de acuerdo, por lo que deben buscar retos externos que los mantengan activos. La colaboración fluye mejor cuando ambos sienten que su talento es reconocido.",
+  "consejo": "Recuerden que en el equipo hay espacio para que ambos brillen.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-virgo": {
+  "amor": "El encuentro entre tu impulsividad y su perfeccionismo puede ser desconcertante al principio, pero ofrece un gran crecimiento. Tú aprendes a prestar atención a los detalles que antes ignorabas, mientras que tu pareja descubre la alegría de actuar sin planificarlo todo. Al principio, sus estilos de vida tan diferentes pueden causar fricciones, especialmente en la convivencia diaria y el orden. La clave es ver sus diferencias como piezas de un rompecabezas que encajan para crear estabilidad.",
+  "amistad": "Como amigos, se sacan mutuamente de sus casillas y de sus rutinas, lo que termina siendo muy refrescante. Tú aportas la chispa para iniciar planes locos y tu amigo se encarga de que todo salga perfecto y sin contratiempos. Aunque no comparten la misma visión del mundo, valoran la honestidad brutal que ambos poseen. Es una relación basada en el aprendizaje constante y en el apoyo práctico ante los problemas reales.",
+  "trabajo": "En el entorno profesional, son una combinación de eficiencia absoluta si logran establecer un lenguaje común de comunicación. Tú lanzas las iniciativas con valentía y tu socio pule cada detalle para que el resultado final sea impecable. Necesitan tenerse paciencia, pues tus prisas pueden estresar su método y sus críticas pueden frustrar tu entusiasmo. Si confían en la capacidad del otro, se volverán un equipo técnico y ejecutivo imbatible.",
+  "consejo": "Pregunten antes de asumir lo que el otro está pensando.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-libra": {
+  "amor": "Ustedes son el eje de las relaciones por excelencia, donde el 'yo' de uno se encuentra con el 'nosotros' del otro. La atracción es instantánea porque tu pareja tiene la diplomacia y el encanto que a ti a veces te falta, y tú tienes la determinación que ellos anhelan. El desafío es no caer en un juego de opuestos donde uno siempre cede para evitar el conflicto. Aprendan a pelear de forma justa y a encontrar un equilibrio entre la independencia y la fusión total.",
+  "amistad": "En la amistad, se complementan de forma ideal para equilibrar la balanza de sus vidas personales. Tú eres quien motiva a tu amigo a tomar decisiones rápidas, mientras que él te enseña a ver todas las caras de una misma moneda. Disfrutan de actividades sociales muy variadas, desde deportes intensos hasta eventos culturales refinados. Aunque miren el mundo desde veredas opuestas, siempre encuentran un punto de encuentro basado en el afecto genuino.",
+  "trabajo": "En los negocios, forman una sociedad poderosa donde la acción se une con la estrategia y la buena imagen. Tú te encargas de la parte agresiva y de abrir mercados, mientras que tu socio gestiona las relaciones públicas y los acuerdos pacíficos. Funcionan mejor si valoran que el otro ve lo que uno mismo suele pasar por alto por su propia naturaleza. La clave del éxito será la distribución equitativa de las cargas de trabajo.",
+  "consejo": "Busquen soluciones que beneficien a los dos, no solo a uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-escorpio": {
+  "amor": "Esta combinación es de una intensidad emocional y física desbordante, pues ambos están regidos por la energía de Marte. Tú vas directo a la acción con transparencia, mientras que tu pareja prefiere la profundidad, el misterio y la estrategia silenciosa. Pueden surgir luchas de poder muy fuertes si no aprenden a confiar plenamente el uno en el otro. Sin embargo, si logran canalizar esa fuerza hacia un objetivo común, nada ni nadie podrá separarlos.",
+  "amistad": "Como amigos, comparten una complicidad basada en la lealtad absoluta y el gusto por los desafíos extremos. No son una amistad superficial; se apoyan en las crisis más oscuras con una fuerza que pocos signos pueden igualar. Tú aportas la luz y el optimismo para salir del pozo, y tu amigo te brinda la profundidad necesaria para entender tus propias sombras. Es un vínculo que requiere honestidad total para no caer en resentimientos o secretos.",
+  "trabajo": "En el plano laboral, son una fuerza imparable capaz de transformar cualquier crisis en una oportunidad de éxito. Tú tienes el empuje inicial y tu compañero tiene la resistencia y la capacidad de investigación para llegar al fondo de los asuntos. Deben ser muy claros en sus objetivos para no terminar compitiendo entre ustedes por el control del proyecto. Una vez sincronizados, su productividad y capacidad de resolución son simplemente asombrosas.",
+  "consejo": "La confianza se construye con hechos, no solo con palabras.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-sagitario": {
+  "amor": "El amor entre ustedes es una aventura sin fin, llena de risas, viajes y una fe compartida en el futuro. Al ser ambos signos de fuego, se comprenden intuitivamente y respetan la necesidad de libertad que el otro reclama. No hay dramas innecesarios ni asfixia emocional; la relación se basa en la alegría de compartir el camino manteniendo la propia identidad. Solo deben cuidar que la falta de atención a los detalles domésticos no genere un caos cotidiano.",
+  "amistad": "Es, sin duda, una de las mejores amistades del zodiaco, donde la diversión y el crecimiento personal van de la mano. Son los mejores compañeros de viaje, siempre listos para una excursión improvisada o para debatir sobre filosofía y metas personales. Se impulsan mutuamente a ser mejores y a no tener miedo de expandir sus horizontes mentales y físicos. Es una relación fresca, honesta y llena de un entusiasmo que parece no agotarse nunca.",
+  "trabajo": "En el trabajo, son un equipo visionario que sabe mirar más allá de lo evidente para encontrar grandes oportunidades. Tú aportas la capacidad ejecutiva inmediata y tu socio la visión a largo plazo y el optimismo para vender cualquier idea. Tienen una armonía natural que les permite avanzar rápido sin necesidad de reuniones largas o burocráticas. El único riesgo es la falta de seguimiento en las tareas más aburridas o administrativas.",
+  "consejo": "Disfruten del presente sin olvidar los compromisos del mañana.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-capricornio": {
+  "amor": "Esta pareja une el fuego del impulso con la roca de la ambición, lo que puede generar una estructura muy sólida o choques constantes. Tú quieres resultados ahora, mientras que tu pareja está dispuesta a esperar años para construir un imperio duradero. Esta diferencia de tiempos puede causar frustración si no aprenden a valorar la perspectiva del otro. Sin embargo, si logran unirse, serán una pareja de poder capaz de conquistar cualquier meta social o económica.",
+  "amistad": "Como amigos, se desafían a ser más eficientes y a no conformarse con poco en sus vidas personales. Tú inyectas entusiasmo en su mundo a veces demasiado serio, y ellos te enseñan la importancia de la disciplina y el orden. Pueden chocar cuando tú intentas saltarte las reglas que ellos tanto respetan, o cuando ellos parecen demasiado fríos ante tus impulsos. Si se respetan, se convertirán en los mejores consejeros estratégicos el uno del otro.",
+  "trabajo": "En el ámbito profesional, son sumamente efectivos pero deben definir bien quién manda en cada territorio para no pelear. Tú eres el motor que pone las cosas en marcha y ellos son los arquitectos que aseguran que la estructura no se caiga. Juntos pueden llegar a la cima de cualquier empresa, siempre que tú aceptes un poco de planificación y ellos acepten un poco de riesgo. La clave es la admiración mutua por la capacidad de trabajo del otro.",
+  "consejo": "Negocien sus diferencias antes de que se vuelvan discusiones.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-acuario": {
+  "amor": "Su relación es moderna, original y está libre de las ataduras convencionales que a ambos suelen aburrir. La conexión nace de una fuerte amistad y del respeto por la individualidad del otro, lo que crea un ambiente de mucha confianza. Tú aportas la pasión y la iniciativa, mientras que tu pareja pone la visión innovadora y el desapego necesario para no sofocarse. Deben cuidar que tanta independencia no los aleje afectivamente en los momentos que requieren ternura.",
+  "amistad": "Son una pareja de amigos eléctrica que siempre está a la vanguardia de las nuevas tendencias o ideas sociales. Se apoyan en sus proyectos más locos y se ríen de las convenciones sociales que otros consideran sagradas. La comunicación es fluida y honesta, permitiéndoles resolver cualquier roce con una charla rápida y sin rencores. Es una de esas amistades que pueden pasar tiempo sin verse y retomar exactamente donde lo dejaron.",
+  "trabajo": "En el trabajo, son ideales para liderar procesos de cambio o proyectos que requieran una creatividad disruptiva. Tú ejecutas con fuerza y ellos proponen soluciones tecnológicas o sociales que nadie más había imaginado. Se comunican bien y se reparten las tareas con una naturalidad que agiliza todos los procesos internos del equipo. Para triunfar, solo necesitan asegurarse de que alguien más se encargue de aterrizar sus ideas a la realidad práctica.",
+  "consejo": "No permitan que la rutina apague su originalidad compartida.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "aries-piscis": {
+  "amor": "En esta pareja se encuentra el guerrero con el soñador, creando una dinámica de protección y mucha sensibilidad compartida. Tú te sientes inclinado a cuidar de tu pareja, mientras que ella te ofrece un refugio de paz y calma ante tu vida a veces agitada. El desafío es que tu franqueza directa no hiera su mundo interior delicado y que su indecisión no agote tu paciencia. Si logran fundir sus esencias, vivirán un romance lleno de magia y profundidad emocional.",
+  "amistad": "Como amigos, se complementan de una forma casi mística, donde uno empieza donde el otro termina sus capacidades. Tú le das el empujón que necesitan para actuar y ellos te enseñan a escuchar tu intuición y a bajar las revoluciones. Necesitan mucha paciencia mutua para entender sus ritmos, ya que tú eres de acción inmediata y ellos de procesos internos lentos. Es una amistad que suaviza tu carácter y fortalece la confianza de tu amigo.",
+  "trabajo": "En el entorno laboral, funcionan de maravilla si logran separar sus áreas de influencia de manera clara y directa. Tú te encargas de la cara pública, las decisiones rápidas y el empuje, mientras que ellos manejan la parte creativa o el bienestar del equipo. Juntos cubren un espectro de habilidades que va desde lo más concreto hasta lo más intuitivo y humano. El éxito vendrá si tú proteges su espacio de trabajo y ellos confían en tu liderazgo ejecutivo.",
+  "consejo": "Aprendan a valorar la sensibilidad como una fortaleza, no una debilidad.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "tauro-tauro": {
+  "amor": "Cuando dos Tauro se unen, crean un santuario de comodidad, placeres sensoriales y una estabilidad que pocos pueden igualar. Ambos valoran la seguridad económica, la buena comida y los tiempos lentos, lo que garantiza una convivencia muy armoniosa y predecible. El riesgo principal es caer en una rutina excesiva donde ninguno de los dos se anime a proponer algo diferente por miedo al cambio. Si logran evitar la terquedad en las discusiones, construirán un vínculo que durará toda la vida.",
+  "amistad": "Como amigos, son el espejo de la lealtad y disfrutan de las mismas actividades tranquilas y de calidad. Se entienden sin necesidad de hablar mucho, compartiendo un humor sutil y un gusto por lo bueno que los une profundamente. Pueden pasar años sin pelear, a menos que choquen en alguna opinión donde ambos se cierren por completo en su postura fija. Son el tipo de amigos que siempre estarán ahí para ofrecer un consejo práctico o una comida reconfortante.",
+  "trabajo": "En el trabajo, la productividad es constante y el ambiente es de mucha calma, ya que ambos detestan las prisas y el caos. Trabajan de forma metódica, asegurándose de que cada paso sea firme y que no haya riesgos innecesarios para el capital. El problema es que pueden compartir los mismos puntos ciegos y resistirse a las innovaciones necesarias para el crecimiento del negocio. Les conviene integrar a alguien más dinámico que los ayude a salir de su estructura conocida.",
+  "consejo": "Anímense a salir de la zona de confort de vez en cuando.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "tauro-geminis": {
+  "amor": "La estabilidad de Tauro y la curiosidad de Géminis generan una atracción basada en lo desconocido. Mientras Tauro busca seguridad, Géminis explora nuevas ideas, lo que puede causar pequeños malentendidos cotidianos. Si aceptan sus ritmos opuestos, encontrarán un equilibrio muy estimulante.",
+  "amistad": "Son una pareja curiosa donde la calma se encuentra con el movimiento constante. Géminis aporta nuevas perspectivas, mientras que Tauro brinda un lugar seguro para aterrizar. Con paciencia, se complementan perfectamente al combinar la pausa con la acción.",
+  "trabajo": "En el entorno laboral, logran resultados sólidos si dividen bien sus responsabilidades. Géminis es excelente gestionando contactos y nuevas ideas, mientras que Tauro se encarga de concretar y asegurar los resultados. Funcionan mejor cuando cada uno respeta el campo de acción del otro.",
+  "consejo": "Aprendan del otro en lugar de querer cambiarlo.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-cancer": {
+  "amor": "Existe una complicidad natural donde la calidez de Tauro se funde con la sensibilidad de Cáncer. Disfrutan de planes tranquilos en casa, construyendo una relación basada en la confianza y el afecto profundo. Es un vínculo que se siente cómodo y seguro desde el primer día.",
+  "amistad": "Como amigos, son un refugio mutuo que sabe cómo apoyarse en los momentos difíciles. Comparten largas charlas y una conexión emocional que les permite ser ellos mismos sin filtros. Se estimulan a crecer mediante un compañerismo constante y sincero.",
+  "trabajo": "Se reparten las tareas con una naturalidad asombrosa, aprovechando la visión práctica de Tauro y la intuición de Cáncer. Son un equipo ideal para proyectos que requieren creatividad y constancia a largo plazo. La comunicación fluida evita confusiones y garantiza un avance firme.",
+  "consejo": "Cuiden la chispa: la comodidad no debe volverse rutina.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-leo": {
+  "amor": "La relación está llena de una intensidad magnética difícil de ignorar, aunque los choques de voluntad son frecuentes. Ambos poseen personalidades fuertes que requieren aprender a negociar constantemente para evitar discusiones. Es una unión apasionada donde deben trabajar en la tolerancia.",
+  "amistad": "Como amigos, se desafían constantemente, lo que les permite sacar lo mejor de sí mismos. Si logran dejar de lado el orgullo, su lealtad mutua se vuelve inquebrantable. Disfrutan de momentos sociales donde ambos pueden lucirse y compartir su energía.",
+  "trabajo": "Trabajar juntos implica un reto de liderazgo, ya que ambos tienden a querer dirigir a su manera. Para triunfar, deben definir roles claros desde el inicio y respetar el espacio de decisión del otro. La clave es enfocar su energía compartida hacia un objetivo común.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-virgo": {
+  "amor": "Forman una de las parejas más estables, ya que ambos valoran la seguridad y comparten una visión del mundo muy similar. La armonía fluye sin esfuerzo en su vida diaria, construyendo un hogar lleno de paz y metas compartidas. Es un vínculo que crece sólido sobre la base del respeto mutuo.",
+  "amistad": "Es una amistad fácil, cálida y duradera, cimentada en la confianza total que se tienen. Se comprenden con una sola mirada, lo que facilita que siempre sepan qué necesita el otro. Son ese tipo de amigos que pueden estar en silencio absoluto sin sentirse incómodos.",
+  "trabajo": "En el trabajo son una maquinaria perfecta que avanza con gran eficiencia hacia sus objetivos. Tauro aporta la constancia necesaria mientras que Virgo cuida cada detalle técnico de lo que realizan. El único desafío es evitar caer en la rutina y buscar nuevos retos.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-libra": {
+  "amor": "Al principio, el ritmo pausado de Tauro puede chocar con la necesidad de dinamismo de Libra. Sin embargo, si logran entender sus diferencias, descubren que se complementan en la búsqueda de la armonía y la estética. La clave es descubrir los matices que cada uno aporta a la relación.",
+  "amistad": "Como amigos, se sorprenden al descubrir puntos en común que no imaginaban al conocerse. Esta amistad los saca de su zona de confort, permitiendo que Tauro sea más abierto y que Libra encuentre estabilidad. Es una relación que se construye paso a paso con curiosidad.",
+  "trabajo": "En el trabajo requieren de una comunicación explícita para evitar suposiciones que frenen los proyectos. Una vez que alinean sus formas de trabajar, logran un equipo equilibrado que cuida tanto el fondo como la forma. Son capaces de cubrir sus flancos cuando aprenden a coordinarse.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-escorpio": {
+  "amor": "La atracción es tan intensa que se sienten como imanes, enfrentando una conexión profunda y transformadora. El desafío reside en equilibrar sus personalidades fuertes sin caer en tirones de poder constantes. Si logran ceder, su relación alcanza niveles de lealtad y pasión únicos.",
+  "amistad": "Como amigos, se enseñan mutuamente lecciones valiosas al mirar el mundo desde perspectivas opuestas. Tauro aporta la serenidad que Escorpio necesita, mientras que Escorpio impulsa a Tauro a mirar más allá de lo evidente. Se completan de una forma que desafía sus propias estructuras.",
+  "trabajo": "Forman un equipo potente si logran valorar sus diferencias en lugar de resistirse a ellas. Escorpio detecta lo que está oculto y Tauro se asegura de que todo sea tangible y concreto en el resultado final. Si coordinan sus fortalezas, son capaces de superar cualquier obstáculo.",
+  "consejo": "Busquen el punto medio en lugar de ganar la discusión.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-sagitario": {
+  "amor": "El encuentro entre el deseo de permanencia de Tauro y la necesidad de libertad de Sagitario requiere paciencia inicial. Deben aprender a disfrutar de sus diferencias, descubriendo cómo cada uno aporta una nueva faceta a la vida del otro. Con interés real, pueden construir una relación que los enriquezca a ambos.",
+  "amistad": "Es una amistad de contrastes donde aprenden a ver la vida desde ángulos que no conocían antes. Tauro disfruta de las historias de Sagitario, mientras que Sagitario encuentra un ancla en la estabilidad de su amigo. Esta relación los saca de la rutina y los impulsa a explorar.",
+  "trabajo": "En el ámbito laboral es fundamental ser muy claros con las expectativas para que ambos se sientan cómodos. Mientras Tauro organiza, Sagitario aporta el entusiasmo y la visión de futuro que el equipo necesita. Al entender sus roles, se vuelven un complemento muy eficiente.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-capricornio": {
+  "amor": "Su relación es el ejemplo perfecto de estabilidad y metas compartidas a largo plazo. Ambos se entienden sin necesidad de grandes palabras, construyendo un futuro juntos basado en valores similares y mucho respeto. Es un amor que crece con el tiempo, volviéndose más sólido cada día.",
+  "amistad": "Son una pareja de amigos que se apoya incondicionalmente en cada proyecto de vida. La lealtad entre ustedes es absoluta, lo que crea una amistad fácil, cálida y de mucha confianza. Siempre saben que pueden contar con el otro para cualquier necesidad.",
+  "trabajo": "En lo laboral, su capacidad para trabajar en equipo es excepcional y muy productiva. Ambos son trabajadores, organizados y van siempre en la misma dirección, logrando metas con gran destreza. Su única tarea es recordar incluir momentos de distensión y creatividad.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-acuario": {
+  "amor": "La química inicial es muy fuerte, pero las diferencias en su forma de ver la vida generan fricciones frecuentes. Mientras Tauro busca arraigo, Acuario valora la independencia, lo que requiere acuerdos muy claros. Es un vínculo que exige mucha tolerancia y madurez para prosperar.",
+  "amistad": "Como amigos, se desafían constantemente, lo que resulta en un crecimiento personal muy interesante para ambos. Se respetan profundamente a pesar de que sus enfoques sobre la vida suelen ser muy diferentes. Si superan las diferencias, logran una relación muy estimulante.",
+  "trabajo": "Las prioridades suelen ser distintas, por lo que es vital definir quién toma las decisiones finales en cada etapa del proyecto. Funcionan bien cuando el rol de Tauro en la ejecución se suma a la visión innovadora de Acuario. El éxito depende de su capacidad para negociar prioridades.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "tauro-piscis": {
+  "amor": "Se forma una complicidad muy especial, donde la energía terrenal de Tauro sostiene la sensibilidad emocional de Piscis. Disfrutan de largas charlas y de crear un entorno lleno de paz y belleza en su vida cotidiana. La relación crece naturalmente basada en el apoyo y la comprensión mutua.",
+  "amistad": "Es una de las mejores combinaciones posibles, ya que se apoyan, se ríen y se sienten profundamente comprendidos. Tauro brinda el consejo práctico que Piscis a veces necesita, y Piscis aporta el toque de fantasía y ternura que enriquece la amistad. Se estimulan mutuamente de forma positiva.",
+  "trabajo": "Logran un excelente trabajo en equipo al comunicarse de manera fluida y repartirse las tareas con naturalidad. Son ideales para proyectos creativos donde hace falta una base firme y mucha imaginación. La armonía entre sus formas de proceder hace que las tareas avancen sin tensiones.",
+  "consejo": "Cuiden la chispa: la comodidad no debe volverse rutina.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-geminis": {
+  "amor": "Al ser dos signos de aire, la conexión mental es instantánea y la comunicación nunca falta en su día a día. Se comprenden a la perfección porque comparten la misma curiosidad y la necesidad de cambio constante. El desafío es no perderse en las nubes y recordar poner los pies en la tierra.",
+  "amistad": "Es como mirarse en un espejo, donde comparten los mismos gustos y tiempos sin necesidad de explicaciones. Se divierten muchísimo juntos, alimentando su intelecto con nuevas ideas y planes espontáneos. Es una amistad dinámica donde el aburrimiento no tiene lugar.",
+  "trabajo": "La agilidad mental de ambos hace que los procesos se aceleren, pero deben cuidar de no dejar detalles importantes de lado. Al tener los mismos puntos ciegos, corren el riesgo de pasar por alto aspectos críticos del trabajo. Conviene sumar una mirada externa para aterrizar sus ideas.",
+  "consejo": "Celebren lo que comparten y respeten el espacio de cada uno.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-cancer": {
+  "amor": "La curiosidad de Géminis choca a veces con la necesidad de seguridad emocional de Cáncer, creando un contraste muy interesante. Aunque a veces no se entiendan del todo, esta diferencia puede ser el imán que los mantenga unidos. Si aprenden a navegar sus ritmos distintos, descubrirán una gran riqueza en el otro.",
+  "amistad": "Se complementan de una forma curiosa, ya que uno suele empezar donde el otro termina sus reflexiones. Es necesario que ambos tengan paciencia con sus ritmos, ya que Géminis es rápido y Cáncer prefiere ir pausado. Al valorarse, forman un equipo muy versátil.",
+  "trabajo": "En el trabajo funcionan bien siempre que cada uno se ocupe de sus fortalezas específicas. Géminis destaca en la comunicación, mientras que Cáncer aporta la tenacidad y el cuidado necesarios para concretar los objetivos. Juntos cubren un terreno mucho más amplio del que cubrirían por separado.",
+  "consejo": "Aprendan del otro en lugar de querer cambiarlo.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-leo": {
+  "amor": "La comunicación es el pilar de su relación, permitiendo que la charla fluya y la complicidad crezca rápidamente. Disfrutan de hacer planes juntos, donde la energía de Leo y la versatilidad de Géminis crean una pareja muy social. Su amor se nutre constantemente de la amistad que han cultivado.",
+  "amistad": "Como amigos, son una combinación ganadora que se estimula, se ríe y se apoya en todos sus proyectos. Leo se siente valorado por la atención de Géminis, y Géminis disfruta de la calidez y el entusiasmo de Leo. Es una amistad vibrante que motiva a ambos a participar en muchas actividades.",
+  "trabajo": "Se comunican de forma excelente, repartiéndose las tareas según las fortalezas naturales de cada uno. Son el equipo ideal para proyectos creativos que requieren tanto visibilidad como una red amplia de contactos. Su trabajo es fluido y, generalmente, muy exitoso.",
+  "consejo": "Cuiden la chispa: la comodidad no debe volverse rutina.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-virgo": {
+  "amor": "Existe una química electrizante entre ustedes, aunque a menudo chocan por sus formas opuestas de procesar las emociones. Mientras tú buscas variedad, tu pareja prefiere el orden, lo que exige acuerdos claros para evitar discusiones cíclicas. Si logran armonizar sus ritmos, descubrirán un vínculo lleno de matices fascinantes.",
+  "amistad": "Como amigos, se desafían constantemente debido a sus perspectivas tan distintas sobre la vida. Si logran mantener el respeto mutuo, cada encuentro se convierte en una oportunidad para crecer intelectualmente. Se exigen mucho, pero esa presión puede ser el motor para alcanzar grandes metas compartidas.",
+  "trabajo": "Sus prioridades suelen divergir, ya que tú te enfocas en la innovación y tu pareja en el perfeccionamiento de los detalles. La clave del éxito reside en definir roles específicos desde el inicio para evitar duplicar esfuerzos. Si cada uno asume su área de control, formarán un equipo sumamente eficiente.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-libra": {
+  "amor": "Fluyen con una naturalidad asombrosa al compartir el elemento aire, lo que facilita una comunicación fluida y llena de complicidad. Sus valores y formas de sentir están alineados, permitiendo que la relación crezca sin grandes sobresaltos. Es una de las combinaciones más armoniosas, basada en el respeto y el intercambio constante de ideas.",
+  "amistad": "Como amigos, se entienden con una sola mirada, disfrutando de largas conversaciones que parecen no tener fin. Es un vínculo fácil, cálido y duradero donde la ligereza y el buen humor son los protagonistas. Saben acompañarse en cualquier etapa de la vida sin invadir el espacio del otro.",
+  "trabajo": "En el terreno profesional avanzan en la misma dirección, combinando tu ingenio con la capacidad de mediación y equilibrio de Libra. El único riesgo es caer en la zona de confort y evitar los retos necesarios para evolucionar. Si se mantienen motivados, no habrá obstáculo que no puedan superar juntos.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-escorpio": {
+  "amor": "Al principio, pueden sentirse desconcertados por vivir la realidad desde ángulos tan opuestos, lo que genera una danza de atracción y desconfianza. Sin embargo, si existe un interés genuino, descubrirán que la profundidad de uno complementa la curiosidad del otro. Es una relación que se construye lentamente, revelando capas ocultas con el paso del tiempo.",
+  "amistad": "Como amigos, son capaces de sorprenderse, ya que su falta de rasgos comunes los obliga a salir constantemente de su zona de confort. Aunque sus naturalezas parecen alejadas, encuentran un terreno común en la curiosidad por los misterios de la vida. Esta amistad es un aprendizaje constante sobre la tolerancia y la diferencia.",
+  "trabajo": "Necesitan ajustar sus expectativas y comunicarse con total transparencia para evitar malentendidos. Mientras tú aportas la agilidad mental, tu pareja brinda una determinación inquebrantable que aporta solidez a sus proyectos. Una vez que se sintonizan, se convierten en un equipo imbatible y muy complementario.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-sagitario": {
+  "amor": "Se atraen como imanes, fascinados por lo que al otro le hace falta en su propia personalidad, creando una dinámica de mucha intensidad. El desafío principal es equilibrar la libertad que ambos buscan sin sentir que están tirando de la cuerda en direcciones opuestas. Es una pareja que vive el amor como una aventura constante, siempre que logren ceder terreno.",
+  "amistad": "Como amigos se completan de maravilla y se enseñan lecciones valiosas, aunque a menudo vean el mundo desde veredas ideológicas muy distintas. Esa diferencia de opinión, lejos de alejarlos, les permite ampliar sus horizontes y debatir con entusiasmo. Son compañeros ideales para emprender viajes o iniciar nuevos proyectos de aprendizaje.",
+  "trabajo": "Forman un equipo brillante si logran valorar sus diferencias, aprovechando tu capacidad de análisis frente a la visión estratégica de Sagitario. Tú ves los detalles que se escapan y tu pareja ve el panorama general, lo que los convierte en una dupla sumamente efectiva. Es fundamental que cada uno respete el estilo del otro para no entrar en conflicto innecesario.",
+  "consejo": "Busquen el punto medio en lugar de ganar la discusión.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-capricornio": {
+  "amor": "Al principio, les cuesta entenderse debido a que su forma de vivir las emociones es radicalmente distinta, lo que puede generar algunos cortocircuitos. No obstante, si hay un interés real, descubrirán que el pragmatismo de uno y la versatilidad del otro pueden crear una base sólida para el crecimiento. Es una relación de paciencia donde se descubren gradualmente.",
+  "amistad": "Como amigos pueden sorprenderse gratamente, pues su falta de similitudes los saca de su zona de confort habitual. Aprenden a valorar la disciplina del otro y la ligereza de pensamiento que tú aportas al vínculo. Es una amistad que crece poco a poco, basada en la curiosidad por el mundo del compañero.",
+  "trabajo": "Necesitan ajustar sus ritmos y explicar sus métodos con total claridad para trabajar en armonía. Una vez que superan las barreras iniciales, se complementan muy bien: tú aportas ideas frescas y tu pareja la estructura necesaria para ejecutarlas. Si definen bien sus áreas de acción, los resultados serán sumamente positivos.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-acuario": {
+  "amor": "Su amor fluye con una naturalidad asombrosa al compartir el elemento aire, fomentando una conexión mental profunda y un respeto absoluto por la libertad individual. Comparten valores esenciales y una manera similar de experimentar el mundo, lo que convierte a esta unión en una de las más armoniosas. Se sienten cómodos siendo quienes son, sin presiones ni expectativas irreales.",
+  "amistad": "La amistad entre ustedes se entiende con una sola mirada, siendo una de las relaciones más cálidas y duraderas que pueden experimentar. Es un vínculo fácil, donde la confianza y el estímulo intelectual siempre están presentes. Se apoyan incondicionalmente en cada proyecto, celebrando la originalidad del otro.",
+  "trabajo": "Trabajan en la misma dirección, combinando tu agilidad mental con la visión innovadora y futurista de Acuario. El único riesgo es que se sientan tan cómodos que dejen de desafiarse o de buscar la excelencia en sus tareas diarias. Si mantienen la chispa de la creatividad encendida, serán imparables en cualquier ámbito profesional.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "geminis-piscis": {
+  "amor": "La química entre ustedes es innegable y muy intensa, aunque los choques son frecuentes debido a sus formas tan distintas de percibir la realidad. Mientras tú eres analítico, tu pareja se guía por la intuición, lo que requiere acuerdos claros para evitar que las discusiones por malentendidos se vuelvan rutinarias. Es una relación apasionada que demanda mucha paciencia y comunicación.",
+  "amistad": "Como amigos se desafían constantemente, obligándose a mirar el mundo desde una perspectiva distinta a la habitual. Si logran superar las diferencias iniciales y respetan sus mundos internos, se harán crecer mutuamente de formas inesperadas. Es una amistad dinámica donde la sorpresa siempre está a la vuelta de la esquina.",
+  "trabajo": "Sus prioridades suelen ser distintas, lo que puede causar confusiones si no definen bien qué rol ocupa cada uno desde el principio. Funcionan de maravilla cuando logran repartirse el trabajo basándose en sus fortalezas: la lógica tuya y la sensibilidad creativa de Piscis. Con límites claros, pueden equilibrar cualquier proyecto complejo.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-cancer": {
+  "amor": "Se reconocen al instante, compartiendo los mismos gustos, necesidades afectivas y ritmos emocionales que hacen que la convivencia sea muy sencilla. El desafío principal es evitar que los defectos de uno se vean reflejados en el otro, impidiendo que ambos se encierren en actitudes defensivas. Necesitan aprender a ceder para que la relación no se vuelva estática.",
+  "amistad": "Como amigos, son el espejo perfecto el uno del otro, entendiendo las necesidades del otro sin necesidad de usar palabras. Se divierten con las mismas cosas y encuentran en el otro un refugio seguro ante las dificultades externas. Esta complicidad crea una amistad incondicional y profundamente leal.",
+  "trabajo": "Tienen una forma de trabajar muy similar, lo cual agiliza la toma de decisiones, aunque también los expone a tener los mismos puntos ciegos. Les conviene integrar la mirada de alguien externo para evitar caer en rutinas o sesgos que los limiten. Si logran mantener la objetividad, serán sumamente productivos.",
+  "consejo": "Celebren lo que comparten y respeten el espacio de cada uno.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-leo": {
+  "amor": "En el amor existe una curiosidad innata que los atrae, aunque chocan por sus naturalezas tan distintas: la sensibilidad de Cáncer frente al orgullo de Leo. Cada uno posee facetas que el otro encuentra difíciles de entender, lo que puede actuar como un imán o como una fuente recurrente de roces. La clave está en aprender a valorar esas diferencias en lugar de intentar cambiarlas.",
+  "amistad": "Como amigos, se complementan de una forma curiosa donde uno parece completar la energía del otro. Necesitan trabajar en la paciencia, ya que sus ritmos vitales suelen ser muy diferentes, lo que puede causar frustraciones si no se comunican con honestidad. Cuando superan estas barreras, forman un equipo sumamente protector y divertido.",
+  "trabajo": "En el ámbito laboral, funcionan mejor cuando cada uno asume su área de responsabilidad sin interferir en la del otro. Juntos cubren un terreno mucho más amplio que el que lograrían por separado, combinando tu tenacidad con el liderazgo de Leo. La clave para el éxito es el respeto mutuo por los procesos de cada uno.",
+  "consejo": "Aprendan del otro en lugar de querer cambiarlo.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-virgo": {
+  "amor": "La complicidad entre ustedes surge de manera natural, construyendo un vínculo basado en la confianza y el deseo compartido de hacer planes a futuro. La relación florece a partir de una amistad sólida y de la comodidad de ser uno mismo al lado del otro. Es un amor tierno que se fortalece con el paso del tiempo y la estabilidad diaria.",
+  "amistad": "Es una de las combinaciones más afortunadas para la amistad, ya que se estimulan intelectual y emocionalmente con facilidad. Se ríen de las mismas cosas y siempre encuentran una forma de apoyarse en los momentos de incertidumbre. Es una conexión que aporta paz y claridad mental a ambos.",
+  "trabajo": "La comunicación es fluida y el reparto de tareas se da con una naturalidad envidiable, ideal para llevar a cabo proyectos creativos y detallistas. Mientras tú pones el corazón y la constancia, tu pareja aporta el orden y la precisión necesarios para el éxito. Juntos forman una estructura de trabajo muy sólida y confiable.",
+  "consejo": "Cuiden la chispa: la comodidad no debe volverse rutina.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-libra": {
+  "amor": "Existe una atracción magnética entre ustedes, aunque a menudo chocan al intentar equilibrar la profundidad emocional de Cáncer con la necesidad de armonía social de Libra. La pasión es intensa, pero para que el vínculo sea duradero, requieren acuerdos muy claros sobre sus expectativas. Eviten pelear por los mismos temas una y otra vez y enfoquen esa energía en conocerse mejor.",
+  "amistad": "Como amigos se desafían constantemente, lo que puede ser muy enriquecedor si mantienen el respeto por las visiones ajenas. Aunque no siempre ven el mundo de la misma manera, cada uno ayuda al otro a salir de su zona de confort habitual. Es una amistad que requiere esfuerzo pero que los obliga a crecer y evolucionar juntos.",
+  "trabajo": "Sus prioridades suelen divergir: tú buscas seguridad emocional y tu pareja busca equilibrio y justicia en los resultados. Si definen bien los roles y quién tiene la última palabra en las decisiones clave, la relación profesional puede ser muy efectiva. La comunicación constante es la única vía para evitar los malentendidos.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-escorpio": {
+  "amor": "Su relación fluye con una naturalidad pasmosa debido a que ambos comparten el elemento agua, lo que les permite entenderse a un nivel profundo y emocional. Sus valores son similares y la forma en que viven el amor es intensa, lo que convierte a este vínculo en una de las combinaciones más armoniosas del zodiaco. Se brindan la seguridad y la entrega que ambos necesitan para sentirse realizados.",
+  "amistad": "Como amigos se entienden con una sola mirada, creando un lazo difícil de romper, cálido y sumamente duradero. La confianza es el pilar fundamental que sostiene esta amistad, permitiéndoles ser vulnerables sin miedo a ser juzgados. Es una relación que se fortalece ante cualquier adversidad.",
+  "trabajo": "Van en la misma dirección, enfocados en resultados profundos y con una gran capacidad de entrega para alcanzar sus metas. El único riesgo es que se acomoden demasiado en su zona de confort, por lo que es vital que se sigan desafiando con nuevas ideas. Son un equipo implacable cuando se proponen un objetivo común.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-sagitario": {
+  "amor": "Al principio, les cuesta entenderse ya que viven las cosas desde enfoques muy distintos, lo que genera cierta distancia emocional. Sin embargo, si existe un interés real por parte de ambos, irán descubriendo de a poco las virtudes del otro, creando un vínculo sólido. Es una relación que requiere conocerse con calma, sin apresurar los pasos.",
+  "amistad": "Como amigos pueden sorprenderse gratamente, puesto que no tienen mucho en común, pero es precisamente esa diferencia la que los saca de su zona de confort. Aprenden a tolerar visiones ajenas y a disfrutar de actividades que antes ni hubieran imaginado hacer. Es una amistad que los expande y los hace ver la vida con mayor apertura.",
+  "trabajo": "Necesitan ajustarse y comunicarse con total claridad para que la visión de uno no opaque la del otro. Una vez que entienden cómo funciona la lógica del compañero, se complementan muy bien: tu sentido de pertenencia y la audacia de Sagitario son una gran dupla. La paciencia es la clave para que la colaboración sea fluida y efectiva.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "cancer-capricornio": {
+  "amor": "Cáncer aporta la ternura emocional mientras que Capricornio ofrece la estabilidad estructural que el hogar necesita. Se atraen por ser polos opuestos que buscan seguridad, aunque deben cuidar que la frialdad de uno no hiera la sensibilidad del otro. La clave está en valorar cómo la protección capricorniana sostiene los sueños del cangrejo.",
+  "amistad": "Como amigos, se convierten en un refugio seguro donde la practicidad de Capricornio ayuda a Cáncer a bajar a tierra sus miedos. Por su parte, Cáncer le enseña a la cabra que no todo es productividad y que es válido descansar y sentir. Es una unión donde ambos crecen al ver la vida desde una perspectiva totalmente distinta.",
+  "trabajo": "En el ámbito laboral, son un equipo imbatible si logran coordinar la intuición de Cáncer con la ambición de Capricornio. Mientras uno cuida el clima grupal y los detalles humanos, el otro se enfoca en los objetivos a largo plazo y la eficiencia. Funcionan mejor cuando el respeto por la autoridad y el cuidado mutuo se equilibran.",
+  "consejo": "Busquen el punto medio en lugar de ganar la discusión.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "cancer-acuario": {
+  "amor": "Al principio, el apego emocional de Cáncer puede chocar con la necesidad de independencia de Acuario. El desafío es construir un puente entre la intimidad del hogar y la visión vanguardista del aguador para no sentirse distantes. Si logran aceptar sus ritmos diferentes, pueden formar un vínculo único, libre y muy original.",
+  "amistad": "Esta amistad te sacará de tu zona de confort, ya que ambos ven el mundo con ojos muy distintos. Acuario trae aire fresco y nuevas ideas, mientras que Cáncer ofrece un espacio de contención afectiva que el otro suele ignorar. Es una relación que requiere tiempo para que las diferencias se conviertan en virtudes compartidas.",
+  "trabajo": "En la oficina, la clave para que esta pareja funcione es la comunicación explícita sobre las expectativas de cada uno. Cáncer prefiere procesos conocidos y seguros, mientras que Acuario busca innovar y romper las reglas establecidas para mejorar. Si logran explicar sus motivos sin juzgar, pueden alcanzar resultados sorprendentes y fuera de lo común.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "cancer-piscis": {
+  "amor": "Esta es una de las uniones más dulces del zodiaco, donde la sensibilidad fluye sin necesidad de muchas palabras. Cáncer cuida y protege el mundo onírico de Piscis, mientras que el pez aporta una magia que ilumina la vida cotidiana del cangrejo. Se sienten en casa cuando están juntos y el romance suele ser profundo, intuitivo y duradero.",
+  "amistad": "La conexión entre ustedes es casi telepática y se basa en una empatía natural que rara vez se encuentra en otros signos. Como amigos, son los mejores confidentes y siempre están dispuestos a escucharse sin juzgar las emociones del otro. Es una amistad cálida donde el apoyo incondicional es la base sólida de todo lo que construyen.",
+  "trabajo": "Laboralmente, ambos se mueven bajo la intuición y el deseo de ayudar, lo que los hace ideales para proyectos sociales o creativos. No necesitan competir, pues su sintonía les permite dividirse las tareas de forma armoniosa y fluida sin tensiones. Deben estar atentos a no perderse en los sentimientos y mantener un poco de estructura práctica.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-leo": {
+  "amor": "Cuando dos Leo se encuentran, el brillo y la pasión están asegurados desde el primer momento de la relación. Comparten el mismo deseo de ser admirados y amados intensamente, lo que crea un vínculo vibrante y lleno de gestos románticos. El gran reto será aprender a compartir el escenario principal sin que el ego de uno opaque al del otro.",
+  "amistad": "Como amigos, son el alma de cualquier fiesta y se entienden perfectamente porque buscan la misma diversión y reconocimiento social. Se potencian mutuamente y se convierten en el mejor apoyo el uno para el otro ante las dificultades externas. La lealtad es su estandarte, siempre y cuando ambos sientan que su valor es reconocido por su par.",
+  "trabajo": "En el trabajo, la agilidad es máxima porque ambos tienen el mismo empuje y ambición para liderar grandes proyectos. Sin embargo, pueden tropezar con los mismos errores si no cuentan con alguien que aporte una visión más analítica o crítica. Les conviene delegar las tareas más minuciosas para enfocarse en la gran visión que ambos comparten.",
+  "consejo": "Celebren lo que comparten y respeten el espacio de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-virgo": {
+  "amor": "En esta pareja, la atracción surge por la fascinación que despierta lo que al otro le falta: brillo frente a orden meticuloso. Leo disfruta de la atención y la grandiosidad, mientras que Virgo prefiere la discreción y la perfección en los detalles pequeños. Para que el amor prospere, Leo debe valorar la dedicación de Virgo y Virgo debe admirar la valentía de Leo.",
+  "amistad": "Como amigos se complementan de forma práctica, ya que Leo propone las aventuras y Virgo se encarga de que todo salga perfecto. Es una relación donde uno empieza donde el otro termina, permitiéndoles aprender mucho sobre la humildad y la confianza. Necesitan ser pacientes con sus diferentes ritmos de vida para no generar roces innecesarios por nimiedades.",
+  "trabajo": "En el entorno laboral, funcionan de maravilla si Leo asume el rol de cara visible y Virgo se encarga de la ejecución técnica. Esta división de tareas permite que ambos se sientan cómodos en sus fortalezas sin competir por el mismo espacio de poder. Juntos cubren un terreno muy amplio que garantiza el éxito de cualquier proyecto que inicien.",
+  "consejo": "Aprendan del otro en lugar de querer cambiarlo.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-libra": {
+  "amor": "El romance entre ustedes está lleno de elegancia, buena charla y una complicidad que nace de la admiración mutua constante. Leo ama la gracia y el equilibrio de Libra, mientras que Libra se siente atraído por la seguridad y el carisma leonino. Es una pareja que disfruta mucho de los eventos sociales y de construir un hogar estéticamente bello.",
+  "amistad": "Esta es una de las combinaciones más divertidas y estimulantes, ideal para compartir salidas culturales y conversaciones profundas. Se apoyan en todo momento y saben cómo levantarse el ánimo cuando alguno de los dos se siente un poco desanimado. Su amistad fluye con una naturalidad asombrosa porque ambos valoran la justicia y el buen gusto.",
+  "trabajo": "En el trabajo, la comunicación es su mayor fortaleza, permitiéndoles resolver conflictos antes de que estos aparezcan. Se reparten las responsabilidades de manera equitativa y suelen destacar en áreas creativas o de relaciones públicas donde la imagen importa. Es un equipo dinámico que sabe cómo vender una idea y ejecutarla con un toque de distinción.",
+  "consejo": "Cuiden la chispa para que la comodidad no se vuelva rutina.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-escorpio": {
+  "amor": "La química entre ustedes es magnética e intensa, pero también puede ser un campo de batalla de voluntades fuertes. Ambos son signos fijos y determinados, lo que significa que la pasión y los celos pueden aparecer con la misma fuerza. Para que el amor dure, necesitan establecer acuerdos claros y aprender que ceder no es una señal de debilidad.",
+  "amistad": "Como amigos, se desafían constantemente a ser mejores versiones de sí mismos y a profundizar en sus verdades internas. Si logran superar la competencia inicial, pueden desarrollar una lealtad a prueba de todo y un respeto muy profundo. Es una relación que requiere honestidad brutal y la capacidad de perdonar los momentos de orgullo herido.",
+  "trabajo": "En el ámbito profesional, tienen prioridades y métodos distintos que pueden generar tensiones si no hay claridad total. Leo busca el reconocimiento público y el liderazgo, mientras que Escorpio prefiere el control estratégico y el poder desde las sombras. Funciona mejor si cada uno tiene su propio territorio bien definido donde pueda ejercer su autoridad.",
+  "consejo": "Elijan sus batallas y negocien antes de discutir.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-sagitario": {
+  "amor": "Al compartir el elemento fuego, la conexión es instantánea, llena de entusiasmo y ganas de comerse el mundo juntos. Comparten una visión optimista de la vida y valores similares sobre la libertad, lo que hace que la relación sea muy dinámica. Fluyen con una alegría contagiosa y suelen ser esa pareja que siempre está planeando su próxima gran aventura.",
+  "amistad": "Se entienden casi sin hablar, compartiendo el mismo sentido del humor y el gusto por el movimiento constante. Es una amistad fácil y muy cálida donde no hay lugar para el aburrimiento ni para los dramas innecesarios del pasado. Se motivan el uno al otro para alcanzar metas ambiciosas y celebran cada logro del compañero como propio.",
+  "trabajo": "En el trabajo, ambos empujan el carro con la misma fuerza y dirección, lo que los hace un equipo sumamente productivo. El único riesgo es que se sientan tan cómodos que dejen de buscar nuevos desafíos o se olviden de los detalles administrativos. Aprovechen esa sintonía para emprender proyectos arriesgados que requieran visión y mucha energía positiva.",
+  "consejo": "Aprovechen la armonía para animarse a cosas nuevas juntos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-capricornio": {
+  "amor": "El encuentro entre el sol de Leo y la estructura de Capricornio puede ser un reto fascinante si ambos están dispuestos a aprender. Al principio les cuesta entender sus lenguajes: Leo es expresivo y cálido, mientras que Capricornio es reservado y sumamente pragmático. Si hay amor real, descubrirán que la ambición de uno y la luz del otro forman un equipo de vida poderoso.",
+  "amistad": "Como amigos, pueden sorprenderse al descubrir cuánto provecho sacan de sus diferencias fundamentales de personalidad. Capricornio ayuda a Leo a dar estructura a sus sueños, y Leo le enseña a Capricornio a disfrutar más del presente. Esta relación los saca de su zona de confort y les permite ver la vida desde un ángulo mucho más completo.",
+  "trabajo": "En la oficina, necesitan tiempo para ajustarse y comprender que sus métodos distintos buscan el mismo éxito final. Leo aporta la creatividad y la capacidad de motivar, mientras que Capricornio pone el orden y la constancia necesarios para concretar ideas. Una vez que establecen reglas claras de comunicación, se vuelven socios sumamente eficientes y respetados.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-acuario": {
+  "amor": "Se atraen como imanes debido a su posición opuesta en el zodiaco, donde uno representa el corazón y el otro la mente colectiva. Leo busca ser el centro de atención, mientras que Acuario valora su libertad y sus causas sociales por encima de lo individual. El desafío amoroso es equilibrar el calor personal de uno con el desapego visionario del otro.",
+  "amistad": "Como amigos, se complementan y se enseñan mucho sobre lo que significa ser un individuo dentro de un grupo social. Leo aprende a ver más allá de sí mismo y Acuario aprende a conectar con sus emociones más personales y cálidas. Aunque miren el mundo desde veredas opuestas, su lealtad mutua crea un vínculo muy sólido y enriquecedor.",
+  "trabajo": "Forman un equipo excelente si logran valorar sus perspectivas divergentes en lugar de competir por tener la razón absoluta. Leo puede liderar la ejecución y el contacto humano, mientras que Acuario aporta la innovación técnica y las ideas disruptivas. Juntos ven lo que el otro ignora, logrando cubrir todos los frentes de un proyecto importante.",
+  "consejo": "Busquen el punto medio en lugar de ganar la discusión.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "leo-piscis": {
+  "amor": "Al principio, la energía vibrante de Leo y la naturaleza soñadora de Piscis pueden parecer mundos totalmente aparte. Leo necesita acción y respuestas claras, mientras que Piscis se mueve en el terreno de la intuición y el misterio emocional. Con paciencia, pueden descubrir que Leo protege la vulnerabilidad de Piscis y Piscis suaviza el orgullo de Leo.",
+  "amistad": "Esta amistad suele ser una sorpresa para ambos, ya que no tienen muchos intereses obvios en común al conocerse. Sin embargo, Piscis ofrece una escucha profunda que Leo valora, y Leo brinda una seguridad que ayuda a Piscis a salir de su caparazón. Es una relación que requiere esfuerzo inicial pero que termina siendo un refugio muy especial.",
+  "trabajo": "En el trabajo, necesitan ser muy claros y explicar sus procesos paso a paso para evitar malentendidos operativos. Leo tiende a ir directo al grano, mientras que Piscis puede divagar o dejarse llevar por el clima emocional del entorno. Una vez que logran sintonizar sus frecuencias, la creatividad de uno y el empuje del otro producen resultados originales.",
+  "consejo": "Tengan paciencia y pregunten en lugar de suponer.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-virgo": {
+  "amor": "En una relación entre dos Virgo, el orden, la limpieza y la atención a los pequeños detalles son la norma cotidiana. Se reconocen al instante por su búsqueda de la perfección, lo que crea un ambiente de mucha calma y previsibilidad. El riesgo es que ambos sean demasiado críticos entre sí y se olviden de disfrutar el romance sin analizarlo todo.",
+  "amistad": "Como amigos son el espejo perfecto el uno del otro, compartiendo pasatiempos que requieren precisión o un análisis exhaustivo. Se entienden sin necesidad de grandes explicaciones y suelen divertirse con conversaciones intelectuales o resolviendo problemas prácticos del día a día. Es una amistad basada en la confianza mutua y en saber que el otro siempre estará para ayudar.",
+  "trabajo": "Trabajan de la misma manera metódica, lo que agiliza cualquier proceso técnico o administrativo que emprendan juntos en la oficina. Sin embargo, al tener los mismos puntos ciegos, pueden obsesionarse con minucias y perder de vista el objetivo general del proyecto. Les conviene sumar una mirada externa que les ayude a ver el panorama completo y a relajarse.",
+  "consejo": "Celebren lo que comparten y respeten el espacio de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-libra": {
+  "amor": "La atracción entre ustedes nace de la curiosidad por cómo el otro gestiona la vida: Virgo con lógica y Libra con estética. Virgo analiza cada paso de la relación, mientras que Libra busca la armonía romántica y evita el conflicto a toda costa. Pueden chocar cuando el perfeccionismo de uno se encuentra con la indecisión del otro, pero logran un equilibrio ideal.",
+  "amistad": "Como amigos se complementan muy bien, ya que Virgo aporta la solución práctica a los dilemas de Libra, y Libra suaviza el juicio crítico de Virgo. Es una relación donde uno empieza donde el otro termina, creando un equipo muy eficiente para organizar eventos. Necesitan paciencia para aceptar que sus ritmos de decisión y sus prioridades sociales son diferentes.",
+  "trabajo": "Funcionan de manera excelente en el trabajo si cada uno se ocupa de su área específica de conocimiento técnico o social. Virgo destaca en la organización y el análisis de datos, mientras que Libra es ideal para la negociación y las relaciones públicas. Juntos cubren mucho más terreno del que cubrirían por separado, logrando proyectos funcionales y bellos.",
+  "consejo": "Aprendan del otro en lugar de querer cambiarlo.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-escorpio": {
+  "amor": "En el amor encontrarás una complicidad intelectual con Escorpio que se transformará rápidamente en un vínculo profundo. Tu análisis detallado se mezcla con la intensidad emocional de tu pareja para crear una base sólida y duradera. Te conviene compartir tus secretos y planear escapadas que alimenten la mutua curiosidad.",
+  "amistad": "Esta es una de las uniones más fuertes del zodiaco porque ambos valoran la lealtad por encima de todo. Escorpio aporta la pasión y tú la sensatez, logrando un equilibrio donde las risas y el apoyo incondicional nunca faltan. Se convertirán en confidentes inseparables que se protegen de cualquier amenaza externa.",
+  "trabajo": "Tu precisión y la determinación de Escorpio los convierten en un equipo imparable para cualquier proyecto exigente. Se reparten las responsabilidades con una naturalidad asombrosa, permitiendo que la creatividad fluya sin obstáculos burocráticos. Son ideales para tareas que requieran investigación profunda o una ejecución impecable.",
+  "consejo": "No permitan que la comodidad apague el misterio que los unió al principio.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-sagitario": {
+  "amor": "La química entre tu necesidad de orden y la aventura de Sagitario es innegable, aunque puede generar chispas peligrosas. Mientras tú buscas estabilidad, tu pareja persigue la libertad, lo que exige acuerdos constantes para evitar malentendidos cotidianos. Si logras integrar estas diferencias, vivirás una relación dinámica y llena de aprendizajes constantes.",
+  "amistad": "Como amigos suelen desafiar sus propias creencias y salir de su zona de confort habitualmente. Sagitario te empuja a ser más espontáneo, mientras que tú ayudas a tu amigo a aterrizar sus ideas más alocadas. Es una relación de crecimiento mutuo donde el respeto por la identidad del otro es la clave.",
+  "trabajo": "En el ámbito laboral, sus prioridades suelen chocar porque tú te enfocas en el detalle y Sagitario en la visión general. Para que esto funcione, deben definir roles claros donde tú supervises la calidad y la otra parte se encargue de la expansión. La comunicación abierta evitará que las discusiones por métodos de trabajo se vuelvan personales.",
+  "consejo": "Negocien sus diferencias con calma antes de que se conviertan en un conflicto.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-capricornio": {
+  "amor": "El vínculo fluye con una facilidad asombrosa gracias a la conexión compartida con el elemento tierra. Ambos valoran la seguridad y el compromiso, construyendo una relación basada en la confianza absoluta y los objetivos comunes. Se entienden sin necesidad de grandes gestos, disfrutando de una estabilidad que muchos otros signos envidiarían.",
+  "amistad": "Esta es una amistad cálida y sumamente duradera que se fortalece con el paso de los años. Tú y Capricornio se comprenden con solo mirarse, compartiendo un sentido del humor particular y un pragmatismo necesario. La lealtad es el motor de esta unión que rara vez sufre de altibajos importantes.",
+  "trabajo": "Cuando unen fuerzas, se vuelven una máquina de eficiencia y resultados tangibles en cualquier oficina. Ambos caminan hacia la misma meta con una disciplina ejemplar, aunque el riesgo es que se vuelvan demasiado predecibles. Su capacidad de organización les permite manejar proyectos de gran escala con total profesionalismo.",
+  "consejo": "Salgan de la rutina y anímense a explorar nuevas experiencias juntos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-acuario": {
+  "amor": "Al principio puede parecer que hablan idiomas distintos, pues tú buscas estructura y Acuario prefiere la innovación constante. Sin embargo, si existe un interés genuino, descubrirán que sus diferencias los enriquecen de formas insospechadas. La paciencia será tu mejor aliada mientras aprendes a valorar el ritmo único que tu pareja aporta a la relación.",
+  "amistad": "Como amigos se sorprenden mutuamente al ofrecer perspectivas que el otro jamás habría considerado por su cuenta. Aunque no comparten muchas aficiones, tu curiosidad y la originalidad de Acuario generan conversaciones fascinantes. Esta unión te ayudará a expandir tus horizontes y a ver el mundo desde una óptica mucho más amplia.",
+  "trabajo": "En el trabajo necesitan establecer canales de comunicación muy precisos para evitar que tu lógica choque con la intuición de Acuario. Una vez que sincronizan sus métodos, forman un equipo capaz de resolver problemas complejos con soluciones creativas. Es fundamental que cada uno explique sus razones antes de ejecutar cambios importantes.",
+  "consejo": "Hagan preguntas directas en lugar de asumir lo que el otro está pensando.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "virgo-piscis": {
+  "amor": "Ustedes funcionan como dos piezas de un rompecabezas que encajan perfectamente a pesar de sus naturalezas opuestas. Tú aportas el ancla necesaria para los sueños de Piscis, mientras que tu pareja te regala un toque de magia y sensibilidad. El reto principal es evitar que tu tendencia a la crítica hiera la vulnerabilidad del otro.",
+  "amistad": "Es una relación de maestros mutuos donde cada uno aprende a ver la vida desde la vereda de enfrente. Se complementan de forma natural, logrando un equilibrio entre tu razón pura y la intuición más profunda de Piscis. Aunque a veces discutan por su forma de procesar la realidad, el cariño que se tienen siempre termina ganando.",
+  "trabajo": "En el entorno profesional son un equipo excelente porque cada uno cubre los puntos ciegos del compañero. Mientras tú te encargas de que todo funcione con precisión técnica, Piscis aporta la visión creativa y el toque humano. Valoren sus diferencias, ya que esa diversidad es precisamente lo que hace que sus proyectos destaquen.",
+  "consejo": "Busquen siempre el punto medio para que ninguno sienta que debe ceder demasiado.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-libra": {
+  "amor": "La conexión es inmediata porque compartes con tu pareja los mismos gustos y un deseo profundo de armonía estética. Se sentirán cómodos en un entorno de paz, aunque el peligro reside en que ambos eviten los conflictos necesarios para crecer. Debes aprender a tomar decisiones firmes para que la relación no se estanque en la indecisión constante.",
+  "amistad": "Como amigos funcionan como un espejo perfecto donde la diversión y el entendimiento mutuo están garantizados. Disfrutan de las mismas actividades sociales y se comunican con una fluidez que no requiere explicaciones largas. Es una amistad llena de elegancia y buen humor donde el apoyo emocional se da de manera recíproca.",
+  "trabajo": "Su forma idéntica de trabajar agiliza los procesos iniciales, pero puede hacerles perder de vista los detalles más prácticos. Tienden a buscar el consenso en todo, lo que es positivo para el clima laboral pero lento para la ejecución rápida. Sumar una tercera opinión más pragmática les ayudará a materializar sus brillantes ideas con éxito.",
+  "consejo": "No olviden cultivar sus intereses individuales para mantener viva la identidad propia.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-escorpio": {
+  "amor": "Existe una atracción magnética basada en el misterio que Escorpio representa para tu naturaleza equilibrada. Tú te sientes fascinado por su intensidad, mientras que tu pareja encuentra en ti un refugio de belleza y calma. Para que el romance prospere, deberán aprender a manejar sus diferentes formas de expresar el afecto y la vulnerabilidad.",
+  "amistad": "Se complementan de manera estratégica, ya que tú posees las habilidades sociales que a Escorpio a veces le faltan. Mientras tú suavizas las situaciones difíciles, tu amigo aporta la profundidad y la lealtad necesarias para una unión inquebrantable. Necesitan ser pacientes con sus distintos ritmos emocionales para construir una confianza sólida.",
+  "trabajo": "En el ámbito profesional son efectivos si cada uno se enfoca en su área de especialidad sin interferir en la del otro. Juntos cubren un espectro muy amplio, desde las relaciones públicas hasta el análisis estratégico profundo. Su éxito depende de que valoren la contribución única que cada uno aporta al equipo de trabajo.",
+  "consejo": "Aprendan a valorar las virtudes del otro en lugar de intentar cambiarlas.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-sagitario": {
+  "amor": "Entre ustedes la charla nunca termina y los planes de viaje son el motor que mantiene viva la llama. La relación se construye sobre una base de amistad y libertad que permite que ambos se sientan realizados individualmente. Es una combinación llena de optimismo donde la complicidad crece con cada nueva aventura que deciden emprender.",
+  "amistad": "Esta es una de las mejores uniones para disfrutar de la vida social y el aprendizaje constante en grupo. Se estimulan intelectualmente, se ríen de las mismas cosas y se apoyan en sus proyectos más ambiciosos con entusiasmo. La energía que generan contagia a quienes los rodean, convirtiéndolos en el alma de cualquier reunión.",
+  "trabajo": "La comunicación fluye de maravilla y el reparto de tareas se da de forma equitativa y sin tensiones innecesarias. Son ideales para liderar proyectos creativos donde tu diplomacia se combine con el empuje expansivo de Sagitario. Su capacidad para ver el lado positivo de los retos los mantiene motivados incluso en momentos de mucha presión.",
+  "consejo": "Procuren que la diversión no les haga descuidar las responsabilidades cotidianas.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-capricornio": {
+  "amor": "La atracción inicial es fuerte por la admiración mutua, aunque pronto aparecen desafíos por sus distintos estilos de vida. Tú buscas el placer y la armonía social, mientras que Capricornio se enfoca en el deber y la construcción de un legado. Necesitan establecer acuerdos claros y ceder en sus posturas para que la pasión no se apague.",
+  "amistad": "Como amigos se desafían constantemente a ser mejores versiones de sí mismos a través del ejemplo. Si logran respetar sus diferencias de opinión, el vínculo se convertirá en una fuente de crecimiento personal muy valiosa. Es una relación que requiere madurez para entender que el otro tiene tiempos y prioridades diferentes.",
+  "trabajo": "Tienen visiones distintas sobre cómo alcanzar el éxito, lo que puede generar roces si no definen bien las jerarquías. La clave está en que tú manejes la parte diplomática mientras Capricornio se encarga de la estructura y la logística interna. Si logran negociar sus métodos, el resultado final será de una calidad excepcional.",
+  "consejo": "Elijan bien sus batallas y prioricen el diálogo antes de llegar a una discusión.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-acuario": {
+  "amor": "La conexión es natural y fluida porque ambos comparten el elemento aire y una visión intelectual de la existencia. Sus valores coinciden en la importancia de la libertad, la justicia y el intercambio de ideas constante en la pareja. Es una de las combinaciones más armoniosas, donde el respeto por el espacio personal fortalece el vínculo afectivo.",
+  "amistad": "Se entienden casi sin hablar, compartiendo una amistad fácil, cálida y sumamente duradera en el tiempo. Disfrutan de debates profundos y de participar en causas sociales que los apasionen a ambos por igual. La lealtad que se profesan no es asfixiante, lo que permite que la relación se mantenga fresca y estimulante.",
+  "trabajo": "Caminan siempre en la misma dirección, compartiendo una visión innovadora que los hace destacar en cualquier entorno corporativo. El único riesgo es que se sientan tan cómodos que dejen de buscar nuevos desafíos para su crecimiento profesional. Aprovechen su excelente comunicación para proponer ideas que rompan el molde y sorprendan a sus superiores.",
+  "consejo": "Aprovechen su gran sintonía para emprender proyectos arriesgados y novedosos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "libra-piscis": {
+  "amor": "Al principio les cuesta sincronizar sus mundos porque tú eres racional y Piscis es puramente emocional y sensible. Sin embargo, si hay un interés real, descubrirán una ternura compartida que los unirá de forma profunda y romántica. La clave está en descubrirse poco a poco, sin presiones, permitiendo que la sensibilidad de ambos cree un lenguaje propio.",
+  "amistad": "Como amigos pueden llegar a sorprenderse mucho, ya que no suelen frecuentar los mismos círculos sociales habitualmente. Esta diferencia es precisamente lo que los saca de su zona de confort y les permite ver la vida con otros ojos. Es una relación basada en la curiosidad y en el aprendizaje de nuevas formas de sentir.",
+  "trabajo": "En el trabajo necesitan tiempo para ajustar sus métodos y explicar sus ideas con absoluta claridad para evitar confusiones. Una vez que logran entender la lógica del otro, se complementan de manera brillante en tareas que requieren buen gusto. La paciencia mutua será el factor determinante para que sus proyectos lleguen a buen puerto.",
+  "consejo": "Tengan paciencia y pregunten siempre antes de dar algo por sentado.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "escorpio-escorpio": {
+  "amor": "Te reconocerás al instante en tu pareja, lo que genera una intensidad y una pasión difíciles de igualar en el zodiaco. El riesgo principal es que ambos quieran tener el control total, lo que puede derivar en luchas de poder agotadoras. Si canalizan esa energía hacia la construcción de un futuro común, serán una pareja inquebrantable y profundamente unida.",
+  "amistad": "Como amigos son un espejo fiel uno del otro, entendiendo sus silencios y sus emociones más complejas sin mediar palabra. Disfrutan de la lealtad extrema y de actividades que impliquen profundizar en temas psicológicos o misteriosos de la vida. Es una unión poderosa donde la protección mutua frente al mundo exterior es la prioridad absoluta.",
+  "trabajo": "Trabajan con una intensidad y una velocidad asombrosas, pero pueden caer en errores por tener los mismos puntos ciegos. Es muy recomendable que busquen una mirada externa que les aporte una perspectiva diferente para no estancarse en sus convicciones. Cuando se enfocan en un objetivo común, no hay obstáculo que se les resista.",
+  "consejo": "Celebren sus similitudes y respeten el espacio privado de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "escorpio-sagitario": {
+  "amor": "Sentirás una curiosidad innata por Sagitario, aunque sus formas de ver el compromiso sean polos opuestos. Mientras tú buscas una fusión total y profunda, tu pareja necesita aire y espacio para explorar sus propios horizontes. Si logras equilibrar tu intensidad emocional con la libertad ajena, vivirás un romance lleno de sorpresas y mucha pasión.",
+  "amistad": "Se complementan de forma dinámica, ya que Sagitario suele empezar donde tú terminas tus procesos mentales más densos. Tú aportas la profundidad analítica y tu amigo el optimismo necesario para no estancarte en lo negativo. Deben ser pacientes con sus ritmos, entendiendo que tú necesitas tiempo para confiar y el otro confía por instinto.",
+  "trabajo": "Funcionan muy bien si cada uno tiene claras sus responsabilidades y trabaja de forma independiente hacia un fin compartido. Juntos son capaces de cubrir mucho más terreno que por separado, combinando tu estrategia meticulosa con la visión expansiva de Sagitario. La clave es el respeto mutuo por el estilo de trabajo sin intentar imponer una sola forma.",
+  "consejo": "Aprendan a valorar la perspectiva del otro en lugar de intentar imponer la suya.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "escorpio-capricornio": {
+  "amor": "La profundidad emocional de Escorpio encuentra un puerto seguro en la estabilidad que Capricornio le ofrece. Ustedes construyen una relación sólida donde las conversaciones honestas fortalecen el vínculo cada día con metas compartidas. Es un amor que madura sobre una base de lealtad absoluta y planes concretos para el futuro.",
+  "amistad": "Como amigos son un equipo imbatible que sabe guardar secretos y planear grandes objetivos con total discreción. Se estimulan mutuamente para ser mejores y encuentran en el otro un apoyo firme ante cualquier crisis personal. Es una de las mejores combinaciones porque la seriedad de uno equilibra la intensidad del otro.",
+  "trabajo": "En el ámbito laboral, la determinación de ambos permite que los proyectos se ejecuten con una precisión admirable. Saben repartirse las tareas con mucha naturalidad y confían plenamente en la capacidad de gestión de su compañero. Esta unión es ideal para emprendimientos que requieran tanto visión estratégica como disciplina constante.",
+  "consejo": "Cuiden que la estabilidad no se transforme en una rutina previsible.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "escorpio-acuario": {
+  "amor": "La intensidad de Escorpio choca a veces con el aire de libertad absoluta que tanto valora Acuario. Si bien la química entre ustedes es magnética y muy potente, necesitan establecer acuerdos claros para evitar malentendidos por celos o falta de espacio. La pasión será su motor siempre que logren respetar sus mundos individuales.",
+  "amistad": "En la amistad suelen desafiar sus propias creencias cada vez que se reúnen a charlar sobre la vida. Aunque ven el mundo de formas opuestas, ese contraste les permite ampliar sus horizontes de una manera que otros signos no logran. Si existe respeto mutuo, esta relación los hará crecer enormemente a través del debate intelectual.",
+  "trabajo": "Trabajar juntos requiere que cada uno tenga un espacio de decisión bien delimitado desde el primer día. Tienen prioridades distintas: uno busca la transformación profunda y el otro la innovación vanguardista. Funciona de maravilla si definen con claridad quién se encarga de la estrategia y quién de la ejecución creativa.",
+  "consejo": "Elijan sus batallas y negocien siempre antes de discutir.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "escorpio-piscis": {
+  "amor": "Su conexión emocional es tan natural que a veces sienten que pueden leerse el pensamiento sin decir una sola palabra. Al compartir el elemento agua, ambos navegan en la misma sintonía de romanticismo, entrega y valores espirituales profundos. Es una de las uniones más armoniosas del zodiaco donde la sensibilidad es su mayor fortaleza.",
+  "amistad": "Como amigos se entienden con una simple mirada y crean un refugio seguro donde pueden ser vulnerables. Es una amistad fácil de llevar, cálida y sumamente duradera porque la confianza fluye de manera espontánea. Se apoyan en los momentos difíciles con una empatía que fortalece el vínculo a través de los años.",
+  "trabajo": "En el trabajo van siempre en la misma dirección y logran que las tareas más complejas parezcan sencillas de resolver. El único riesgo es que se sientan tan cómodos juntos que dejen de buscar nuevos desafíos profesionales. Si mantienen la ambición despierta, pueden lograr proyectos con una carga artística o humana muy impactante.",
+  "consejo": "Aprovechen su gran armonía para animarse a conquistar nuevos retos juntos.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "sagitario-sagitario": {
+  "amor": "La chispa entre ustedes es inmediata porque comparten el mismo entusiasmo por la aventura y la libertad. Se reconocen al instante en sus ganas de explorar el mundo, aunque el riesgo es que ninguno de los dos quiera ceder en sus posturas. Deben cuidar que el exceso de independencia no los aleje de los compromisos emocionales profundos.",
+  "amistad": "Como amigos son un espejo fiel uno del otro y disfrutan de las mismas actividades frenéticas. Se entienden sin necesidad de dar explicaciones largas y se divierten con un humor que solo ustedes dos comprenden. Es una relación dinámica donde la alegría siempre está presente, siempre que aprendan a escuchar al otro.",
+  "trabajo": "Trabajan con la misma agilidad y optimismo, lo que permite que los proyectos avancen a una velocidad envidiable. Sin embargo, al tener los mismos puntos ciegos, podrían pasar por alto detalles administrativos o riesgos importantes. Les conviene sumar a alguien con una mirada más terrenal que les ayude a organizar los pormenores.",
+  "consejo": "Celebren lo que comparten y respeten el espacio individual de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "sagitario-capricornio": {
+  "amor": "La atracción nace de la curiosidad por descubrir una forma de vida totalmente distinta a la propia. Mientras Sagitario busca la expansión y la aventura, Capricornio prefiere la estructura y la seguridad de las bases sólidas. Esta relación puede ser un imán poderoso si logran valorar lo que el otro aporta a su crecimiento personal.",
+  "amistad": "Como amigos se complementan de forma estratégica porque uno empieza exactamente donde el otro termina su labor. Sagitario aporta la visión optimista y las grandes ideas, mientras que Capricornio se encarga de la logística necesaria para concretarlas. Necesitan tener paciencia con sus ritmos internos, ya que uno es impulsivo y el otro muy precavido.",
+  "trabajo": "En el trabajo funcionan a la perfección si cada uno se ocupa de su propia área de especialidad sin interferencias. Juntos cubren mucho más terreno del que lograrían por separado, uniendo la audacia con la disciplina más rigurosa. Es una combinación ganadora para proyectos que requieren expansión y, al mismo tiempo, una gestión impecable.",
+  "consejo": "Aprendan de la perspectiva del otro en lugar de querer cambiarla.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "sagitario-acuario": {
+  "amor": "Su vínculo amoroso se nutre de una complicidad mental fascinante y de charlas que parecen no terminar nunca. La relación crece sobre una base de amistad sólida y el deseo compartido de vivir experiencias que rompan con lo convencional. Disfrutan planeando viajes y proyectos futuros donde la libertad de ambos sea la regla principal.",
+  "amistad": "Es una de las mejores combinaciones para la amistad porque se estimulan intelectualmente y se apoyan en sus locuras. Se ríen de las mismas cosas y valoran la originalidad que cada uno aporta a la vida del otro de forma constante. Se sienten libres para ser auténticos, lo que crea un lazo de confianza muy difícil de romper.",
+  "trabajo": "En el entorno laboral se comunican con una fluidez asombrosa y se reparten las tareas con una naturalidad total. Es la pareja ideal para proyectos creativos o tecnológicos donde se necesite pensar fuera de la caja y actuar rápido. Confían en la inteligencia del compañero, lo que hace que el clima de trabajo sea siempre positivo.",
+  "consejo": "Mantengan la chispa encendida para que la comodidad no se vuelva rutina.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "sagitario-piscis": {
+  "amor": "Existe una química innegable entre el fuego de Sagitario y el agua de Piscis, aunque también pueden surgir choques frecuentes. La pasión es muy intensa, pero necesitan establecer acuerdos emocionales claros para no herirse con sus diferentes formas de procesar la realidad. El desafío es equilibrar la búsqueda de la verdad de uno con el mundo de fantasía del otro.",
+  "amistad": "Como amigos se desafían constantemente a salir de su zona de confort y a ver la vida desde ángulos espirituales distintos. Si logran respetarse, esta amistad los hará crecer de una manera profunda y muy enriquecedora para ambos. Sagitario aporta el impulso para actuar y Piscis enseña la importancia de la pausa y la introspección.",
+  "trabajo": "En el trabajo suelen tener prioridades que no siempre coinciden, lo que requiere un esfuerzo extra de coordinación. La relación funciona si definen bien los roles desde el inicio y establecen quién tiene la última palabra en cada decisión. Si logran sintonizar sus visiones, pueden crear proyectos con un significado social o humano muy valioso.",
+  "consejo": "Elijan bien sus batallas y aprendan a negociar antes de discutir.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "capricornio-capricornio": {
+  "amor": "Se reconocen de inmediato por su seriedad, ambición y el valor que le dan a la estabilidad a largo plazo. Comparten los mismos gustos y tiempos de vida, lo que les permite construir un hogar sólido con metas muy claras. El riesgo es que la relación se vuelva demasiado pragmática y ambos olviden cultivar el romanticismo y la ternura.",
+  "amistad": "Como amigos funcionan como un espejo donde ambos encuentran comprensión absoluta sobre sus planes y preocupaciones profesionales. Se entienden sin necesidad de dar explicaciones largas porque comparten la misma ética de esfuerzo y responsabilidad. Se divierten planeando el futuro y dándose consejos prácticos para superar cualquier obstáculo cotidiano.",
+  "trabajo": "Trabajan con el mismo nivel de exigencia, lo que agiliza todos los procesos y garantiza resultados de alta calidad. Sin embargo, al tener estilos tan parecidos, podrían caer en los mismos errores de perfeccionismo o falta de innovación. Les conviene sumar una mirada externa que les aporte un toque de frescura y flexibilidad a sus proyectos.",
+  "consejo": "Celebren lo que comparten y respeten siempre el espacio del otro.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "capricornio-acuario": {
+  "amor": "En el amor experimentan una curiosidad constante por la forma tan distinta en la que cada uno entiende el compromiso. Capricornio busca la tradición y la seguridad, mientras que Acuario prefiere la originalidad y la independencia total del ser. Esta diferencia puede ser un imán que los mantenga unidos o una fuente de roces si intentan controlarse.",
+  "amistad": "Como amigos se complementan de manera estratégica, pues uno aporta la base estructural y el otro las ideas revolucionarias. Mientras Capricornio organiza los pasos a seguir, Acuario propone soluciones creativas que rompen con los esquemas establecidos. Necesitan cultivar la paciencia para comprender sus ritmos de vida, que rara vez coinciden a la primera.",
+  "trabajo": "En el trabajo funcionan de maravilla si logran que cada uno se ocupe de lo suyo con total autonomía. Juntos logran cubrir mucho más terreno del que cubrirían por separado, uniendo la eficiencia con la visión de futuro. Es una combinación ganadora para empresas que necesiten orden administrativo y, al mismo tiempo, innovación tecnológica.",
+  "consejo": "Aprendan del otro en lugar de intentar cambiar su esencia.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "capricornio-piscis": {
+  "amor": "Entre ustedes hay una complicidad especial que se basa en la buena charla y el apoyo incondicional en los momentos difíciles. La relación crece sobre una amistad profunda y las ganas compartidas de construir un futuro lleno de paz y armonía. Disfrutan de la seguridad que Capricornio ofrece y de la dulzura que Piscis aporta al hogar.",
+  "amistad": "Es una de las mejores combinaciones para la amistad porque se estimulan intelectualmente y se cuidan emocionalmente con devoción. Se ríen de sus propias manías y se apoyan en cada nuevo proyecto personal que deciden emprender por separado. Es un vínculo que se siente seguro, donde ambos pueden relajarse y ser ellos mismos sin miedos.",
+  "trabajo": "En el trabajo se comunican con mucha efectividad y logran repartirse las tareas con una naturalidad que facilita el éxito. Es un equipo ideal para proyectos creativos o de servicio social donde se requiera tanto orden como sensibilidad humana. Confían plenamente en el criterio del compañero, lo que hace que la labor diaria sea muy fluida.",
+  "consejo": "Cuiden la chispa para que la comodidad no se vuelva una rutina.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "acuario-acuario": {
+  "amor": "Se reconocen al instante por su forma original de ver la vida y su necesidad compartida de independencia personal. Al tener los mismos gustos y tiempos, la relación fluye sin las presiones tradicionales que suelen agobiar a otros signos. El riesgo es que se potencien sus rasgos de terquedad y que ninguno esté dispuesto a ceder en una discusión.",
+  "amistad": "Como amigos son un espejo fiel uno del otro, compartiendo ideales sociales y un sentido del humor muy particular. Se entienden sin tener que explicar sus excentricidades y se divierten explorando nuevas tendencias o participando en causas comunes. Es una amistad basada en la libertad y en el respeto absoluto por la autenticidad del otro.",
+  "trabajo": "Trabajan con el mismo ritmo innovador, lo que agiliza la toma de decisiones creativas y los mantiene a la vanguardia. Sin embargo, pueden tener los mismos puntos ciegos en cuanto a la organización práctica o la atención a los detalles operativos. Les conviene contar con una supervisión externa que les ayude a aterrizar sus grandes ideas.",
+  "consejo": "Celebren lo que comparten y respeten el espacio individual de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "acuario-piscis": {
+  "amor": "La atracción nace de la curiosidad por descubrir un mundo emocional o intelectual que les resulta ajeno pero fascinante. Cada uno tiene rasgos que el otro no termina de comprender del todo, y eso puede ser un imán poderoso o una fuente de confusión. Necesitan mucha comunicación para que el aire de uno no evapore el agua del otro.",
+  "amistad": "Como amigos se complementan de forma curiosa: uno aporta la visión lógica del futuro y el otro la intuición emocional del presente. Uno empieza donde el otro termina, lo que les permite ayudarse a resolver problemas desde ángulos muy diversos. Necesitan ser muy pacientes con sus distintos ritmos, ya que sus prioridades rara vez son las mismas.",
+  "trabajo": "En el trabajo funcionan bien si logran que cada uno se ocupe de tareas que se ajusten a su naturaleza específica. Juntos cubren un terreno muy amplio, desde la innovación tecnológica hasta la atención empática a los clientes o compañeros. Si respetan sus roles y no interfieren en el método ajeno, pueden lograr resultados sorprendentes y originales.",
+  "consejo": "Aprendan del otro en lugar de intentar cambiar su forma de ser.",
+  "modelo": "gemini-3-flash-preview"
+ },
+ "piscis-piscis": {
+  "amor": "Se reconocen al instante en su profunda sensibilidad y en sus ganas de vivir un romance que parezca salido de un cuento. Comparten los mismos gustos por el arte y la espiritualidad, lo que crea un vínculo de una ternura y empatía inigualables. El riesgo es que ambos se pierdan en sus sueños y descuiden las responsabilidades prácticas de la vida diaria.",
+  "amistad": "Como amigos son un espejo el uno del otro, entendiendo sus silencios y sus necesidades emocionales sin decir una sola palabra. Se divierten con las mismas actividades creativas y se apoyan con una lealtad que nace de la comprensión total de sus miedos. Es una amistad cálida, protectora y duradera donde la amabilidad siempre es la prioridad.",
+  "trabajo": "Trabajan con la misma fluidez e intuición, lo que facilita enormemente la colaboración en tareas artísticas o de ayuda humanitaria. Sin embargo, al compartir los mismos puntos ciegos, podrían tener dificultades con la disciplina, los plazos de entrega o la organización financiera. Les conviene buscar una mirada externa que les ayude a poner pies en la tierra.",
+  "consejo": "Celebren lo que comparten y respeten el espacio de cada uno.",
+  "modelo": "gemini-3-flash-preview"
+ }
+}

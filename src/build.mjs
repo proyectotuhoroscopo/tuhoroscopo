@@ -8,8 +8,12 @@ import { fileURLToPath } from 'node:url';
 import CONFIG from '../config.mjs';
 import { SIGNOS_ORDEN, temporadas, cieloDelDia, proximasFasesLunares, proximosEclipses, eventosPlanetarios } from './astro.mjs';
 import { horoscopoDelDia } from './textgen.mjs';
-import { reescribir } from './ia.mjs';
+import { compatibilidad } from './textgen.mjs';
+import { reescribir, compatibilidadesIA } from './ia.mjs';
 import * as P from './render/pages.mjs';
+import { paginaTarot, paginaCarta, cartaDelDia } from './render/lenormand.mjs';
+import { paginaCartaNatal } from './render/carta-natal.mjs';
+import { CARTAS } from './data/lenormand.mjs';
 
 const RAIZ = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 try { process.loadEnvFile(path.join(RAIZ, '.env')); } catch { /* sin .env: se usan las variables del sistema */ }
@@ -57,6 +61,11 @@ const hoyIA = await reescribir({ clave, fechaLarga: ctx.fechaLarga, cielo, horos
 const mananaIA = await reescribir({ clave: claveManana, fechaLarga: ctx.fechaLargaManana, cielo: cieloManana, horoscopos: ctx.horoscoposManana, carpeta: carpetaIA });
 ctx.horoscopos = hoyIA.horoscopos;
 ctx.horoscoposManana = mananaIA.horoscopos;
+ctx.compatIA = await compatibilidadesIA({
+  parejas: Object.fromEntries(P.pares().map(([a, b]) => [P.pairSlug(a, b), { a, b, compat: compatibilidad(a, b) }])),
+  carpeta: carpetaIA,
+});
+ctx.cartaDelDia = cartaDelDia(clave);
 
 // La tabla de próximas fases empieza en la siguiente, no en la de ayer.
 ctx.fases = ctx.fases.filter((f) => f.fecha >= ahora);
@@ -86,6 +95,21 @@ escribir('luna-hoy.html', conCss(P.paginaLuna(ctx)));
 escribir('calendario-astral.html', conCss(P.paginaCalendario(ctx)));
 escribir('compatibilidad.html', conCss(P.paginaCompatibilidadIndice(ctx)));
 for (const [a, b] of P.pares()) escribir(`compatibilidad/${a}-${b}.html`, conCss(P.paginaPareja(ctx, a, b)));
+escribir('carta-natal.html', conCss(paginaCartaNatal(ctx)));
+escribir('tarot-lenormand.html', conCss(paginaTarot(ctx)));
+for (const c of CARTAS) escribir(`lenormand/${c.id}.html`, conCss(paginaCarta(ctx, c)));
+
+// Módulos que corren en el navegador (carta natal y tirada de cartas): se copian con la misma
+// estructura de carpetas para que sus imports relativos funcionen igual que en Node.
+const MODULOS = ['config.mjs', 'src/astro.mjs', 'src/natal.mjs', 'src/data/signos.mjs', 'src/data/natal.mjs', 'src/data/ciudades.mjs',
+  'src/data/lenormand.mjs', 'src/render/layout.mjs', 'src/render/svg.mjs', 'src/render/lenormand.mjs', 'src/cliente/carta.mjs', 'src/cliente/lenormand.mjs'];
+for (const m of MODULOS) {
+  fs.mkdirSync(path.dirname(path.join(SALIDA, 'js', m)), { recursive: true });
+  fs.copyFileSync(path.join(RAIZ, m), path.join(SALIDA, 'js', m));
+  archivos.push(`js/${m}`);
+}
+fs.copyFileSync(path.join(RAIZ, 'node_modules/astronomy-engine/esm/astronomy.js'), path.join(SALIDA, 'js/astronomy.mjs'));
+archivos.push('js/astronomy.mjs');
 
 // Archivos estáticos, sitemap y robots.
 for (const f of fs.readdirSync(path.join(RAIZ, 'public'))) {

@@ -10,17 +10,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { SIGNOS_ORDEN } from './astro.mjs';
-import { SIGNOS, PLANETA_NOMBRE } from './data/signos.mjs';
+import { SIGNOS, PLANETA_NOMBRE, CASA_TEMA } from './data/signos.mjs';
 
 const BASE_URL = (process.env.IA_BASE_URL || 'https://generativelanguage.googleapis.com/v1beta/openai').replace(/\/$/, '');
 const CAMPOS = { titular: [3, 60], general: [80, 750], amor: [40, 450], dinero: [40, 450], salud: [30, 400], consejo: [5, 120] };
 
-const CASA_TEMA = {
-  1: 'identidad y energía personal', 2: 'dinero y recursos propios', 3: 'comunicación y entorno cercano',
-  4: 'hogar y familia', 5: 'romance, creatividad y diversión', 6: 'rutina, trabajo diario y salud',
-  7: 'pareja y socios', 8: 'intimidad y recursos compartidos', 9: 'viajes, estudios y expansión',
-  10: 'carrera y metas', 11: 'amigos y proyectos a futuro', 12: 'descanso e introspección',
-};
 
 const INSTRUCCIONES = `Eres el redactor de un sitio de horóscopo diario en español para toda Latinoamérica.
 Recibes, para cada signo, un borrador escrito por reglas y los datos astronómicos reales del día.
@@ -118,6 +112,40 @@ async function modelos(key) {
   return candidatos;
 }
 
+// Pide a la IA un JSON y lo valida. Si un modelo está saturado o falla, prueba el siguiente.
+// Devuelve { modelo, obj } o null si no hay clave o ninguno respondió bien.
+async function pedirJSON(instrucciones, contenido, validarFn, etiqueta) {
+  const key = process.env.IA_API_KEY;
+  if (!key) return null;
+  let lista = [];
+  try { lista = await modelos(key); } catch (e) { console.warn(`IA: no se pudo obtener la lista de modelos (${e.message})`); }
+  for (const m of lista) {
+    try {
+      const r = await llamar(`${BASE_URL}/chat/completions`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+        body: JSON.stringify({
+          model: m,
+          temperature: 0.9,
+          response_format: { type: 'json_object' },
+          messages: [{ role: 'system', content: instrucciones }, { role: 'user', content: contenido }],
+        }),
+      });
+      const obj = extraerJSON(r.choices?.[0]?.message?.content || '');
+      const error = validarFn(obj);
+      if (error) throw new Error(`respuesta inválida: ${error}`);
+      console.log(`IA: textos de ${etiqueta} generados con ${m}`);
+      candidatos = [m, ...(candidatos || []).filter((x) => x !== m)]; // el que anduvo se usa primero para el próximo pedido
+      return { modelo: m, obj };
+    } catch (e) {
+      console.warn(`IA: ${m} falló para ${etiqueta} (${e.message})`);
+      if (e.status === 401 || e.status === 403) return null; // clave inválida: no tiene sentido seguir
+      await new Promise((res) => setTimeout(res, 2000));
+    }
+  }
+  return null;
+}
+
 /**
  * Devuelve los horóscopos reescritos por la IA, o los originales si no se puede.
  * Guarda el resultado en data/ia/<fecha>.json para no volver a pedirlo (así el
@@ -136,37 +164,11 @@ export async function reescribir({ clave, fechaLarga, cielo, horoscopos, carpeta
 
   const key = process.env.IA_API_KEY;
   if (!datos && key) {
-    let lista = [];
-    try { lista = await modelos(key); } catch (e) { console.warn(`IA: no se pudo obtener la lista de modelos (${e.message})`); }
-    for (const m of lista) {
-      try {
-        const r = await llamar(`${BASE_URL}/chat/completions`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-          body: JSON.stringify({
-            model: m,
-            temperature: 0.9,
-            response_format: { type: 'json_object' },
-            messages: [
-              { role: 'system', content: INSTRUCCIONES },
-              { role: 'user', content: pedido(fechaLarga, cielo, horoscopos) },
-            ],
-          }),
-        });
-        const obj = extraerJSON(r.choices?.[0]?.message?.content || '');
-        const error = validar(obj);
-        if (error) throw new Error(`respuesta inválida: ${error}`);
-        datos = { modelo: m, generado: new Date().toISOString(), signos: obj.signos };
-        fs.mkdirSync(carpeta, { recursive: true });
-        fs.writeFileSync(archivo, JSON.stringify(datos, null, 1));
-        console.log(`IA: textos de ${clave} generados con ${m}`);
-        candidatos = [m, ...(candidatos || []).filter((x) => x !== m)]; // el que anduvo se usa primero para el otro día
-        break;
-      } catch (e) {
-        console.warn(`IA: ${m} falló para ${clave} (${e.message})`);
-        if (e.status === 401 || e.status === 403) break; // clave inválida: no tiene sentido seguir
-        await new Promise((res) => setTimeout(res, 2000));
-      }
+    const r = await pedirJSON(INSTRUCCIONES, pedido(fechaLarga, cielo, horoscopos), validar, clave);
+    if (r) {
+      datos = { modelo: r.modelo, generado: new Date().toISOString(), signos: r.obj.signos };
+      fs.mkdirSync(carpeta, { recursive: true });
+      fs.writeFileSync(archivo, JSON.stringify(datos, null, 1));
     }
   }
 
@@ -180,4 +182,84 @@ export async function reescribir({ clave, fechaLarga, cielo, horoscopos, carpeta
     salida[id] = { ...horoscopos[id], ...Object.fromEntries(Object.keys(CAMPOS).map((c) => [c, s[c].trim()])) };
   }
   return { horoscopos: salida, fuente: 'ia' };
+}
+
+// ---------- Compatibilidad ----------
+// El detalle de cada pareja no cambia con los días: se pide una sola vez y queda guardado
+// en data/ia/compatibilidad.json. Si falta alguna pareja, se completa en la próxima publicación.
+const CAMPOS_COMPAT = { amor: [80, 650], amistad: [80, 650], trabajo: [80, 650], consejo: [5, 140] };
+const POR_PEDIDO = 13;
+
+const INSTRUCCIONES_COMPAT = `Eres el redactor de un sitio de horóscopo en español para toda Latinoamérica.
+Para cada pareja de signos recibes un borrador con su compatibilidad en el amor, la amistad y el trabajo,
+y los datos astrológicos de la pareja (aspecto, elementos y modalidades).
+Reescribe cada área con tus palabras, de forma concreta y específica para ESA pareja: menciona rasgos de los
+dos signos, situaciones cotidianas en que se nota la combinación y qué les conviene hacer.
+
+Reglas:
+- Español neutro, tratando al lector de "tú" cuando le hables. Sin regionalismos.
+- Respeta el sentido del borrador y el porcentaje de cada área (más alto = más armonía).
+- Tono constructivo y entretenido, nunca determinista ni catastrófico.
+- Sin emojis, HTML ni enlaces.
+- Largos: amor, amistad y trabajo de 3 a 4 oraciones cada uno; consejo de una frase corta.
+
+Responde SOLO con un objeto JSON con esta forma exacta:
+{"parejas": {"aries-tauro": {"amor": "...", "amistad": "...", "trabajo": "...", "consejo": "..."}, "...": {}}}
+Usa exactamente las claves de pareja que recibes.`;
+
+const validarCompat = (claves) => (obj) => {
+  const p = obj?.parejas;
+  if (!p || typeof p !== 'object') return 'falta "parejas"';
+  for (const k of claves) {
+    if (!p[k]) return `falta la pareja ${k}`;
+    for (const [campo, [min, max]] of Object.entries(CAMPOS_COMPAT)) {
+      const v = p[k][campo];
+      if (typeof v !== 'string') return `${k}.${campo} no es texto`;
+      const t = v.trim();
+      if (t.length < min || t.length > max) return `${k}.${campo} tiene ${t.length} caracteres`;
+      if (/[<>]|https?:/i.test(t)) return `${k}.${campo} tiene HTML o enlaces`;
+    }
+  }
+  return null;
+};
+
+/**
+ * parejas: { "aries-tauro": { a, b, compat } }, donde compat es el resultado de compatibilidad(a, b).
+ * Devuelve { clave: { amor, amistad, trabajo, consejo } } con las parejas que ya tienen texto de IA.
+ */
+export async function compatibilidadesIA({ parejas, carpeta }) {
+  const archivo = path.join(carpeta, 'compatibilidad.json');
+  let guardado = {};
+  try { guardado = JSON.parse(fs.readFileSync(archivo, 'utf8')); } catch { /* todavía no existe */ }
+  const validas = Object.fromEntries(Object.entries(guardado).filter(([k, v]) => parejas[k] && !validarCompat([k])({ parejas: { [k]: v } })));
+  const faltan = Object.keys(parejas).filter((k) => !validas[k]);
+
+  if (faltan.length && process.env.IA_API_KEY) {
+    for (let i = 0; i < faltan.length; i += POR_PEDIDO) {
+      const claves = faltan.slice(i, i + POR_PEDIDO);
+      const contenido = JSON.stringify({
+        parejas: Object.fromEntries(claves.map((k) => {
+          const { a, b, compat: c } = parejas[k];
+          return [k, {
+            signos: `${SIGNOS[a].nombre} y ${SIGNOS[b].nombre}`,
+            datos: `${c.aspecto}; ${SIGNOS[a].elemento} y ${SIGNOS[b].elemento}; ${SIGNOS[a].modalidad} y ${SIGNOS[b].modalidad}`,
+            porcentajes: `amor ${c.amor}%, amistad ${c.amistad}%, trabajo ${c.trabajo}%`,
+            borrador: c.detalle,
+          }];
+        })),
+      });
+      const r = await pedirJSON(INSTRUCCIONES_COMPAT, contenido, validarCompat(claves), `compatibilidad ${i / POR_PEDIDO + 1}`);
+      if (!r) break; // si la IA no responde, se reintenta en la próxima publicación
+      for (const k of claves) {
+        const v = r.obj.parejas[k];
+        validas[k] = Object.fromEntries(Object.keys(CAMPOS_COMPAT).map((c) => [c, v[c].trim()]));
+        validas[k].modelo = r.modelo;
+      }
+      fs.mkdirSync(carpeta, { recursive: true });
+      fs.writeFileSync(archivo, JSON.stringify(validas, null, 1));
+    }
+  }
+  const faltantes = Object.keys(parejas).length - Object.keys(validas).length;
+  console.log(`IA: compatibilidad con texto de IA en ${Object.keys(validas).length} parejas${faltantes ? ` (faltan ${faltantes}, usan textos por reglas)` : ''}`);
+  return validas;
 }

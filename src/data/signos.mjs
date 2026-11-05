@@ -97,3 +97,11 @@ export const PLANETA_SIMBOLO = {
 };
 
 export const ELEMENTO = { fuego: 'Fuego', tierra: 'Tierra', aire: 'Aire', agua: 'Agua' };
+
+// Tema de cada casa astrológica.
+export const CASA_TEMA = {
+  1: 'identidad y energía personal', 2: 'dinero y recursos propios', 3: 'comunicación y entorno cercano',
+  4: 'hogar y familia', 5: 'romance, creatividad y diversión', 6: 'rutina, trabajo diario y salud',
+  7: 'pareja y socios', 8: 'intimidad y recursos compartidos', 9: 'viajes, estudios y expansión',
+  10: 'carrera y metas', 11: 'amigos y proyectos a futuro', 12: 'descanso e introspección',
+};

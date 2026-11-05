@@ -11,6 +11,8 @@ const NAV = [
   ['index.html', 'Horóscopo de hoy', 'inicio'],
   ['luna-hoy.html', 'Luna hoy', 'luna'],
   ['compatibilidad.html', 'Compatibilidad', 'compat'],
+  ['carta-natal.html', 'Carta natal', 'natal'],
+  ['tarot-lenormand.html', 'Tarot', 'tarot'],
   ['calendario-astral.html', 'Calendario astral', 'calendario'],
 ];
 

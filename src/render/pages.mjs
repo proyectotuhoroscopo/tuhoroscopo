@@ -1,7 +1,7 @@
 // Contenido de cada página del sitio.
 import CONFIG from '../../config.mjs';
 import { SIGNOS_ORDEN } from '../astro.mjs';
-import { SIGNOS, PLANETA_NOMBRE, PLANETA_SIMBOLO, ELEMENTO } from '../data/signos.mjs';
+import { SIGNOS, PLANETA_NOMBRE, PLANETA_SIMBOLO, ELEMENTO, CASA_TEMA } from '../data/signos.mjs';
 import { compatibilidad, resumen } from '../textgen.mjs';
 import { pagina, adSlot, esc, g } from './layout.mjs';
 import { ruedaZodiacal, dibujoLuna } from './svg.mjs';
@@ -20,12 +20,6 @@ export const rangoSigno = (ctx, id) => {
 };
 const estrellas = (n) => `<span class="stars" aria-label="${n} de 5">${'★'.repeat(n)}<span class="off">${'★'.repeat(5 - n)}</span></span>`;
 
-const CASA_TEMA = {
-  1: 'identidad y energía personal', 2: 'dinero y recursos propios', 3: 'comunicación y entorno cercano',
-  4: 'hogar y familia', 5: 'romance, creatividad y diversión', 6: 'rutina, trabajo diario y salud',
-  7: 'pareja y socios', 8: 'intimidad y recursos compartidos', 9: 'viajes, estudios y expansión',
-  10: 'carrera y metas', 11: 'amigos y proyectos a futuro', 12: 'descanso e introspección',
-};
 
 const pairSlug = (a, b) => {
   const [x, y] = [a, b].sort((p, q) => SIGNOS_ORDEN.indexOf(p) - SIGNOS_ORDEN.indexOf(q));
@@ -87,6 +81,13 @@ export function portada(ctx, opts = {}) {
   }).join('')}
   </div>
   ${adSlot('portada', 'ad-wide')}
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="promos">
+    <a class="promo" href="carta-natal.html"><span class="eyebrow">Nuevo · Carta natal</span><h3>Tu frase personal de cada día</h3><p>Ingresa tu fecha, hora y lugar de nacimiento: calculamos tu Sol, tu Luna y tu Ascendente, y cada día te damos una frase según tu carta.</p><span class="go">Calcular mi carta ›</span></a>
+    <a class="promo" href="tarot-lenormand.html"><span class="eyebrow">Nuevo · Tarot Lenormand</span><h3>Tira 3 cartas</h3><p>Una tirada rápida con interpretación simple para el amor, el trabajo o en general. Hoy la carta del día es ${esc(ctx.cartaDelDia.nombre)}.</p><span class="go">Tirar las cartas ›</span></a>
+  </div>
 </div></section>
 
 <section class="section"><div class="wrap">
@@ -310,7 +311,7 @@ export function paginaCompatibilidadIndice(ctx) {
 <div class="wrap">
   <section class="section">
     <h1 style="font:600 clamp(2rem,5vw,2.8rem)/1.05 var(--font-display);margin:0 0 10px">Compatibilidad de signos</h1>
-    <p class="lead">Elige los dos signos y descubre cómo se llevan en el amor, la amistad y el trabajo.</p>
+    <p class="lead">Elige los dos signos y descubre cómo se llevan en el amor, la amistad y el trabajo. En cada pareja puedes tocar cada área para leer el detalle.</p>
     ${selector('')}
   </section>
   <section class="section">
@@ -334,7 +335,9 @@ export function paginaPareja(ctx, a, b) {
   const c = compatibilidad(a, b);
   const A = SIGNOS[a], B = SIGNOS[b];
   const titulo = a === b ? `${A.nombre} y ${A.nombre}` : `${A.nombre} y ${B.nombre}`;
-  const barra = (lbl, v) => `<div class="bar"><div class="row"><span>${lbl}</span><b>${v}%</b></div><div class="track"><div class="fill" style="width:${v}%"></div></div></div>`;
+  // Detalle de cada área: texto de la IA si ya está generado, o el de reglas.
+  const d = ctx.compatIA?.[pairSlug(a, b)] || c.detalle;
+  const barra = (lbl, v, texto) => `<details class="bar"><summary><div class="row"><span>${lbl} <span class="more" aria-hidden="true">Ver más</span></span><b>${v}%</b></div><div class="track"><div class="fill" style="width:${v}%"></div></div></summary><p>${esc(texto)}</p></details>`;
   const contenido = `
 <div class="wrap narrow">
   <section class="sign-hero">
@@ -344,7 +347,8 @@ export function paginaPareja(ctx, a, b) {
       <h1>Compatibilidad ${titulo}</h1>
       <span class="pct mono">${c.total}%</span>
     </div>
-    <div class="bars">${barra('Amor', c.amor)}${barra('Amistad', c.amistad)}${barra('Trabajo', c.trabajo)}</div>
+    <div class="bars">${barra('Amor', c.amor, d.amor)}${barra('Amistad', c.amistad, d.amistad)}${barra('Trabajo', c.trabajo, d.trabajo)}</div>
+    <p class="advice">${esc(d.consejo)}</p>
     <div class="prose">
       <p>${esc(c.texto)}</p>
       <p>${A.nombre} es de ${ELEMENTO[A.elemento].toLowerCase()} y ${B.nombre} es de ${ELEMENTO[B.elemento].toLowerCase()}. ${esc(c.elementoTexto)}</p>
@@ -368,6 +372,7 @@ export function paginaPareja(ctx, a, b) {
   });
 }
 
+export { pairSlug };
 export const pares = () => {
   const out = [];
   SIGNOS_ORDEN.forEach((a, i) => SIGNOS_ORDEN.slice(i).forEach((b) => out.push([a, b])));

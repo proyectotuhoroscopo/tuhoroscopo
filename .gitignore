@@ -1,5 +1,6 @@
-node_modules/
-dist/
 .DS_Store
-dist-artifact/
 .env
+dist-artifact/
+dist-test/
+dist/
+node_modules/

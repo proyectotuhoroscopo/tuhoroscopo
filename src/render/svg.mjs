@@ -5,12 +5,15 @@ import { g } from './layout.mjs';
 
 const rad = (d) => (d * Math.PI) / 180;
 // Aries a la izquierda (ascendente) y los signos avanzan en sentido antihorario, como en una carta astral.
-const punto = (cx, cy, r, lon) => [cx - r * Math.cos(rad(lon)), cy + r * Math.sin(rad(lon))];
+const puntoBase = (cx, cy, r, lon) => [cx - r * Math.cos(rad(lon)), cy + r * Math.sin(rad(lon))];
 const f = (n) => n.toFixed(1);
 
-export function ruedaZodiacal(posiciones) {
+// asc: en una carta natal, la rueda gira para que el Ascendente quede a la izquierda.
+export function ruedaZodiacal(posiciones, { asc = null, etiqueta = 'Rueda zodiacal con la posición actual de los planetas' } = {}) {
   const cx = 160, cy = 160, R = 150, r1 = 118, r2 = 100;
-  let s = `<svg class="wheel" viewBox="0 0 320 320" role="img" aria-label="Rueda zodiacal con la posición actual de los planetas">`;
+  const giro = asc ?? 0;
+  const punto = (cx, cy, r, lon) => puntoBase(cx, cy, r, lon - giro);
+  let s = `<svg class="wheel" viewBox="0 0 320 320" role="img" aria-label="${etiqueta}">`;
   s += `<circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="currentColor" stroke-opacity=".25"/>`;
   s += `<circle cx="${cx}" cy="${cy}" r="${r1}" fill="none" stroke="currentColor" stroke-opacity=".25"/>`;
   s += `<circle cx="${cx}" cy="${cy}" r="${r2}" fill="none" stroke="currentColor" stroke-opacity=".12"/>`;
@@ -43,6 +46,12 @@ export function ruedaZodiacal(posiciones) {
     s += `<line x1="${f(tx)}" y1="${f(ty)}" x2="${f(ux)}" y2="${f(uy)}" stroke="${color}" stroke-width="2"/>`;
     s += `<text x="${f(px)}" y="${f(py)}" text-anchor="middle" dominant-baseline="central" font-size="${p.body === 'Sun' || p.body === 'Moon' ? 19 : 15}" class="glyph" fill="${color}"><title>${PLANETA_NOMBRE[p.body]} en ${SIGNOS[p.signo].nombre}${p.retro ? ' (retrógrado)' : ''}</title>${g(PLANETA_SIMBOLO[p.body])}</text>`;
   });
+  if (asc !== null) {
+    const [ax, ay] = punto(cx, cy, R + 2, asc); const [bx, by] = punto(cx, cy, r2 - 14, asc);
+    s += `<line x1="${f(ax)}" y1="${f(ay)}" x2="${f(bx)}" y2="${f(by)}" stroke="var(--gold)" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+    const [lx, ly] = punto(cx, cy, r2 - 4, asc - 8);
+    s += `<text x="${f(lx)}" y="${f(ly)}" text-anchor="middle" dominant-baseline="central" font-size="10" font-family="var(--font-data)" fill="var(--gold)">AC</text>`;
+  }
   s += `<circle cx="${cx}" cy="${cy}" r="3" fill="var(--gold)"/>`;
   return s + '</svg>';
 }

@@ -108,9 +108,57 @@ const MODALIDAD_PAR = {
   'fijo-mutable': 'Uno da estabilidad y el otro aporta cambio: un buen equilibrio si no se frustran.',
 };
 
+// Detalle por área (amor, amistad, trabajo) según el aspecto entre los dos signos.
+const AREA_ASPECTO = {
+  0: {
+    amor: 'En el amor se reconocen al instante: los mismos gustos, los mismos tiempos. El riesgo es que se potencien también los defectos y ninguno ceda.',
+    amistad: 'Como amigos son espejo uno del otro. Se entienden sin explicar nada y se divierten con las mismas cosas.',
+    trabajo: 'Trabajan igual, lo que agiliza todo, pero pueden tener los mismos puntos ciegos. Conviene sumar una mirada externa.',
+    consejo: 'Celebren lo que comparten y respeten el espacio de cada uno.',
+  },
+  1: {
+    amor: 'En el amor hay curiosidad y atracción por lo diferente. Cada uno tiene algo que el otro no entiende del todo, y eso puede ser un imán o una fuente de roces.',
+    amistad: 'Como amigos se complementan: uno empieza donde el otro termina. Necesitan paciencia con sus distintos ritmos.',
+    trabajo: 'En el trabajo funcionan si cada uno se ocupa de lo suyo. Juntos cubren más terreno del que cubriría cada uno por separado.',
+    consejo: 'Aprendan del otro en lugar de querer cambiarlo.',
+  },
+  2: {
+    amor: 'En el amor hay complicidad y buena charla. La relación crece sobre la amistad y las ganas de hacer planes juntos.',
+    amistad: 'Es una de las mejores combinaciones para la amistad: se estimulan, se ríen y se apoyan.',
+    trabajo: 'En el trabajo se comunican bien y se reparten las tareas con naturalidad. Ideal para proyectos creativos.',
+    consejo: 'Cuiden la chispa: la comodidad no debe volverse rutina.',
+  },
+  3: {
+    amor: 'En el amor hay mucha química y también choques. La pasión es intensa, pero necesitan acuerdos claros para no pelear por lo mismo.',
+    amistad: 'Como amigos se desafían todo el tiempo. Si se respetan, se hacen crecer mutuamente.',
+    trabajo: 'En el trabajo tienen prioridades distintas. Funciona si definen bien los roles y quién decide qué.',
+    consejo: 'Elijan sus batallas y negocien antes de discutir.',
+  },
+  4: {
+    amor: 'En el amor fluyen naturalmente: comparten elemento, valores y forma de sentir. Es una de las combinaciones más armoniosas.',
+    amistad: 'Como amigos se entienden con una mirada. Es una amistad fácil, cálida y duradera.',
+    trabajo: 'En el trabajo van en la misma dirección. El único riesgo es acomodarse y no desafiarse.',
+    consejo: 'Aprovechen la armonía para animarse a cosas nuevas juntos.',
+  },
+  5: {
+    amor: 'En el amor les cuesta entenderse al principio porque viven las cosas de forma muy distinta. Si hay interés real, se descubren de a poco.',
+    amistad: 'Como amigos pueden sorprenderse: no tienen mucho en común, pero eso los saca de su zona de confort.',
+    trabajo: 'En el trabajo necesitan ajustarse y explicar todo con claridad. Una vez que se entienden, se complementan muy bien.',
+    consejo: 'Tengan paciencia y pregunten en lugar de suponer.',
+  },
+  6: {
+    amor: 'En el amor se atraen como imanes: cada uno tiene lo que al otro le falta. El desafío es equilibrar sin tironear.',
+    amistad: 'Como amigos se completan y se enseñan mucho, aunque a veces miran el mundo desde veredas opuestas.',
+    trabajo: 'En el trabajo forman un buen equipo si valoran sus diferencias: uno ve lo que el otro no ve.',
+    consejo: 'Busquen el punto medio en lugar de ganar la discusión.',
+  },
+};
+
 const parKey = (a, b, orden) => [a, b].sort((x, y) => orden.indexOf(x) - orden.indexOf(y)).join('-');
 
 export function compatibilidad(a, b) {
+  // El orden no cambia el resultado: Aries y Libra es lo mismo que Libra y Aries.
+  [a, b] = [a, b].sort((x, y) => SIGNOS_ORDEN.indexOf(x) - SIGNOS_ORDEN.indexOf(y));
   const ia = SIGNOS_ORDEN.indexOf(a);
   const ib = SIGNOS_ORDEN.indexOf(b);
   const d0 = Math.abs(ia - ib);
@@ -127,7 +175,7 @@ export function compatibilidad(a, b) {
   const trabajo = Math.max(35, Math.min(98, asp.base + (A.modalidad !== B.modalidad ? 5 : -4) + v()));
   return {
     a, b, aspecto: asp.nombre,
-    texto: asp.texto, elementoTexto, modalidadTexto: MODALIDAD_PAR[mk],
+    texto: asp.texto, elementoTexto, modalidadTexto: MODALIDAD_PAR[mk], detalle: AREA_ASPECTO[d],
     amor, amistad, trabajo, total: Math.round((amor + amistad + trabajo) / 3),
   };
 }
