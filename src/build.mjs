@@ -66,6 +66,8 @@ ctx.compatIA = await compatibilidadesIA({
   carpeta: carpetaIA,
 });
 ctx.cartaDelDia = cartaDelDia(clave);
+// Frases del día de la carta natal escritas por la IA, por fecha (la página elige la del día del visitante).
+ctx.frases = Object.fromEntries([[clave, hoyIA.frases], [claveManana, mananaIA.frases]].filter(([, f]) => f));
 
 // La tabla de próximas fases empieza en la siguiente, no en la de ayer.
 ctx.fases = ctx.fases.filter((f) => f.fecha >= ahora);

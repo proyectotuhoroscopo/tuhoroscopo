@@ -51,6 +51,7 @@ export function paginaCartaNatal(ctx) {
 
   <p class="note">Usamos el zodíaco tropical y casas por signo entero, con efemérides astronómicas reales. Es contenido de entretenimiento.</p>
 </div>
+<script type="application/json" id="frases-ia">${JSON.stringify(ctx.frases || {}).replace(/</g, '\\u003c')}</script>
 <script type="importmap">{"imports":{"astronomy-engine":"./js/astronomy.mjs"}}</script>
 <script type="module" src="js/src/cliente/carta.mjs"></script>`;
 

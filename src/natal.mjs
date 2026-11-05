@@ -74,14 +74,15 @@ const ASPECTOS = [[0, 'conjuncion'], [60, 'sextil'], [90, 'cuadratura'], [120, '
 /**
  * Frase para el día `hoy` según por dónde pasa la Luna en tu carta.
  * Con hora: casa desde el Ascendente. Sin hora: casa solar (desde el signo del Sol).
+ * frasesDia: las 12 frases que escribió la IA para ese día; si faltan, se usa el banco fijo.
  */
-export function fraseDelDia(carta, hoy, claveDia) {
+export function fraseDelDia(carta, hoy, claveDia, frasesDia = null) {
   const lunaHoy = longitud('Moon', hoy);
   const signoLuna = signoDe(lunaHoy);
   const desde = carta.asc ? carta.asc.signo : carta.sol.signo;
   const casa = ((SIGNOS_ORDEN.indexOf(signoLuna) - SIGNOS_ORDEN.indexOf(desde) + 12) % 12) + 1;
   const opciones = FRASE_CASA[casa];
-  const frase = opciones[Math.floor(semilla(`${claveDia}:${carta.fecha.getTime()}`) * opciones.length)];
+  const frase = frasesDia?.[casa] || opciones[Math.floor(semilla(`${claveDia}:${carta.fecha.getTime()}`) * opciones.length)];
   const sep = Math.abs(((lunaHoy - carta.sol.lon + 540) % 360) - 180);
   const asp = ASPECTOS.find(([ang]) => Math.abs(sep - ang) <= 8);
   return { frase, casa, signoLuna, desdeAsc: Boolean(carta.asc), aspecto: asp ? ASPECTO_SOL[asp[1]] : null };

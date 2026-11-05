@@ -14,7 +14,7 @@ import { SIGNOS, PLANETA_NOMBRE, CASA_TEMA } from './data/signos.mjs';
 
 const BASE_URL = (process.env.IA_BASE_URL || 'https://generativelanguage.googleapis.com/v1beta/openai').replace(/\/$/, '');
 const CAMPOS = { titular: [3, 60], general: [80, 750], amor: [40, 450], dinero: [40, 450], salud: [30, 400], consejo: [5, 120] };
-
+const FRASE = [20, 160];
 
 const INSTRUCCIONES = `Eres el redactor de un sitio de horóscopo diario en español para toda Latinoamérica.
 Recibes, para cada signo, un borrador escrito por reglas y los datos astronómicos reales del día.
@@ -28,14 +28,27 @@ Reglas:
 - No uses emojis, HTML, enlaces ni comillas tipográficas raras.
 - Largos: titular de 2 a 6 palabras; general de 2 a 4 oraciones; amor, dinero y salud de 1 a 3 oraciones; consejo de una frase corta.
 
+Además escribe las 12 "frases del día" de la carta natal: una por casa, para las personas a las que hoy la Luna
+les pasa por esa casa (el tema de cada casa viene en "casas"). Cada frase es UNA oración corta, inspiradora y
+concreta, que se pueda leer como la frase del día de esa persona. Que no se parezcan entre sí ni a frases hechas.
+
 Responde SOLO con un objeto JSON con esta forma exacta:
-{"signos": {"aries": {"titular": "...", "general": "...", "amor": "...", "dinero": "...", "salud": "...", "consejo": "..."}, "...": {}}}
+{"signos": {"aries": {"titular": "...", "general": "...", "amor": "...", "dinero": "...", "salud": "...", "consejo": "..."}, "...": {}},
+ "frases": {"1": "...", "2": "...", ..., "12": "..."}}
 Debe incluir los 12 signos: ${SIGNOS_ORDEN.join(', ')}.`;
+
+// Pedido aparte para los días que ya tenían horóscopos guardados pero todavía no tenían frases.
+const INSTRUCCIONES_FRASES = `Eres el redactor de un sitio de horóscopo en español neutro para toda Latinoamérica, tratando al lector de "tú".
+Escribe las 12 "frases del día" de la carta natal: una por casa, para las personas a las que hoy la Luna les pasa
+por esa casa (el tema de cada casa viene en "casas"). Cada frase es UNA oración corta, inspiradora y concreta.
+Que no se parezcan entre sí ni a frases hechas. Sin emojis, HTML ni enlaces.
+Responde SOLO con un objeto JSON: {"frases": {"1": "...", "2": "...", ..., "12": "..."}}`;
 
 function pedido(fechaLarga, cielo, horoscopos) {
   const pos = Object.fromEntries(cielo.posiciones.map((p) => [p.body, p]));
   return JSON.stringify({
     fecha: fechaLarga,
+    casas: CASA_TEMA,
     cielo: {
       luna: `${cielo.luna.fase.nombre} en ${SIGNOS[cielo.luna.signo].nombre}, ${Math.round(cielo.luna.iluminacion * 100)}% iluminada`,
       planetas: cielo.posiciones.map((p) => `${PLANETA_NOMBRE[p.body]} en ${SIGNOS[p.signo].nombre}${p.retro ? ' (retrógrado)' : ''}`),
@@ -54,6 +67,19 @@ function pedido(fechaLarga, cielo, horoscopos) {
       }];
     })),
   });
+}
+
+export function validarFrases(obj) {
+  const f = obj?.frases;
+  if (!f || typeof f !== 'object') return 'falta "frases"';
+  for (let c = 1; c <= 12; c++) {
+    const v = f[c];
+    if (typeof v !== 'string') return `frase ${c} no es texto`;
+    const t = v.trim();
+    if (t.length < FRASE[0] || t.length > FRASE[1]) return `frase ${c} tiene ${t.length} caracteres`;
+    if (/[<>]|https?:/i.test(t)) return `frase ${c} tiene HTML o enlaces`;
+  }
+  return null;
 }
 
 // Revisa que la respuesta tenga los 12 signos con todos los campos y largos razonables.
@@ -167,21 +193,33 @@ export async function reescribir({ clave, fechaLarga, cielo, horoscopos, carpeta
     const r = await pedirJSON(INSTRUCCIONES, pedido(fechaLarga, cielo, horoscopos), validar, clave);
     if (r) {
       datos = { modelo: r.modelo, generado: new Date().toISOString(), signos: r.obj.signos };
+      if (!validarFrases(r.obj)) datos.frases = r.obj.frases;
       fs.mkdirSync(carpeta, { recursive: true });
       fs.writeFileSync(archivo, JSON.stringify(datos, null, 1));
     }
   }
+  // Si el día ya tenía horóscopos pero le faltan las frases (o salieron mal), se piden aparte.
+  if (datos && validarFrases(datos) && key) {
+    const contenido = JSON.stringify({ fecha: fechaLarga, casas: CASA_TEMA, luna: `${cielo.luna.fase.nombre} en ${SIGNOS[cielo.luna.signo].nombre}` });
+    const r = await pedirJSON(INSTRUCCIONES_FRASES, contenido, validarFrases, `frases ${clave}`);
+    if (r) {
+      datos.frases = r.obj.frases;
+      fs.writeFileSync(archivo, JSON.stringify(datos, null, 1));
+    }
+  }
+  const frases = datos && !validarFrases(datos)
+    ? Object.fromEntries(Object.entries(datos.frases).map(([c, t]) => [c, t.trim()])) : null;
 
   if (!datos) {
     console.log(`IA: ${clave} usa los textos por reglas${key ? '' : ' (no hay IA_API_KEY)'}`);
-    return { horoscopos, fuente: 'reglas' };
+    return { horoscopos, fuente: 'reglas', frases };
   }
   const salida = {};
   for (const id of SIGNOS_ORDEN) {
     const s = datos.signos[id];
     salida[id] = { ...horoscopos[id], ...Object.fromEntries(Object.keys(CAMPOS).map((c) => [c, s[c].trim()])) };
   }
-  return { horoscopos: salida, fuente: 'ia' };
+  return { horoscopos: salida, fuente: 'ia', frases };
 }
 
 // ---------- Compatibilidad ----------

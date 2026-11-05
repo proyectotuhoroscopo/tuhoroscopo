@@ -11,6 +11,8 @@ const GUARDADO = 'tuhoroscopo:natal';
 const form = document.getElementById('natal');
 const $ = (id) => document.getElementById(id);
 const N = (id) => SIGNOS[id].nombre;
+let FRASES_IA = {};
+try { FRASES_IA = JSON.parse($('frases-ia').textContent); } catch { /* sin frases de IA: se usa el banco fijo */ }
 const grados = (x) => `${Math.floor(x)}°${String(Math.floor((x % 1) * 60)).padStart(2, '0')}′`;
 
 const leer = () => { try { return JSON.parse(localStorage.getItem(GUARDADO)); } catch { return null; } };
@@ -31,7 +33,7 @@ function mostrar(datos) {
 
   // Frase del día
   const ahora = new Date();
-  const f = fraseDelDia(carta, ahora, hoyLocal());
+  const f = fraseDelDia(carta, ahora, hoyLocal(), FRASES_IA[hoyLocal()]);
   $('frase-fecha').textContent = `Tu frase de hoy · ${new Intl.DateTimeFormat('es-AR', { weekday: 'long', day: 'numeric', month: 'long' }).format(ahora)}`;
   $('frase').textContent = f.frase;
   $('frase-por-que').innerHTML = `Hoy la Luna está en ${N(f.signoLuna)} y pasa por tu casa ${f.casa}${f.desdeAsc ? '' : ' solar'}: ${CASA_TEMA[f.casa]}.${f.aspecto ? ` ${esc(f.aspecto)}` : ''} <a href="horoscopo/${carta.sol.signo}.html">Leer el horóscopo de ${N(carta.sol.signo)} hoy</a>.`;
