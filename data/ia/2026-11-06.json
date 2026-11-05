@@ -1,0 +1,102 @@
+{
+ "modelo": "gemini-3-flash-preview",
+ "generado": "2026-11-05T15:27:30.843Z",
+ "signos": {
+  "aries": {
+   "titular": "Tiempo de acuerdos",
+   "general": "Las relaciones ocupan el centro de tu atención hoy. Con la Luna en Libra, es fundamental buscar el equilibrio con los demás y practicar la escucha activa. La fase menguante te invita a soltar tensiones y descansar antes de iniciar un nuevo ciclo.",
+   "amor": "Venus resalta la armonía en tu pareja, aunque su estado retrógrado podría traer algún reencuentro del pasado que merece ser evaluado con calma. Aprovecha la energía de Júpiter para vivir el romance con optimismo.",
+   "dinero": "Evita tomar riesgos innecesarios con tu capital en este momento. Revisa muy bien cualquier documento o mensaje importante, ya que Mercurio retrógrado puede generar confusiones.",
+   "salud": "Te encuentras en un momento de vitalidad positiva. Mantén ese bienestar priorizando un sueño reparador.",
+   "consejo": "Escucha más de lo que hablas."
+  },
+  "tauro": {
+   "titular": "Atiende tus necesidades",
+   "general": "Tu bienestar físico cobra importancia bajo la influencia de la Luna en Libra. Es un día ideal para organizar tu rutina y prestar atención a lo que tu cuerpo intenta decirte. Busca el equilibrio y permítete momentos de pausa.",
+   "amor": "El afecto se manifiesta en los pequeños gestos del día a día y en el apoyo mutuo. Ten presente que antiguos vínculos podrían reaparecer, así que reflexiona antes de actuar.",
+   "dinero": "Se presentan movimientos relacionados con el hogar o tu vivienda que requieren atención. Con Mercurio retrógrado, asegúrate de verificar cada detalle antes de cerrar cualquier acuerdo.",
+   "salud": "La hidratación y las pausas activas serán tus mejores aliadas para evitar la fatiga.",
+   "consejo": "Duerme bien para decidir mejor."
+  },
+  "geminis": {
+   "titular": "Brillo y creatividad",
+   "general": "El cielo favorece tu expresión personal y tus actividades recreativas. Te sentirás con un encanto especial que atraerá la mirada de quienes te rodean. Aprovecha la Luna menguante para equilibrar tu energía interior.",
+   "amor": "Venus en tu zona del romance augura momentos muy especiales para el corazón. Si alguien del pasado vuelve a contactarte, analiza si realmente aporta algo positivo a tu presente.",
+   "dinero": "Los asuntos de comunicación y trámites fluyen mejor si eres transparente en tus intenciones. No olvides revisar minuciosamente tus correos y contratos antes de dar el visto bueno.",
+   "salud": "Tu estado de ánimo es excelente y tu energía se mantiene alta. Procura no descuidar tus horas de descanso.",
+   "consejo": "No compares tu camino con el de nadie."
+  },
+  "cancer": {
+   "titular": "Calma en el hogar",
+   "general": "Es una jornada para conectar con tus raíces y tu mundo emocional más íntimo. La Luna te invita a reflexionar sobre el pasado sin dejar que este nuble tu presente. Busca la serenidad en tu espacio personal.",
+   "amor": "Valorarás más la calidez de un encuentro íntimo en casa que las grandes salidas sociales. La energía retrógrada pide cautela si surgen recuerdos o mensajes de viejos amores.",
+   "dinero": "Marte y Júpiter impulsan tus recursos, brindándote una etapa propicia para el crecimiento económico. Aun así, lee la letra pequeña de todo lo que firmes debido a la fase de Mercurio.",
+   "salud": "Podrías sentir una ligera baja de energía. Escucha a tu cuerpo y no te exijas más de la cuenta hoy.",
+   "consejo": "Hoy, menos es más."
+  },
+  "leo": {
+   "titular": "Palabras que construyen",
+   "general": "Tu capacidad de comunicación está muy activa, permitiéndote expresar tus ideas con claridad. Júpiter en tu signo te brinda una dosis extra de optimismo para enfrentar cualquier reto. Elige tus palabras con sabiduría.",
+   "amor": "Un mensaje tierno o una charla honesta pueden fortalecer mucho tu relación actual. Si el pasado toca a tu puerta, tómate tu tiempo para procesar tus sentimientos.",
+   "dinero": "Tu determinación es notable y te ayudará a alcanzar metas concretas. Evita las discusiones innecesarias en el ámbito laboral y verifica bien toda la información que recibas.",
+   "salud": "Gozas de una buena vitalidad general. Intenta mantener este ritmo equilibrando tu actividad con el descanso necesario.",
+   "consejo": "Antes de responder, respira."
+  },
+  "virgo": {
+   "titular": "Valora tu presente",
+   "general": "El foco del día se centra en tu estabilidad y en lo que realmente consideras valioso. Es un momento propicio para la introspección y para ordenar tus prioridades personales. La Luna menguante ayuda a soltar lo que ya no necesitas.",
+   "amor": "Los detalles sencillos y la generosidad emocional serán la clave para conectar con el otro. Ten cuidado con las idealizaciones si reaparece alguna persona de tu pasado.",
+   "dinero": "Es preferible trabajar con discreción y planificar tus próximos pasos en silencio. Revisa dos veces tus cuentas y compromisos financieros para evitar errores de comunicación.",
+   "salud": "La tensión acumulada puede pasar factura, así que busca técnicas de relajación sencillas.",
+   "consejo": "Hoy, menos es más."
+  },
+  "libra": {
+   "titular": "Tu momento de renovarte",
+   "general": "Hoy la energía está de tu lado y te da impulso para tomar decisiones sobre tu imagen personal. Con la Luna en tu signo, tu intuición y carisma se encuentran en su punto máximo. Aprovecha para cerrar capítulos pendientes con serenidad.",
+   "amor": "Venus te otorga un magnetismo irresistible que favorece cualquier encuentro romántico. Si vuelven personas de otras etapas de tu vida, decide con el corazón pero también con la mente clara.",
+   "dinero": "La colaboración en proyectos grupales será muy productiva si existe una meta común. Ante la confusión de Mercurio retrógrado, sé extremadamente cuidadoso con los documentos legales.",
+   "salud": "Tu vitalidad es envidiable hoy. Aprovecha para realizar alguna actividad física que te haga sentir bien.",
+   "consejo": "Una charla sincera puede cambiar tu semana."
+  },
+  "escorpio": {
+   "titular": "Introspección y nuevos comienzos",
+   "general": "El Sol en tu signo te regala una energía renovada para fijar tus propósitos anuales. Antes de lanzarte a lo nuevo, la Luna te invita a cerrar ciclos y sanar internamente. Busca el equilibrio entre tu mundo exterior y tus necesidades.",
+   "amor": "Es un tiempo ideal para sanar viejas heridas y prepararte para un amor más sano. Si el pasado regresa, utilízalo como una lección para no repetir errores.",
+   "dinero": "Tu ambición profesional está respaldada por Júpiter, lo que augura avances importantes en tu carrera. No obstante, revisa cada contrato con lupa para evitar malentendidos.",
+   "salud": "No ignores el cansancio; el estiramiento y la respiración profunda te ayudarán a liberar el estrés.",
+   "consejo": "Rodéate de quien te suma."
+  },
+  "sagitario": {
+   "titular": "Conexiones que inspiran",
+   "general": "Tus proyectos a futuro y tus amistades cobran una relevancia especial durante esta jornada. Júpiter te abre puertas hacia nuevos conocimientos o viajes que expanden tu visión del mundo. Evalúa con quiénes quieres compartir tus sueños.",
+   "amor": "El entorno social será el escenario perfecto para vivir momentos agradables en el amor. Mantén la cautela ante posibles regresos de personas que ya no forman parte de tu vida.",
+   "dinero": "Se vislumbran oportunidades interesantes ligadas a estudios o contactos en el extranjero. Asegúrate de que toda la comunicación sea clara para evitar tropiezos.",
+   "salud": "Te sientes con mucha energía y entusiasmo. Canalízala a través del movimiento o paseos al aire libre.",
+   "consejo": "Ordena tu espacio y se ordenará tu cabeza."
+  },
+  "capricornio": {
+   "titular": "Objetivos con claridad",
+   "general": "La Luna resalta tus metas profesionales y tu responsabilidad ante los demás. Si actúas con constancia, recibirás el reconocimiento que mereces por tus esfuerzos. Encuentra el balance entre tus obligaciones y tu tiempo personal.",
+   "amor": "Tu dedicación y seriedad son cualidades que alguien cercano valora profundamente. Ante posibles mensajes del pasado, mantén tu enfoque en lo que has construido hasta ahora.",
+   "dinero": "Los asuntos de finanzas compartidas o recursos de terceros podrían requerir tu atención. Verifica cada detalle administrativo para que no haya confusiones de último momento.",
+   "salud": "Tu vitalidad es buena y te permite cumplir con tus tareas sin agotarte. Sigue moviéndote para mantener el equilibrio.",
+   "consejo": "Haz hoy eso que vienes postergando."
+  },
+  "acuario": {
+   "titular": "Amplía tus horizontes",
+   "general": "Es un excelente momento para buscar nuevas perspectivas y aprender de experiencias diferentes. Júpiter favorece tus relaciones personales, trayendo armonía y crecimiento a tus vínculos más cercanos. Déjate inspirar por lo desconocido.",
+   "amor": "El amor puede surgir en entornos académicos o a través de la comunicación a distancia. Si alguien del ayer reaparece, reflexiona sobre tus verdaderos deseos actuales.",
+   "dinero": "Las asociaciones estratégicas son tu fuerte ahora, siempre que se basen en la claridad. Revisa bien cualquier acuerdo antes de comprometerte formalmente.",
+   "salud": "Tu energía vital está en un nivel muy alto. Es un buen día para disfrutar del ejercicio físico.",
+   "consejo": "Una charla sincera puede cambiar tu semana."
+  },
+  "piscis": {
+   "titular": "Transformación interior",
+   "general": "La Luna te invita a sumergirte en tus emociones más profundas para transformar lo que ya no sirve. Aceptar los cambios te permitirá avanzar con mayor ligereza hacia tus objetivos. La fase menguante es ideal para soltar cargas.",
+   "amor": "La intensidad emocional marca tus encuentros, buscando una conexión que vaya más allá de lo superficial. Ante la posible vuelta de un viejo amor, prioriza tu bienestar actual.",
+   "dinero": "Tu rutina laboral será intensa, pero Júpiter te ayudará a encontrar mejoras significativas en tu entorno. Ante Mercurio retrógrado, presta mucha atención a las instrucciones de trabajo.",
+   "salud": "El cuerpo puede reflejar tus tensiones internas; busca momentos de calma y estiramiento.",
+   "consejo": "No compares tu camino con el de nadie."
+  }
+ }
+}
