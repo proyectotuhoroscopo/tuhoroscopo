@@ -1,0 +1,102 @@
+{
+ "modelo": "gemini-3.5-flash",
+ "generado": "2026-11-05T14:43:45.363Z",
+ "signos": {
+  "aries": {
+   "titular": "Escucha antes de tomar decisiones",
+   "general": "Buscar el apoyo de alguien cercano o trabajar en equipo te abrirá puertas valiosas en este día. La Luna menguante invita a pausar y recobrar el equilibrio antes de iniciar nuevas etapas. Júpiter expande tu chispa creativa y añade entusiasmo a tu entorno.",
+   "amor": "Si no tienes pareja, podrías conectar con alguien muy afín a ti. Como Venus está retrógrado, reflexiona antes de dar paso a historias del pasado.",
+   "dinero": "Tus proyectos personales o pasiones pueden dar frutos positivos. Por Mercurio retrógrado, revisa muy bien los documentos y mensajes antes de avanzar.",
+   "salud": "Sal a respirar aire puro y desconéctate un rato de las pantallas para revitalizarte.",
+   "consejo": "Respira con calma antes de emitir una respuesta."
+  },
+  "tauro": {
+   "titular": "Momentos de paciencia y cuidado",
+   "general": "Escucha las señales de tu cuerpo y bríndale el descanso que te exige la Luna menguante en tu zona de rutinas. Es momento de bajar las revoluciones y estabilizar tus horarios.",
+   "amor": "El afecto sincero se demuestra con pequeños gestos de acompañamiento diario. Ten cuidado si el pasado reaparece por el tránsito de Venus retrógrado.",
+   "dinero": "Desarrollar tus tareas desde la tranquilidad de tu hogar dará excelentes resultados. Recuerda verificar detalles y escritos debido a Mercurio retrógrado.",
+   "salud": "Procura no exigirte de más y respeta tus tiempos de sueño y comida.",
+   "consejo": "Aprecia y celebra cada pequeño avance del día."
+  },
+  "geminis": {
+   "titular": "Alegría y conexión con los tuyos",
+   "general": "Un ambiente favorecedor te rodea para disfrutar de tus pasatiempos y compartir momentos amenos. La Luna menguante sugiere bajar la marcha para recargar tus energías vitales.",
+   "amor": "Un ambiente lleno de química y risas animará tu corazón. Piensa bien si vale la pena reabrir antiguas historias que Venus retrógrado pueda traer.",
+   "dinero": "Compartir tus ideas con otros puede abrir puertas interesantes a futuro. Con Mercurio retrógrado, pon atención a la letra chica de cualquier acuerdo.",
+   "salud": "Tu ánimo está en un nivel muy positivo; mantén ese bienestar con un descanso reparador.",
+   "consejo": "Valora cada logro que obtengas hoy por pequeño que sea."
+  },
+  "cancer": {
+   "titular": "Reflexión y confort en el hogar",
+   "general": "Es un día idóneo para mirar hacia tu interior y dedicar tiempo a la calma de tu hogar. Disfrutar del espacio propio te ayudará a asimilar el efecto de la Luna menguante.",
+   "amor": "Las expresiones afectivas más cálidas se darán en la intimidad y tranquilidad del hogar. Maneja con prudencia cualquier nostalgia del pasado relacionada con Venus retrógrado.",
+   "dinero": "Evita compras precipitadas y enfócate en gestionar mejor lo que tienes. Júpiter favorece el crecimiento gradual de tus recursos, aunque Mercurio retrógrado pide prudencia contractual.",
+   "salud": "Desconéctate temprano, toma una bebida tibia y regálate una noche silenciosa.",
+   "consejo": "Pide ayuda si sientes que la carga es pesada."
+  },
+  "leo": {
+   "titular": "Ideas claras y gran motivación",
+   "general": "Tu mente se percibe ágil y lista para organizar temas pendientes con tu entorno cercano. La Luna menguante te recuerda balancear la actividad con momentos de quietud. Además, Júpiter en tu signo renueva tu optimismo personal.",
+   "amor": "Las palabras amables tendrán un efecto muy positivo en tus vínculos afectivos. Evalúa con madurez cualquier reencuentro nostálgico debido a Venus retrógrado.",
+   "dinero": "Tienes la energía necesaria para asumir la iniciativa en tus compromisos laborales. Con Mercurio retrógrado, asegúrate de repasar cada comunicación con atención.",
+   "salud": "Es una buena jornada para incorporar hábitos sanos que fortalezcan tu organismo.",
+   "consejo": "Recuerda que a veces menos representa más."
+  },
+  "virgo": {
+   "titular": "Observación serena y constante",
+   "general": "El paso de la Luna centra tu atención en tus recursos personales y en la valoración de tus propios talentos. La fase menguante sugiere actuar con calma y sin prisas.",
+   "amor": "Un gesto considerado o un detalle especial reforzará la confianza con tus seres queridos. Piensa dos veces si conviene revivir situaciones afectivas anteriores.",
+   "dinero": "Evita malentendidos en tu ambiente de trabajo y resguarda con prudencia tu información. Revisa con cuidado todo documento por la influencia de Mercurio retrógrado.",
+   "salud": "Realizar estiramientos o ejercicios de respiración te ayudará a liberar la tensión acumulada.",
+   "consejo": "Ocúpate hoy de aquello que estabas postergando."
+  },
+  "libra": {
+   "titular": "Un momento para destacar",
+   "general": "La Luna en tu signo te coloca en una posición favorable para conectar con lo que sientes y planificar tus pasos. La fase menguante invita a cerrar etapas pendientes con armonía. Júpiter amplía tus horizontes y relaciones sociales.",
+   "amor": "Venus en tu signo potencia tu encanto natural y te acerca a los demás. Frente al paso retrógrado del planeta, sopesa bien antes de retomar viejas historias.",
+   "dinero": "Tu red de contactos puede facilitarte buenas oportunidades profesionales. Revisa bien cada firma o acuerdo para prevenir errores por Mercurio retrógrado.",
+   "salud": "Te resultará fácil y gratificante adoptar costumbres saludables en este día.",
+   "consejo": "Aquello que parece un final antecede un nuevo comienzo."
+  },
+  "escorpio": {
+   "titular": "Cierre de ciclos y renovación",
+   "general": "Con el Sol transitando por tu signo, es el momento de recargar fuerzas y proyectar tus intenciones para la nueva etapa. La Luna menguante te anima a soltar cargas pasadas para abrir espacio a lo nuevo.",
+   "amor": "Dedica tiempo a sanar tu mundo interior antes de involucrarte en compromisos sentimentales. Venus retrógrado sugiere actuar con prudencia ante recuerdos románticos.",
+   "dinero": "Tu carrera laboral pide determinación para avanzar con convicción en tus metas. Júpiter acompaña tu desarrollo profesional, aunque Mercurio retrógrado aconseja chequear los papeles.",
+   "salud": "Mantente bien hidratado y realiza pausas breves para mantener la calma.",
+   "consejo": "Procura dormir bien para decidir con mayor claridad."
+  },
+  "sagitario": {
+   "titular": "Colaboración y nuevas metas",
+   "general": "Compartir metas con tus grupos de interés renovará tu entusiasmo e inspiración. La Luna menguante sugiere no sobrecargarte de compromisos sociales y buscar instantes de pausa. Júpiter respalda tus proyectos a largo plazo.",
+   "amor": "Los momentos compartidos en grupo o entre amigos aportarán gratos momentos afectivos. Reflexiona antes de abrir espacio a relaciones del pasado.",
+   "dinero": "Surgirán alternativas interesantes relacionadas con el aprendizaje o nuevas áreas de trabajo. Revisa los datos y contratos con atención por Mercurio retrógrado.",
+   "salud": "Tu organismo responderá de excelente manera si mantienes actividades que te llenen de vitalidad.",
+   "consejo": "Busca apoyo cuando lo necesites, no cargues todo a solas."
+  },
+  "capricornio": {
+   "titular": "Enfoque y constancia profesional",
+   "general": "Mantén la atención puesta en tus propósitos a largo plazo, pues tu dedicación dará frutos de valor. La fase menguante de la Luna pide hacer pausas estratégicas para no descuidar tu paz.",
+   "amor": "El entendimiento mutuo y los proyectos compartidos fortalecerán la relación afectiva. Si Venus retrógrado evoca recuerdos, actúa con prudencia y mesura.",
+   "dinero": "Los asuntos referentes a finanzas compartidas requerirán diálogo y claridad. Mercurio retrógrado señala la importancia de revisar dos veces cualquier documento.",
+   "salud": "Realiza pequeñas pausas durante tu jornada diaria para evitar tensiones innecesarias.",
+   "consejo": "Introduce un pequeño cambio en tu rutina de hoy."
+  },
+  "acuario": {
+   "titular": "Buenas perspectivas para avanzar",
+   "general": "Tu mente busca ampliar conocimientos e investigar nuevos horizontes personales. La Luna menguante recomienda asimilar lo aprendido antes de dar un paso importante. Júpiter fortalece la armonía en tus asociaciones.",
+   "amor": "Es posible que surjan conexiones estimulantes a través de estudios, viajes o redes sociales. Maneja con calma cualquier asunto del pasado por la influencia de Venus retrógrado.",
+   "dinero": "Las alianzas de trabajo resultarán clave para tus avances actuales. Mantén una comunicación detallada y revisa contratos detenidamente debido a Mercurio retrógrado.",
+   "salud": "Cuentas con un excelente nivel de energía para realizar ejercicio o caminatas al aire libre.",
+   "consejo": "Anímate a variar tu rutina diaria con algo diferente."
+  },
+  "piscis": {
+   "titular": "Transformación e intuición profunda",
+   "general": "El cielo te invita a conectar con tus emociones más guardadas y permitir los cambios necesarios. Acepta el ritmo pausado que propone la Luna menguante para soltar lo que no suma.",
+   "amor": "Tu vida afectiva busca vivencias profundas y auténticas más allá de la superficie. Ante la presencia de Venus retrógrado, medita detenidamente antes de reabrir antiguos temas.",
+   "dinero": "Las tareas diarias requerirán orden para mantener el equilibrio en tu entorno. Júpiter alivia la carga de trabajo, pero Mercurio retrógrado pide constatar cada detalle.",
+   "salud": "Regálate una tarde serena con música tranquila e infusión para descansar plenamente.",
+   "consejo": "Recuerda pedir ayuda si la tarea se vuelve pesada."
+  }
+ }
+}

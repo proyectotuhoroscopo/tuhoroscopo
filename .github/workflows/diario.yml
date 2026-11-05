@@ -1,0 +1,54 @@
+# Regenera y publica el sitio todos los días a las 00:05 de Argentina (03:05 UTC).
+# La segunda corrida (06:05 de Argentina) reintenta los textos de IA que hayan fallado.
+name: Publicación diaria
+
+on:
+  schedule:
+    - cron: '5 3 * * *'
+    - cron: '5 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # para guardar en el repo los textos generados por la IA
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          IA_API_KEY: ${{ secrets.IA_API_KEY }}
+          IA_MODELO: ${{ vars.IA_MODELO }}
+      # Guarda los textos de la IA para que "mañana" de hoy sea igual a "hoy" de mañana.
+      - name: Guardar textos de la IA
+        run: |
+          git config user.name "tuhoroscopo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ia 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Textos IA $(date -u +%F) [skip ci]" && git push)
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

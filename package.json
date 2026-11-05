@@ -1,0 +1,15 @@
+{
+  "name": "horoscopo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sitio de horóscopo diario 100% automático, generado a partir de datos astronómicos reales.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "serve": "npx --yes serve@14.2.4 dist -l 4321",
+    "dev": "npm run build && npm run serve"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19"
+  }
+}
