@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-08T03:56:50.807Z",
+ "signos": {
+  "aries": {
+   "titular": "Mirar hacia tu mundo interior",
+   "general": "Es un momento ideal para ordenar cuentas compartidas y abordar esas conversaciones que dejaste pendientes. La Luna nueva en Escorpio te invita a sembrar intenciones profundas sobre lo que deseas transformar. Además, Júpiter impulsa tu chispa creativa y llena de optimismo tu forma de conectar.",
+   "amor": "Venus en tu zona de alianzas beneficia la armonía en pareja, aunque su retrogradación aconseja no actuar por impulso si reaparece alguien de tu pasado.",
+   "dinero": "Apuesta por tus pasiones, ya que un proyecto innovador puede dar grandes frutos. Ante Mercurio retrógrado, revisa en detalle cualquier documento o acuerdo antes de firmar.",
+   "salud": "Regálate una tarde serena, escucha música suave y busca descansar temprano para recargar tu cuerpo.",
+   "consejo": "Da hoy ese paso que habías estado postergando."
+  },
+  "tauro": {
+   "titular": "Un renovado equilibrio en relaciones",
+   "general": "Alguien cercano podría mostrarte aspectos tuyos que no habías notado. La Luna en tu zona de alianzas te sugiere equilibrar lo que entregas y lo que recibes. Aprovecha la energía de la Luna nueva para escribir tus mejores intenciones de cambio.",
+   "amor": "El afecto genuino se demuestra a través de gestos cotidianos y estando presente. Recuerda que con Venus retrógrado conviene reflexionar bien antes de reabrir puertas del pasado.",
+   "dinero": "Tu ritmo de trabajo se fortalece si laboras en un ambiente cómodo y familiar. No olvides leer bien cada mensaje y contrato por la retrogradación de Mercurio.",
+   "salud": "Procura beber suficiente agua y tomar pequeñas pausas para no acumular tensiones musculares.",
+   "consejo": "Valora el peso y la intención de tus palabras."
+  },
+  "geminis": {
+   "titular": "Atiende la voz de tu cuerpo",
+   "general": "Tu bienestar físico reclama prioridad y pide hábitos más sanos. La Luna nueva es la oportunidad perfecta para iniciar rutinas que mejoren tu día a día. Anota lo que quieres empezar a construir desde hoy.",
+   "amor": "El paso de Venus favorece el romance y enciende tu lado más lúdico. Si una expareja intenta volver por la fase retrógrada, medita bien tus decisiones.",
+   "dinero": "La claridad y la franqueza te ayudarán a concretar negociaciones pendientes. Revisa con lupa cualquier texto o correo importante mientras Mercurio siga retrógrado.",
+   "salud": "Mantén un ritmo constante y cuida especialmente tus horarios de comida y de sueño.",
+   "consejo": "Busca la compañía de personas que te aporten luz."
+  },
+  "cancer": {
+   "titular": "Tiempo de crear y disfrutar",
+   "general": "La posición de la Luna despierta tu faceta artística y tu deseo de pasarla bien. Regálate un espacio para el juego y las actividades que disfrutas sinceramente. La Luna nueva te anima a sembrar proyectos llenos de ilusión.",
+   "amor": "El amor se cultiva en el calor del hogar con momentos sencillos y compartidos. Si el pasado reaparece debido a Venus retrógrado, evita tomar decisiones apresuradas.",
+   "dinero": "Marte y Júpiter impulsan tus recursos y promueven una etapa de crecimiento económico muy positiva. Sin embargo, sé precavido y repasa bien cualquier contrato ante Mercurio retrógrado.",
+   "salud": "Te acompaña una vitalidad radiante que se mantendrá si cuidas tu descanso nocturno.",
+   "consejo": "Sigue tu propio camino sin medirte con los demás."
+  },
+  "leo": {
+   "titular": "Avances firmes desde el hogar",
+   "general": "El día te propone volcar tu atención al espacio personal y al entorno familiar. Esta Luna nueva es excelente para plasmar intenciones vinculadas con tu estabilidad emocional. Con Júpiter en tu signo, tu personalidad brilla con un entusiasmo contagioso.",
+   "amor": "Una palabra amable en el momento adecuado puede obrar maravillas en tus relaciones. Ten paciencia si Venus retrógrado trae recuerdos o personas de otras épocas.",
+   "dinero": "Tu determinación personal te impulsa a tomar la delantera en tus planes profesionales. Revisa dos veces las comunicaciones y papeles importantes por la retrogradación de Mercurio.",
+   "salud": "Una caminata al aire libre te ayudará a despejar la mente y soltar la tensión.",
+   "consejo": "Permítete soltar lo que no puedes controlar."
+  },
+  "virgo": {
+   "titular": "Claridad para tus ideas",
+   "general": "Tu mente se encuentra receptiva y lista para absorber nuevos conocimientos. Es un momento propicio para escribir, dialogar o aclarar dudas con tu entorno cercano. La Luna nueva te invita a proyectar metas intelectuales o comunicativas.",
+   "amor": "En el terreno afectivo valorarás la lealtad y los hechos por encima de los discursos. Con Venus retrógrado, analiza fríamente si vale la pena reabrir antiguas historias.",
+   "dinero": "Mantén la reserva sobre tus proyectos y evita discusiones innecesarias en el entorno laboral. Verifica toda la información antes de cerrar acuerdos debido a Mercurio retrógrado.",
+   "salud": "Procura hacer pausas frente a las pantallas para no fatigar tu vista ni tu mente.",
+   "consejo": "Cuida la forma en que comunicas tus pensamientos."
+  },
+  "libra": {
+   "titular": "Reconoce tu verdadero valor",
+   "general": "Es una jornada ideal para tomar conciencia de lo que has edificado con tu esfuerzo. La Luna nueva te invita a sembrar intenciones de abundancia y seguridad personal. Además, Júpiter expande la red de amigos y contactos que apoyan tus planes.",
+   "amor": "Con Venus en tu signo despliegas un encanto natural único, aunque su marcha retrógrada te pide reflexionar si reaparece un viejo amor.",
+   "dinero": "Las iniciativas grupales pueden rendir grandes frutos si todos trabajan en sintonía. Como Mercurio está retrógrado, presta atención a la letra chica de los contratos.",
+   "salud": "Mantén una hidratación constante y regálate pausas para liberar la tensión acumulada.",
+   "consejo": "Rodéate de gente que estimule tu crecimiento personal."
+  },
+  "escorpio": {
+   "titular": "Un nuevo ciclo de renovación",
+   "general": "¡Feliz temporada! Con el Sol y la Luna nueva en tu signo, cuentas con toda la energía para renacer y fijar tus metas del año. Escucha tus necesidades reales y atrévete a pedir lo que mereces.",
+   "amor": "Puede surgir una fuerte introspección en el amor o el deseo de guardar un sentimiento en reserva. Venus retrógrado sugiere actuar con prudencia si el pasado toca a tu puerta.",
+   "dinero": "Marte y Júpiter en lo alto de tu cielo impulsan tu carrera con gran visibilidad y firmeza. Por precaución ante Mercurio retrógrado, revisa mensajes y documentos con detenimiento.",
+   "salud": "Tu organismo responderá muy bien a cualquier hábito saludable que decidas iniciar hoy.",
+   "consejo": "Recuerda que cada final prepara el camino para un gran comienzo."
+  },
+  "sagitario": {
+   "titular": "Sabiduría para la calma",
+   "general": "Tu intuición estará especialmente afinada durante este día, así que presta atención a tus corazonadas. La Luna nueva te sugiere sembrar intenciones de paz interior y sanación. Mientras tanto, Júpiter abre tus horizontes a nuevos aprendizajes y proyectos expansivos.",
+   "amor": "La frontera entre la amistad y el romance podría volverse borrosa hoy. Toma las cosas con calma si Venus retrógrado trae viejas dudas sentimentales.",
+   "dinero": "Se vislumbran buenas perspectivas en temas relacionados con el extranjero o los estudios. Verifica fechas y compromisos por el efecto de Mercurio retrógrado.",
+   "salud": "Si sientes cansancio, atiende esa señal y concede a tu cuerpo el descanso que te pide.",
+   "consejo": "Busca espacios que te aporten paz y suma valor a tu vida."
+  },
+  "capricornio": {
+   "titular": "Proyectos con visión de futuro",
+   "general": "Te resulta fácil visualizar tus metas a largo plazo y distinguir a tus verdaderos aliados. La Luna nueva te ayuda a sembrar proyectos en equipo con bases muy sólidas.",
+   "amor": "Los vínculos profesionales o compartidos en grupos de interés pueden tomar un matiz afectivo. Recuerda no apresurar conclusiones si reaparecen temas del pasado por Venus retrógrado.",
+   "dinero": "Los acuerdos financieros en común o temas administrativos demandan tu atención ordenada. Revisa dos veces cualquier documento antes de firmar a causa de Mercurio retrógrado.",
+   "salud": "Tu cuerpo reaccionará con vitalidad si comienzas una rutina equilibrada de ejercicio.",
+   "consejo": "Elige compartir tu tiempo con quienes te inspiren a mejorar."
+  },
+  "acuario": {
+   "titular": "Proyección y firmeza profesional",
+   "general": "La Luna destaca tu vocación y tus metas profesionales, dándote la oportunidad de mostrar tu valor. Esta Luna nueva es magnífica para sembrar objetivos laborales de gran alcance. Júpiter favorece tus alianzas y enriquece las relaciones significativas.",
+   "amor": "Buscas una relación impulsada por la complicidad intelectual y el crecimiento mutuo. Si Venus retrógrado hace volver una antigua historia, piénsalo con calma.",
+   "dinero": "Los acuerdos con socios requieren diplomacia y metas claras de ambas partes. Ante Mercurio retrógrado, corrobora la información antes de dar por cerrado un compromiso.",
+   "salud": "Cuida tus ritmos diarios y respeta los descansos para mantener tu energía nivelada.",
+   "consejo": "Respira hondo antes de emitir un juicio apresurado."
+  },
+  "piscis": {
+   "titular": "Amplía tus horizontes mentales",
+   "general": "Tu espíritu busca explorar nuevos conocimientos y expandir tu comprensión del mundo. La Luna nueva en tu zona de expansión te invita a iniciar viajes o estudios prometedores.",
+   "amor": "La sinceridad reforzará la confianza mutua y ayudará a resolver antiguos malentendidos. Ten precaución si la influencia de Venus retrógrado despierta nostalgias insustanciales.",
+   "dinero": "Tendrás bastante trabajo por delante, pero organizarte bien evitará que te agobies. Júpiter mejora las condiciones de tu entorno diario; aun así, revisa cláusulas por Mercurio retrógrado.",
+   "salud": "Disfrutas de un gran caudal de energía: aprovecha para moverte o practicar un deporte.",
+   "consejo": "Concédete un pequeño gusto que alegre tu día."
+  }
+ },
+ "frases": {
+  "1": "Reconoce tu fuerza interior y da el primer paso hacia quien deseas llegar a ser.",
+  "2": "Valora lo que posees y construye tus recursos con paciencia y firmeza.",
+  "3": "Expresa tus verdades con claridad y descubre la magia de escuchar con el corazón.",
+  "4": "Haz de tu espacio personal un santuario donde siempre puedas recuperar la calma.",
+  "5": "Permite que tu creatividad se exprese sin temores y celebra la alegría del momento.",
+  "6": "Transforma tus hábitos diarios en pequeños actos de amor y cuidado propio.",
+  "7": "Construye puentes de confianza para nutrir los vínculos que realmente importan.",
+  "8": "Acepta las transformaciones profundas como la oportunidad perfecta para renacer.",
+  "9": "Abre tu mente a nuevas perspectivas y permite que la curiosidad guíe tus pasos.",
+  "10": "Avanza hacia tus aspiraciones profesionales con convicción y paso constante.",
+  "11": "Rodéate de personas que inspiren tus sueños y caminen a tu lado.",
+  "12": "Regálate momentos de silencio para escuchar las respuestas que habitan en ti."
+ }
+}
