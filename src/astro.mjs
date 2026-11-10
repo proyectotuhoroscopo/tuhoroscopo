@@ -135,8 +135,8 @@ export function eventosPlanetarios(desde, hasta) {
   }
   // Ingresos del Sol: comienzo de cada temporada zodiacal.
   for (let k = 0; k < 12; k++) {
-    let t = A.SearchSunLongitude(k * 30, desde, 370);
-    if (t && t.date < hasta) out.push({ fecha: t.date, body: 'Sun', tipo: 'ingreso', signo: SIGNOS_ORDEN[k] });
+    const fecha = buscarSol(k * 30, desde);
+    if (fecha < hasta) out.push({ fecha, body: 'Sun', tipo: 'ingreso', signo: SIGNOS_ORDEN[k] });
   }
   return out.sort((a, b) => a.fecha - b.fecha);
 }
@@ -149,12 +149,22 @@ export function cieloDelDia(date) {
   return { fecha: date, posiciones: posiciones(date), luna: luna(date) };
 }
 
+// SearchSunLongitude con ventanas largas a veces salta el primer cruce o devuelve null,
+// así que se busca por tramos de un mes.
+function buscarSol(grados, desde) {
+  for (let t = desde.getTime(), i = 0; i < 14; i++, t += 30 * DIA) {
+    const r = A.SearchSunLongitude(grados, new Date(t), 31);
+    if (r) return r.date;
+  }
+  throw new Error(`No se encontró el ingreso del Sol a ${grados}°`);
+}
+
 // Temporada real de cada signo: cuándo entra y sale el Sol. Para cada signo se toma
 // la temporada en curso o, si ya pasó, la próxima.
 export function temporadas(fecha) {
   const desde = new Date(fecha.getTime() - 31 * DIA);
   return Object.fromEntries(SIGNOS_ORDEN.map((id, k) => {
-    const inicio = A.SearchSunLongitude(k * 30, desde, 400).date;
+    const inicio = buscarSol(k * 30, desde);
     const fin = A.SearchSunLongitude(((k + 1) % 12) * 30, inicio, 40).date;
     return [id, { inicio, fin }];
   }));
