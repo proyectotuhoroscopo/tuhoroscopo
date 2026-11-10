@@ -1,6 +1,6 @@
 // Tirada de 3 cartas en el navegador: mezcla el mazo, da vuelta las cartas una por una y arma la lectura.
 import { CARTAS } from '../data/lenormand.mjs';
-import { caraCarta, lectura } from '../render/lenormand.mjs';
+import { caraCarta, lectura, imagenCarta } from '../render/lenormand.mjs';
 import { esc } from '../render/layout.mjs';
 
 const form = document.getElementById('tirada');
@@ -21,6 +21,12 @@ function tresAlAzar() {
 
 const espera = (ms) => new Promise((res) => setTimeout(res, quieto ? 0 : ms));
 
+// Baja las ilustraciones antes de dar vuelta las cartas (con un tope, para no trabar la tirada).
+const precargar = (cartas) => Promise.race([
+  Promise.all(cartas.map((c) => { const i = new Image(); i.src = imagenCarta(c); return i.decode().catch(() => {}); })),
+  new Promise((res) => setTimeout(res, 2500)),
+]);
+
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const boton = form.querySelector('button');
@@ -29,12 +35,12 @@ form.addEventListener('submit', async (e) => {
   caja.hidden = true;
   const cartas = tresAlAzar();
   slots.forEach((s) => { s.classList.remove('open'); s.querySelector('.sig').innerHTML = ''; });
-  await espera(350);
+  await Promise.all([espera(350), precargar(cartas)]);
   for (const [i, c] of cartas.entries()) {
     const s = slots[i];
     const flip = s.querySelector('.lflip');
     flip.querySelector('.lcard')?.remove();
-    flip.insertAdjacentHTML('beforeend', caraCarta(c, { href: `lenormand/${c.id}.html` }));
+    flip.insertAdjacentHTML('beforeend', caraCarta(c, { href: `lenormand/${c.id}.html`, lazy: false }));
     s.classList.add('open');
     s.querySelector('.sig').innerHTML = `<b>${esc(c.nombre)}</b><p>${esc(c[tema])}</p>`;
     await espera(650);

@@ -6,12 +6,16 @@ import { pagina, adSlot, esc, g } from './layout.mjs';
 const rojo = (naipe) => /[♥♦]/.test(naipe);
 const TONO = { 1: 'Favorable', 0: 'Neutra', '-1': 'Desafiante' };
 
+// Ilustración de cada carta: mazo de Geûens-Seaux (Brujas, c. 1900), BnF, dominio público.
+export const imagenCarta = (c, base = '') => `${base}img/lenormand/${c.id}.jpg`;
+export const CREDITO_MAZO = 'Ilustraciones del mazo Lenormand de Geûens-Seaux (Brujas, hacia 1900), Biblioteca Nacional de Francia, dominio público.';
+
 // Cara de una carta. Se usa al generar el sitio y en el navegador al tirar las cartas.
-export function caraCarta(c, { href } = {}) {
+export function caraCarta(c, { href, base = '', lazy = true } = {}) {
   const tag = href ? 'a' : 'div';
   return `<${tag} class="lcard"${href ? ` href="${href}"` : ''}>
   <span class="n mono">${c.n}</span><span class="p glyph${rojo(c.naipe) ? ' red' : ''}">${c.naipe.slice(0, -1)}${g(c.naipe.slice(-1))}</span>
-  <span class="star glyph" aria-hidden="true">${g('✦')}</span>
+  <img class="ill" src="${imagenCarta(c, base)}" alt="" width="400" height="280"${lazy ? ' loading="lazy"' : ''} decoding="async">
   <b>${esc(c.nombre.replace(/^(El|La|Los|Las) /, ''))}</b>
   <span class="k">${esc(c.claves[0])}</span>
 </${tag}>`;
@@ -83,7 +87,7 @@ export function paginaTarot(ctx) {
     <p class="lead">Toca una carta para ver qué significa en general, en el amor y en el trabajo.</p>
     <div class="deck">${CARTAS.map((c) => caraCarta(c, { href: `lenormand/${c.id}.html` })).join('')}</div>
   </section>
-  <p class="note">Las tiradas son un entretenimiento: tómalas como una invitación a reflexionar, no como una predicción.</p>
+  <p class="note">Las tiradas son un entretenimiento: tómalas como una invitación a reflexionar, no como una predicción. ${CREDITO_MAZO}</p>
 </div>
 <script type="module" src="js/src/cliente/lenormand.mjs"></script>`;
 
@@ -102,7 +106,7 @@ export function paginaCarta(ctx, c) {
   <section class="sign-hero">
     <div class="crumbs"><a href="../tarot-lenormand.html">Tarot Lenormand</a> › Carta ${c.n}</div>
     <div class="card-head">
-      ${caraCarta(c)}
+      ${caraCarta(c, { base: '../', lazy: false })}
       <div><h1>${esc(c.nombre)}</h1><p class="date">Carta ${c.n} del Lenormand · naipe <span class="glyph">${c.naipe.slice(0, -1)}${g(c.naipe.slice(-1))}</span> · ${TONO[c.tono]}</p>
       <div class="chips" style="margin-top:12px">${c.claves.map((k) => `<span class="chip">${esc(k)}</span>`).join('')}</div></div>
     </div>
@@ -117,6 +121,7 @@ export function paginaCarta(ctx, c) {
   <section class="section" style="padding-top:8px">
     <a class="btn" href="../tarot-lenormand.html">Hacer una tirada de 3 cartas</a>
   </section>
+  <p class="note">${CREDITO_MAZO}</p>
   <nav class="prevnext" aria-label="Otras cartas">
     <a href="${prev.id}.html">‹ ${prev.n}. ${esc(prev.nombre)}</a>
     <a href="${next.id}.html">${next.n}. ${esc(next.nombre)} ›</a>

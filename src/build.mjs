@@ -116,7 +116,7 @@ archivos.push('js/astronomy.mjs');
 // Archivos estáticos, sitemap y robots.
 for (const f of fs.readdirSync(path.join(RAIZ, 'public'))) {
   if (modoArtifact && f === 'styles.css') continue;
-  fs.copyFileSync(path.join(RAIZ, 'public', f), path.join(SALIDA, f));
+  fs.cpSync(path.join(RAIZ, 'public', f), path.join(SALIDA, f), { recursive: true });
   archivos.push(f);
 }
 const urls = archivos.filter((f) => f.endsWith('.html'))
