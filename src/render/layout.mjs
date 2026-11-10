@@ -5,7 +5,7 @@ export const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
 // Variación de texto para que los símbolos del zodíaco no se dibujen como emoji en celulares.
 export const g = (s) => `${s}︎`;
 
-const FUENTES = 'https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,500&family=Figtree:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap';
+const FUENTES = 'https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;600;700&display=swap';
 
 const NAV = [
   ['index.html', 'Horóscopo de hoy', 'inicio'],
