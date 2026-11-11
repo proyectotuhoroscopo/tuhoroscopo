@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.8-flash",
+ "generado": "2026-11-11T03:55:53.741Z",
+ "signos": {
+  "aries": {
+   "titular": "El entusiasmo abre nuevos caminos",
+   "general": "La Luna creciente en Sagitario activa tu deseo de explorar horizontes más amplios mediante estudios o planes de viaje. Júpiter en Leo respalda tu lado creativo y te devuelve una confianza muy viva en tus capacidades. Todo proyecto que pongas en marcha hoy irá ganando solidez con el correr de los días.",
+   "amor": "Venus en Libra favorece el entendimiento en pareja, aunque por su fase retrógrada convendría evaluar con calma cualquier reencuentro del pasado. Busca la armonía en tus vínculos actuales sin apresurar decisiones definitivas.",
+   "dinero": "Evita movimientos financieros arriesgados o impulsivos. Con Mercurio retrógrado en el cielo, lee minuciosamente cualquier documento o acuerdo antes de comprometerte.",
+   "salud": "Tu vitalidad está en un punto alto gracias al impulso de Marte; aprovecha para ejercitarte al aire libre.",
+   "consejo": "Un paso pequeño y constante rinde más que un gran plan sin ejecutar."
+  },
+  "tauro": {
+   "titular": "Tiempo de introspección y cambios",
+   "general": "La Luna te invita a mirar hacia adentro y soltar lo que ya cumplió su ciclo para dar la bienvenida a una etapa renovada. La fase creciente te acompaña para sembrar intenciones más honestas contigo mismo. Acepta las transformaciones sutiles sin oponer resistencia innecesaria.",
+   "amor": "Una afinidad inesperada podría surgir en tu entorno cotidiano o laboral. Si reaparece alguien de tu historia anterior, tómate tu tiempo antes de abrir puertas que ya habías cerrado.",
+   "dinero": "Los asuntos vinculados a la vivienda demandan atención y claridad. Revisa dos veces cualquier pago o trámite mientras Mercurio siga retrógrado.",
+   "salud": "Mantén una rutina equilibrada, respetando tus descansos y tus horas de comida sin exigirte de más.",
+   "consejo": "A veces callar a tiempo enseña más que hablar demasiado."
+  },
+  "geminis": {
+   "titular": "Acuerdos que fortalecen tus lazos",
+   "general": "El tránsito lunar sitúa la atención en tus relaciones más significativas y en el valor de compartir objetivos. Con la Luna ganando luz, cualquier diálogo sincero que inicies hoy puede sentar las bases de una colaboración duradera. La clave estará en escuchar con apertura antes de fijar tu postura.",
+   "amor": "Venus en tu zona del romance despierta momentos de calidez y juego compartido. Si surge una conversación con un antiguo afecto, mantén la serenidad para no confundirte.",
+   "dinero": "Una propuesta conversada con ligereza puede madurar bien si la ordenas por escrito. Revisa bien los detalles contractuales ante la marcha retrógrada de Mercurio.",
+   "salud": "Tu organismo responderá de maravilla si decides incorporar hoy un hábito más saludable en tu rutina.",
+   "consejo": "Una charla franca y tranquila puede transformar por completo tu semana."
+  },
+  "cancer": {
+   "titular": "Pequeñas rutinas con gran impacto",
+   "general": "Organizar tu jornada con método te permitirá avanzar sin desgastarte. La Luna creciente en Sagitario te recuerda que ajustar detalles cotidianos rinde frutos visibles con el tiempo. Avanza paso a paso y confía en el orden que vas construyendo.",
+   "amor": "Prioriza los espacios de calma y evita involucrarte en tensiones ajenas. Si asoman nostalgias del pasado, míralas con gratitud sin perder de vista tu presente.",
+   "dinero": "Marte y Júpiter en Leo movilizan tus recursos, pero conviene moderar los gastos por impulso. Sé paciente y verifica dos veces cada cuenta antes de transferir.",
+   "salud": "Dispones de buen ánimo para sostener tus actividades; no olvides reservar un momento para desconectar.",
+   "consejo": "Confía en tu propio ritmo, aunque los resultados tarden un poco en asomar."
+  },
+  "leo": {
+   "titular": "Brillo propio y creatividad pura",
+   "general": "La Luna en Sagitario despierta tu chispa espontánea y te anima a conectar con aquello que disfrutas genuinamente. Júpiter y Marte en tu signo te otorgan un magnetismo especial y la fuerza necesaria para iniciar algo auténtico. Aprovecha este ciclo creciente para mostrar lo mejor de tus talentos.",
+   "amor": "El intercambio de ideas y los mensajes afectuosos fluyen con simpatía natural. Si el pasado busca contacto, reflexiona si de verdad suma bienestar a tu presente.",
+   "dinero": "Tu iniciativa laboral destaca y te permite proponer soluciones valiosas. Solo asegúrate de confirmar datos y fechas importantes por la influencia de Mercurio retrógrado.",
+   "salud": "Tu cuerpo se siente activo y receptivo; una caminata o una pausa activa te renovarán el ánimo.",
+   "consejo": "Permítete disfrutar de tus logros sin compararte con nadie."
+  },
+  "virgo": {
+   "titular": "Calma para tu espacio íntimo",
+   "general": "La energía lunar te orienta hacia el calor del hogar y la necesidad de recargar fuerzas en tu propio refugio. Es un momento propicio para ordenar tus espacios personales y nutrir los vínculos familiares más cercanos. Baja la velocidad de tus exigencias y atiende tu bienestar interno.",
+   "amor": "En tus afectos valorarás más los hechos concretos y la estabilidad que las grandes promesas. Dale tiempo al entendimiento mutuo sin forzar explicaciones inmediatas.",
+   "dinero": "Conviene trabajar con perfil bajo en tus proyectos y pulir los detalles sin prisa. Con Mercurio retrógrado, pospón las firmas importantes hasta revisar cada cláusula.",
+   "salud": "Baja el ritmo al caer la tarde, opta por una infusión tibia y regálate un descanso temprano.",
+   "consejo": "Respira hondo antes de reaccionar frente a lo imprevisto."
+  },
+  "libra": {
+   "titular": "Palabras que abren nuevas puertas",
+   "general": "Tu entorno cotidiano se dinamiza con conversaciones interesantes, mensajes y tareas que requieren agilidad mental. La Luna creciente estimula el intercambio de ideas y facilita acuerdos con personas de tu círculo cercano. Júpiter en Leo apoya los proyectos compartidos y renueva tu confianza social.",
+   "amor": "Venus en tu signo realza tu encanto personal, facilitando encuentros agradables. Dado que el planeta retrograda, analiza con prudencia cualquier mensaje de alguien del ayer.",
+   "dinero": "Las alianzas con colegas pueden facilitarte gestiones clave en tu trabajo. Ante la marcha retrógrada de Mercurio, confirma que tus instrucciones queden bien claras.",
+   "salud": "Mantienes una energía estable; cuidar las horas de sueño será fundamental para conservar la lucidez.",
+   "consejo": "Descansar lo suficiente es la mejor base para tomar decisiones acertadas."
+  },
+  "escorpio": {
+   "titular": "Tu valor guía cada paso",
+   "general": "Con el Sol transitando por tu signo, transitas un ciclo de renovación vital propicio para definir qué deseas construir este año. La Luna en tu zona de recursos te invita a poner en orden tus prioridades materiales y a reconocer tus propias capacidades. Da un primer paso firme en lo que quieras ver crecer.",
+   "amor": "Quizás prefieras guardar tus sentimientos en reserva mientras procesas lo que sientes. Si viejos recuerdos tocan tu puerta, acéptalos como aprendizaje sin retroceder.",
+   "dinero": "Tu empuje profesional es notable gracias al paso de Marte; asume responsabilidades con aplomo. Sé precavido al revisar números y condiciones comerciales.",
+   "salud": "Un momento al aire libre lejos de las pantallas te ayudará a despejar la mente y bajar la tensión.",
+   "consejo": "Una acción concreta y modesta supera a cualquier intención postergada."
+  },
+  "sagitario": {
+   "titular": "Impulso renovado en tu camino",
+   "general": "La Luna transita por tu propio signo en fase creciente, llenándote de frescura para renovar tu imagen y encarar proyectos personales. Sentirás un aire de optimismo que te motiva a explorar opciones que antes no contemplabas. Aprovecha este despertar de vitalidad para sembrar propósitos que te inspiren.",
+   "amor": "Compartir actividades grupales o salidas entre amistades creará un ambiente propicio para el romance. Si el pasado reaparece, prioriza la tranquilidad que has conquistado.",
+   "dinero": "Invertir tiempo en capacitarte o ampliar conocimientos será una decisión acertada a futuro. Revisa tus comunicaciones y correos con especial cuidado por Mercurio retrógrado.",
+   "salud": "Tu organismo responderá con generosidad ante cualquier cambio saludable que pongas en marcha hoy.",
+   "consejo": "Encuentra un motivo de agradecimiento sincero antes de cerrar el día."
+  },
+  "capricornio": {
+   "titular": "Serenidad para escuchar tu voz",
+   "general": "La jornada se presenta ideal para la pausa, la reflexión y la escucha atenta de tu intuición. La Luna en tu zona de introspección te aconseja no apresurar los tiempos y respetar tu necesidad de silencio. Acepta este momento como una preparación discreta para lo que vendrá después.",
+   "amor": "El reconocimiento y el afecto pueden llegar de quien menos imaginas en tu entorno social. Ante cualquier recuerdo que resurja, mantén la cabeza fría y el corazón en paz.",
+   "dinero": "Buen momento para revisar compromisos financieros compartidos y ordenar cuentas pendientes. Evita firmas definitivas sin una segunda lectura meticulosa.",
+   "salud": "Libera la rigidez acumulada en los hombros con ejercicios suaves de respiración y estiramiento.",
+   "consejo": "Elige rodearte de personas que sumen serenidad a tus días."
+  },
+  "acuario": {
+   "titular": "Conexiones que inspiran tu futuro",
+   "general": "El contacto con amistades y grupos de interés recarga tu motivación para proyectar metas a mediano plazo. La Luna creciente en Sagitario te recuerda que el trabajo colaborativo rinde mejores frutos cuando hay generosidad de ideas. Construye redes sólidas basadas en la empatía y la afinidad de valores.",
+   "amor": "Una conexión nacida a la distancia o en un entorno de aprendizaje puede despertar ilusiones genuinas. Si surgen asuntos inconclusos con alguien del pasado, resuélvelos con sensatez.",
+   "dinero": "Las negociaciones en equipo requieren firmeza y flexibilidad en partes iguales. Verifica siempre los detalles de cualquier convenio para evitar malentendidos con Mercurio retrógrado.",
+   "salud": "Cuentas con buena vitalidad para realizar actividad física moderada o pasear al aire libre.",
+   "consejo": "Apóyate en quienes respetan tu libertad y suman a tu crecimiento."
+  },
+  "piscis": {
+   "titular": "Enfoque firme en tus metas",
+   "general": "La Luna transita la cúspide de tu cielo, otorgando visibilidad a tu esfuerzo y a tus responsabilidades cotidianas. Los pequeños avances profesionales que logres hoy sentarán un precedente favorable para tu futuro. Mantén una postura clara y deja que tus actos hablen por ti con serenidad.",
+   "amor": "La sinceridad y la transparencia permitirán sanar desconfianzas en la pareja. No te apresures a reanudar lazos del pasado sin evaluar si realmente cambiaron las circunstancias.",
+   "dinero": "La carga de trabajo puede sentirse intensa; prioriza lo sustancial para no desgastarte. Revisa dos veces cualquier documento formal antes de darlo por cerrado.",
+   "salud": "Modera el ritmo de tus tareas para no acumular cansancio innecesario al finalizar la jornada.",
+   "consejo": "Distingue lo verdaderamente importante de lo que solo parece urgente."
+  }
+ },
+ "frases": {
+  "1": "Hoy renuevas tu presencia en el mundo con solo ser fiel a tu manera de sentir.",
+  "2": "Reconocer lo que de verdad valoras te ayuda a cuidar mejor tus propios recursos.",
+  "3": "Una palabra dicha con calma y precisión tiene la fuerza de ordenar todo a tu alrededor.",
+  "4": "Hacer de tu espacio un lugar sereno es el mejor regalo que puedes darte hoy.",
+  "5": "Permite que tu creatividad se exprese sin buscar aprobación ni perfección.",
+  "6": "El cuidado de tu bienestar se construye en los pequeños detalles de cada hora.",
+  "7": "Escuchar con atención al otro es el puente más seguro hacia un acuerdo honesto.",
+  "8": "Aceptar que algo concluye te da el espacio exacto para transformarte por dentro.",
+  "9": "Mirar más allá de lo conocido renueva tu esperanza en el camino que eliges.",
+  "10": "La constancia en tus metas habla con más fuerza que cualquier discurso apresurado.",
+  "11": "Compartir un propósito común fortalece la confianza entre quienes caminan contigo.",
+  "12": "En el silencio de la introspección encuentras la respuesta que el ruido te negaba."
+ }
+}
