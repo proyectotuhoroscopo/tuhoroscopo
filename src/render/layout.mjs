@@ -16,6 +16,18 @@ const NAV = [
   ['calendario-astral.html', 'Calendario astral', 'calendario'],
 ];
 
+// Google Analytics: páginas vistas automáticas y un evento por cada clic en un link del sitio,
+// con la zona donde estaba (menú, pie, tarjeta de signo, etc.) para saber qué se usa más.
+const analytics = (id) => `<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','${id}');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||a.origin!==location.origin)return;
+var s=a.closest('section'),t=s&&s.querySelector('h1,h2');
+var z=a.closest('header')?'menu':a.closest('footer')?'pie':a.classList[0]||(t?t.textContent.trim().slice(0,40):'contenido');
+gtag('event','clic_interno',{destino:a.pathname,zona:z});});
+</script>`;
+
 function adSlot(nombre, clase = '') {
   if (CONFIG.adsenseClient) {
     return `<div class="ad-live ${clase}"><ins class="adsbygoogle" style="display:block" data-ad-client="${CONFIG.adsenseClient}" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>`;
@@ -53,7 +65,8 @@ export function pagina(opts) {
 <link rel="stylesheet" href="${FUENTES}">
 ${estilos}
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
-${adsense}`;
+${adsense}
+${CONFIG.analytics && !fragmento ? analytics(CONFIG.analytics) : ''}`;
 
   const cuerpo = `<header class="top"><div class="wrap">
   <a class="brand" href="${base}index.html"><b>${esc(CONFIG.nombre)}</b><span class="glyph" aria-hidden="true">${g('✦')}</span></a>
@@ -61,7 +74,7 @@ ${adsense}`;
 </div></header>
 <main>${contenido}</main>
 <footer class="foot"><div class="wrap">
-  <nav aria-label="Pie">${NAV.map(([href, txt]) => `<a href="${base}${href}">${txt}</a>`).join('')}</nav>
+  <nav aria-label="Pie">${NAV.map(([href, txt]) => `<a href="${base}${href}">${txt}</a>`).join('')}<a href="${base}privacidad.html">Privacidad</a></nav>
   <p style="margin:0">${esc(CONFIG.nombre)} calcula cada día la posición real del Sol, la Luna y los planetas, y a partir de ese cielo escribe el horóscopo de cada signo. Contenido de entretenimiento.</p>
   <p style="margin:0" class="mono">Actualizado: ${esc(actualizado)} (hora de ${esc(CONFIG.pais)})</p>
 </div></footer>`;

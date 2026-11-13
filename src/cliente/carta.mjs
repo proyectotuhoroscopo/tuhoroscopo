@@ -19,6 +19,21 @@ const leer = () => { try { return JSON.parse(localStorage.getItem(GUARDADO)); } 
 const guardar = (d) => { try { localStorage.setItem(GUARDADO, JSON.stringify(d)); } catch { /* sin almacenamiento: igual se muestra */ } };
 const borrar = () => { try { localStorage.removeItem(GUARDADO); } catch { /* nada que borrar */ } };
 
+// Analytics (si está activo): solo el signo solar y un rango de edad, nunca la fecha ni el lugar.
+function rangoEdad(fecha) {
+  const [y, m, d] = fecha.split('-').map(Number);
+  const hoy = new Date();
+  const edad = hoy.getFullYear() - y - (hoy.getMonth() + 1 < m || (hoy.getMonth() + 1 === m && hoy.getDate() < d) ? 1 : 0);
+  const cortes = [[18, 'menos de 18'], [25, '18-24'], [35, '25-34'], [45, '35-44'], [55, '45-54'], [65, '55-64']];
+  return (cortes.find(([tope]) => edad < tope) || [0, '65 o más'])[1];
+}
+function medir(evento, carta, datos) {
+  if (typeof window.gtag !== 'function') return;
+  const perfil = { signo_solar: carta.sol.signo, rango_edad: rangoEdad(datos.fecha) };
+  window.gtag('set', 'user_properties', perfil);
+  window.gtag('event', evento, { ...perfil, con_hora: datos.sinHora ? 'no' : 'si' });
+}
+
 const hoyLocal = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -61,6 +76,7 @@ function mostrar(datos) {
 
   $('resultado').hidden = false;
   $('borrar').hidden = false;
+  return carta;
 }
 
 function llenar(datos) {
@@ -78,7 +94,7 @@ form.addEventListener('submit', (e) => {
   if (!form.fecha.value) return;
   const datos = { fecha: form.fecha.value, hora: form.hora.value, sinHora: form.sinHora.checked, ciudad: form.ciudad.value };
   guardar(datos);
-  mostrar(datos);
+  medir('carta_natal', mostrar(datos), datos);
   $('resultado').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 });
 
@@ -93,5 +109,5 @@ $('borrar').addEventListener('click', () => {
 // Si ya cargó sus datos antes, la frase de hoy aparece apenas entra.
 const previo = leer();
 if (previo?.fecha && previo?.ciudad) {
-  try { llenar(previo); mostrar(previo); } catch { borrar(); }
+  try { llenar(previo); medir('frase_del_dia', mostrar(previo), previo); } catch { borrar(); }
 }

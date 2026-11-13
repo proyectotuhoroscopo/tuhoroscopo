@@ -302,6 +302,7 @@ function selector(base, a = 'aries', b = 'libra') {
 <script>
 (function(){var o=${JSON.stringify(SIGNOS_ORDEN)};document.getElementById('picker').addEventListener('submit',function(e){e.preventDefault();
 var a=document.getElementById('sa').value,b=document.getElementById('sb').value;var p=[a,b].sort(function(x,y){return o.indexOf(x)-o.indexOf(y)});
+if(window.gtag)gtag('event','compatibilidad',{pareja:p[0]+'-'+p[1]});
 location.href='${base}compatibilidad/'+p[0]+'-'+p[1]+'.html';});})();
 </script>`;
 }
@@ -378,3 +379,35 @@ export const pares = () => {
   SIGNOS_ORDEN.forEach((a, i) => SIGNOS_ORDEN.slice(i).forEach((b) => out.push([a, b])));
   return out;
 };
+
+// ---------------- Privacidad ----------------
+export function paginaPrivacidad(ctx) {
+  const contenido = `
+<div class="wrap narrow">
+  <section class="section prose">
+    <div class="eyebrow" style="color:var(--accent)">Última actualización: 13 de noviembre de 2026</div>
+    <h1 style="font:400 clamp(1.76rem,4.4vw,2.46rem)/1.1 var(--font-display);margin:8px 0 18px">Política de privacidad</h1>
+    <p>${esc(CONFIG.nombre)} no pide registrarse ni crear una cuenta. Esta página explica qué datos se usan y para qué.</p>
+
+    <h2>Tu carta natal queda en tu dispositivo</h2>
+    <p>La fecha, la hora y el lugar de nacimiento que cargas en la carta natal se calculan en tu propio navegador y se guardan solo ahí (en el almacenamiento local), para mostrarte tu frase del día cuando vuelves. No se envían a nuestros servidores. Puedes borrarlos cuando quieras con el botón «Borrar mis datos» de esa página.</p>
+
+    <h2>Estadísticas de uso</h2>
+    <p>Usamos Google Analytics para saber cuántas personas visitan el sitio, desde qué países y dispositivos, qué páginas leen y qué secciones usan (por ejemplo, si hacen una tirada de tarot). Google Analytics usa cookies y no nos muestra quién eres.</p>
+    <p>Cuando calculas tu carta natal registramos solamente tu signo solar y un rango de edad (por ejemplo, «25-34»), nunca la fecha, la hora ni el lugar de nacimiento. Nos sirve para saber qué público usa el sitio.</p>
+    <p>Si no quieres que te midamos, puedes bloquear las cookies en tu navegador o instalar el <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">complemento de inhabilitación de Google Analytics</a>.</p>
+
+    <h2>Publicidad</h2>
+    <p>El sitio se mantiene con publicidad. Google y sus socios pueden usar cookies para mostrar anuncios según tus visitas a este y otros sitios. Puedes ver cómo lo hace Google en <a href="https://policies.google.com/technologies/ads?hl=es" rel="noopener">su página sobre publicidad</a> y elegir qué anuncios ver en <a href="https://myadcenter.google.com/" rel="noopener">Mi Centro de anuncios</a>.</p>
+
+    <h2>Tus derechos</h2>
+    <p>Según la Ley 25.326 de Protección de Datos Personales puedes pedir acceso, corrección o eliminación de tus datos${CONFIG.contacto ? ` escribiendo a <a href="mailto:${esc(CONFIG.contacto)}">${esc(CONFIG.contacto)}</a>` : ''}.</p>
+    <p class="note">El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley N° 25.326. La Agencia de Acceso a la Información Pública, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.</p>
+  </section>
+</div>`;
+  return pagina({
+    titulo: `Política de privacidad | ${CONFIG.nombre}`,
+    descripcion: `Qué datos usa ${CONFIG.nombre}, para qué y cómo borrarlos.`,
+    ruta: 'privacidad.html', contenido, actualizado: ctx.actualizado,
+  });
+}

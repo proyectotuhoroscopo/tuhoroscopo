@@ -95,6 +95,7 @@ for (const id of SIGNOS_ORDEN) {
 }
 escribir('luna-hoy.html', conCss(P.paginaLuna(ctx)));
 escribir('calendario-astral.html', conCss(P.paginaCalendario(ctx)));
+escribir('privacidad.html', conCss(P.paginaPrivacidad(ctx)));
 escribir('compatibilidad.html', conCss(P.paginaCompatibilidadIndice(ctx)));
 for (const [a, b] of P.pares()) escribir(`compatibilidad/${a}-${b}.html`, conCss(P.paginaPareja(ctx, a, b)));
 escribir('carta-natal.html', conCss(paginaCartaNatal(ctx)));

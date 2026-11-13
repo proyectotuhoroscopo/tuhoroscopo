@@ -45,6 +45,7 @@ form.addEventListener('submit', async (e) => {
     s.querySelector('.sig').innerHTML = `<b>${esc(c.nombre)}</b><p>${esc(c[tema])}</p>`;
     await espera(650);
   }
+  window.gtag?.('event', 'tirada_tarot', { tema, cartas: cartas.map((c) => c.id).join(',') });
   const l = lectura(cartas, tema);
   caja.innerHTML = `<h2>Tu lectura · ${esc(l.tema)}</h2>
     <p class="frase">${esc(l.frase)}</p>
