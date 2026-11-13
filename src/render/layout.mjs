@@ -28,11 +28,13 @@ var z=a.closest('header')?'menu':a.closest('footer')?'pie':a.classList[0]||(t?t.
 gtag('event','clic_interno',{destino:a.pathname,zona:z});});
 </script>`;
 
+// Sin cuenta de AdSense no se muestra nada; con `--demo-ads` se ven los espacios reservados.
+const verEspacios = typeof process !== 'undefined' && process.argv.includes('--demo-ads');
 function adSlot(nombre, clase = '') {
   if (CONFIG.adsenseClient) {
     return `<div class="ad-live ${clase}"><ins class="adsbygoogle" style="display:block" data-ad-client="${CONFIG.adsenseClient}" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>`;
   }
-  return `<div class="ad ${clase}" aria-hidden="true">Espacio publicitario · ${esc(nombre)}</div>`;
+  return verEspacios ? `<div class="ad ${clase}" aria-hidden="true">Espacio publicitario · ${esc(nombre)}</div>` : '';
 }
 export { adSlot };
 
