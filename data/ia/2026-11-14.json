@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.5-flash",
+ "generado": "2026-11-13T04:00:53.020Z",
+ "signos": {
+  "aries": {
+   "titular": "Momento de brillar y avanzar",
+   "general": "Tu vida profesional toma un gran impulso con la Luna creciente en Capricornio destacando tus metas. Es una oportunidad excelente para mostrar tus logros y presentar proyectos a tus superiores. Además, Júpiter impulsa tu creatividad y vitalidad.",
+   "amor": "Venus en tu sector de pareja favorece el entendimiento mutuo y fortalece los lazos afectivos.",
+   "dinero": "Tu pasión y talento creativo pueden dar frutos financieros si apuestas por lo que de verdad disfrutas.",
+   "salud": "Mantienes una energía estable, pero procura descansar a tiempo y no saltarte comidas.",
+   "consejo": "Una pequeña acción hoy vale más que un mar de intenciones."
+  },
+  "tauro": {
+   "titular": "Nuevos horizontes y aprendizajes",
+   "general": "La Luna en Capricornio te invita a salir de la rutina y explorar nuevas ideas. Una conversación enriquecedora puede cambiar tu perspectiva sobre un asunto importante. Aprovecha el impulso de la Luna creciente para expandir tus conocimientos.",
+   "amor": "La presencia de Venus facilita momentos agradables e intercambios especiales en tu entorno cotidiano.",
+   "dinero": "Se observan movimientos en temas del hogar y bienes inmuebles que pedirán tu atención.",
+   "salud": "Gozas de una excelente vitalidad, perfecta para realizar actividad física al aire libre.",
+   "consejo": "Descansa adecuadamente para tomar mejores decisiones."
+  },
+  "geminis": {
+   "titular": "Transformación bien enfocada",
+   "general": "Hoy experimentas emociones profundas sobre compromisos y recursos compartidos. La Luna creciente te ayuda a consolidar acuerdos verdaderos y fortalecer la confianza mutua. Todo lo que inicies en este ámbito irá ganando firmeza.",
+   "amor": "Venus despierta tu lado más encantador, ideal para disfrutar del romance y la alegría de compartir.",
+   "dinero": "Comunicar tus propuestas creativas con claridad te abrirá puertas a alianzas valiosas.",
+   "salud": "Mantén una buena hidratación y haz pequeñas pausas para despejar la mente durante la jornada.",
+   "consejo": "Confía en tu proceso personal aunque los frutos tarden en llegar."
+  },
+  "cancer": {
+   "titular": "Alianzas sólidas para avanzar",
+   "general": "El trabajo en equipo y las relaciones cercanas cobran vital protagonismo hoy. La Luna creciente en tu casa de asociaciones te impulsa a buscar apoyos estratégicos y a construir proyectos compartidos. Uniendo esfuerzos llegarás mucho más lejos.",
+   "amor": "Busca la tranquilidad del hogar y comparte con quienes te ofrecen estabilidad emocional.",
+   "dinero": "Evita compras por impulso mientras Júpiter respalda tus oportunidades de crecimiento económico.",
+   "salud": "Cuentas con excelente energía física para realizar ejercicio y mantener un ritmo activo.",
+   "consejo": "Toma una pausa reflexiva antes de responder a cualquier provocación."
+  },
+  "leo": {
+   "titular": "Orden en tus actividades diarias",
+   "general": "Es un momento óptimo para organizar tus tareas y atender pendientes detallados. La Luna creciente te brinda la constancia necesaria para mejorar la eficiencia de tu día a día. Sientes además el respaldo y optimismo que Júpiter aporta a tu personalidad.",
+   "amor": "Tu fluidez verbal facilita el coqueteo y la complicidad con personas de tu entorno cercano.",
+   "dinero": "Con Marte impulsando tu iniciativa, dirige tu fuerza hacia metas prácticas sin perder tiempo en discusiones.",
+   "salud": "Desconecta un momento de las pantallas y disfruta del aire fresco para renovarte.",
+   "consejo": "Reconoce y celebra cada pequeño logro de tu jornada."
+  },
+  "virgo": {
+   "titular": "Creatividad y momentos de dicha",
+   "general": "La Luna te regala un día idóneo para la expresión artística, el ocio y el disfrute personal. Tu magnetismo natural se percibe con claridad ante los demás. La fase creciente le dará continuidad a los proyectos que enciendan tu entusiasmo.",
+   "amor": "En los afectos buscas autenticidad y gestos tangibles más que promesas vacías.",
+   "dinero": "Avanzar de forma discreta tras bambalinas te dará ventajas competitivas más adelante.",
+   "salud": "Te sientes vital y con ánimo renovado; preserva esa energía con un descanso nocturno reparador.",
+   "consejo": "Escucha el sabio murmullo de tu intuición antes de razonar demasiado."
+  },
+  "libra": {
+   "titular": "Reconexión con tus cimientos",
+   "general": "Es un excelente día para enfocar tu atención en el hogar y en tus asuntos familiares. La Luna creciente te ayuda a sembrar armonía en tu espacio vital y a soltar viejas cargas. Por otro lado, las actividades grupales se ven favorecidas por Júpiter.",
+   "amor": "Con Venus en tu signo, irradias un encanto especial que atrae miradas sinceras sin esfuerzo.",
+   "dinero": "La colaboración en proyectos colectivos rendirá frutos si todos suman hacia la misma meta.",
+   "salud": "La fatiga puede asomar si te sobrecargas; dale prioridad a la pausa y el reposo.",
+   "consejo": "Organiza tus prioridades y da preferencia a tu descanso."
+  },
+  "escorpio": {
+   "titular": "Claridad en palabras y metas",
+   "general": "El Sol en tu signo te llena de renovada vitalidad para fijar los objetivos de tu nuevo ciclo. La Luna en tu área de comunicación agiliza tu mente para redactar, dialogar y llegar a acuerdos productivos. La Luna creciente dará impulso duradero a tus conversaciones.",
+   "amor": "Regálate tiempo a solas para sanar nostalgias y dejar tu corazón listo para lo nuevo.",
+   "dinero": "Tu esfuerzo profesional se fortalece con la influencia de Júpiter y la potencia de Marte.",
+   "salud": "Es un día estupendo para adoptar una rutina saludable que mantengas a largo plazo.",
+   "consejo": "Utiliza la fuerza de tu palabra con sabiduría y precisión."
+  },
+  "sagitario": {
+   "titular": "Estabilidad y valoración personal",
+   "general": "La Luna te invita a poner orden en tus finanzas y a reconocer el verdadero valor de tus talentos. Es una etapa ideal para planificar inversiones a futuro con la ayuda de la Luna creciente. Mientras tanto, Júpiter expande tus horizontes en viajes o estudios.",
+   "amor": "Los encuentros con amistades o en actividades grupales abren hermosas posibilidades afectivas.",
+   "dinero": "Surgen perspectivas alentadoras ligadas al ámbito académico, formativo o internacional.",
+   "salud": "Bebe suficiente agua y realiza pausas breves para liberar tensiones musculares.",
+   "consejo": "Suelta la necesidad de controlar lo que no depende de ti."
+  },
+  "capricornio": {
+   "titular": "Renovación y liderazgo personal",
+   "general": "Con la Luna transitando por tu signo, tu presencia destaca y tus iniciativas cobran fuerza. La fase creciente respalda cualquier compromiso o proyecto personal que decidas iniciar hoy. Asume el mando con serenidad y confianza en tus capacidades.",
+   "amor": "Tus alianzas profesionales y afectivas pueden entrelazarse de forma constructiva.",
+   "dinero": "Buen momento para revisar compromisos financieros compartidos y ajustar presupuestos.",
+   "salud": "Tu cuerpo responde con vitalidad; aprovecha para incorporar un hábito beneficioso.",
+   "consejo": "Recuerda que a veces menos es mucho más."
+  },
+  "acuario": {
+   "titular": "Calma interior y renovación",
+   "general": "Es un momento oportuno para bajar la velocidad y buscar un espacio de reflexión privada. La Luna en tu casa del retiro te invita a cerrar asuntos del pasado para abrir paso a lo nuevo. Júpiter favorece de manera notable el entendimiento en tus relaciones.",
+   "amor": "Los intercambios culturales o las conversaciones de amplio criterio enriquecen tu vida amorosa.",
+   "dinero": "Plantea alianzas y negociaciones desde el respeto mutuo sin imponer condiciones drásticas.",
+   "salud": "El cuerpo acumula la tensión diaria; procura realizar estiramientos suavemente.",
+   "consejo": "Acepta el apoyo de otros sin exigir la perfección."
+  },
+  "piscis": {
+   "titular": "Proyectos compartidos que florecen",
+   "general": "Tus esperanzas a futuro y tus planes en equipo reciben un impulso valioso gracias a la Luna creciente. Reconocerás con facilidad a las personas que suman bienestar a tus aspiraciones. Además, Júpiter favorece el ambiente de tu trabajo diario.",
+   "amor": "La comunicación franca sobre cuestiones de confianza fortalecerá los lazos afectivos.",
+   "dinero": "La carga laboral aumenta, por lo que una buena planificación te evitará sorpresas.",
+   "salud": "Mantente hidratado durante la jornada y haz descansos breves para evitar el cansancio mental.",
+   "consejo": "Confía en lo que tu instinto te dicta en este instante."
+  }
+ },
+ "frases": {
+  "1": "Reivindica tu espacio en el mundo tomando hoy la iniciativa en tus propios proyectos.",
+  "2": "Reconoce el verdadero valor de tus talentos y trata a tu esfuerzo con el respeto que merece.",
+  "3": "Una palabra dicha con amabilidad tiene el poder de abrir la puerta más cerrada.",
+  "4": "Nutre la paz en tu refugio personal para renovar todas tus fuerzas interiores.",
+  "5": "Permítete disfrutar de la vida y expresa tu talento sin pedir disculpas a nadie.",
+  "6": "Organiza tus tareas pequeñas con esmero para construir grandes resultados sostenibles.",
+  "7": "Escuchar con empatía a quien tienes enfrente multiplicará la fuerza de tus acuerdos.",
+  "8": "Suelta el deseo de control y permite que la honestidad transforme tus vínculos.",
+  "9": "Abre tu mente a nuevas filosofías y atrévete a mirar más allá de tus fronteras habituales.",
+  "10": "Asume tu responsabilidad con temple y muestra al mundo el alcance de tus capacidades.",
+  "11": "Rodéate de personas que inspiren tus sueños y caminen a tu mismo ritmo.",
+  "12": "Regálate un momento de silencio para escuchar lo que tu sabiduría interna requiere sanar."
+ }
+}
