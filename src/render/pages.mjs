@@ -72,10 +72,11 @@ export function portada(ctx, opts = {}) {
 <section class="section"><div class="wrap">
   <h2>Horóscopo de hoy para cada signo</h2>
   <p class="lead">Elige tu signo y lee cómo te afecta el cielo de hoy en el amor, el dinero y la salud.</p>
+  <div id="mi-signo" class="mi-signo" data-luna="${L.signo}" hidden></div>
   <div class="signs">
   ${SIGNOS_ORDEN.map((id) => {
     const s = SIGNOS[id]; const h = horoscopos[id];
-    return `<a class="sign-card ${s.elemento}" href="horoscopo/${id}.html">
+    return `<a class="sign-card ${s.elemento}" data-signo="${id}" href="horoscopo/${id}.html">
       <span class="g glyph" aria-hidden="true">${g(s.simbolo)}</span><h3>${s.nombre}</h3><span class="d">${rangoSigno(ctx, id)}</span>
       <p class="t">${esc(h.titular)}</p><p class="s">${esc(resumen(h))}</p></a>`;
   }).join('')}
@@ -134,6 +135,7 @@ export function paginaSigno(ctx, id, { manana = false } = {}) {
     <nav class="chips" aria-label="Día" style="margin-top:18px">
       <a href="${id}.html"${manana ? '' : ' aria-current="page" style="border-color:var(--accent);color:var(--accent)"'}>Hoy</a>
       <a href="${id}-manana.html"${manana ? ' aria-current="page" style="border-color:var(--accent);color:var(--accent)"' : ''}>Mañana</a>
+      <button class="mi-signo-btn" type="button" data-mi-signo="${id}" hidden></button>
     </nav>
     <p class="verdict">${esc(h.titular)}</p>
     <div class="prose"><p>${esc(h.general)}</p></div>
@@ -292,10 +294,13 @@ export function paginaCalendario(ctx) {
 }
 
 // ---------------- Compatibilidad ----------------
-function selector(base, a = 'aries', b = 'libra') {
+// Sin signos fijados (índice), "Tu signo" se completa con el que la persona guardó.
+function selector(base, a, b) {
+  const mio = a ? '' : ' data-mio';
+  a ||= 'aries'; b ||= 'libra';
   const opts = (sel) => SIGNOS_ORDEN.map((id) => `<option value="${id}"${id === sel ? ' selected' : ''}>${N(id)}</option>`).join('');
   return `<form class="picker" id="picker">
-  <label for="sa">Tu signo<select id="sa">${opts(a)}</select></label>
+  <label for="sa">Tu signo<select id="sa"${mio}>${opts(a)}</select></label>
   <label for="sb">Su signo<select id="sb">${opts(b)}</select></label>
   <button class="btn" type="submit">Ver compatibilidad</button>
 </form>
@@ -390,7 +395,7 @@ export function paginaPrivacidad(ctx) {
     <p>${esc(CONFIG.nombre)} no pide registrarse ni crear una cuenta. Esta página explica qué datos se usan y para qué.</p>
 
     <h2>Tu carta natal queda en tu dispositivo</h2>
-    <p>La fecha, la hora y el lugar de nacimiento que cargas en la carta natal se calculan en tu propio navegador y se guardan solo ahí (en el almacenamiento local), para mostrarte tu frase del día cuando vuelves. No se envían a nuestros servidores. Puedes borrarlos cuando quieras con el botón «Borrar mis datos» de esa página.</p>
+    <p>La fecha, la hora y el lugar de nacimiento que cargas en la carta natal se calculan en tu propio navegador y se guardan solo ahí (en el almacenamiento local), para mostrarte tu frase del día cuando vuelves. No se envían a nuestros servidores. Puedes borrarlos cuando quieras con el botón «Borrar mis datos» de esa página. Lo mismo pasa con el signo que eliges como tuyo (para mostrártelo primero en la portada y en compatibilidad): queda solo en tu navegador y lo quitas con «No es mi signo».</p>
 
     <h2>Estadísticas de uso</h2>
     <p>Usamos Google Analytics para saber cuántas personas visitan el sitio, desde qué países y dispositivos, qué páginas leen y qué secciones usan (por ejemplo, si hacen una tirada de tarot). Google Analytics usa cookies y no nos muestra quién eres.</p>

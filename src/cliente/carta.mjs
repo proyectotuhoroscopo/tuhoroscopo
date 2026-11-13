@@ -6,6 +6,7 @@ import { LUNA_EN, ASC_EN } from '../data/natal.mjs';
 import { CIUDADES } from '../data/ciudades.mjs';
 import { ruedaZodiacal } from '../render/svg.mjs';
 import { esc, g } from '../render/layout.mjs';
+import { leerSigno, guardarSigno } from './mi-signo.mjs';
 
 const GUARDADO = 'tuhoroscopo:natal';
 const form = document.getElementById('natal');
@@ -94,7 +95,9 @@ form.addEventListener('submit', (e) => {
   if (!form.fecha.value) return;
   const datos = { fecha: form.fecha.value, hora: form.hora.value, sinHora: form.sinHora.checked, ciudad: form.ciudad.value };
   guardar(datos);
-  medir('carta_natal', mostrar(datos), datos);
+  const carta = mostrar(datos);
+  medir('carta_natal', carta, datos);
+  guardarSigno(carta.sol.signo, 'carta_natal');
   $('resultado').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 });
 
@@ -109,5 +112,10 @@ $('borrar').addEventListener('click', () => {
 // Si ya cargó sus datos antes, la frase de hoy aparece apenas entra.
 const previo = leer();
 if (previo?.fecha && previo?.ciudad) {
-  try { llenar(previo); medir('frase_del_dia', mostrar(previo), previo); } catch { borrar(); }
+  try {
+    llenar(previo);
+    const carta = mostrar(previo);
+    medir('frase_del_dia', carta, previo);
+    if (!leerSigno()) guardarSigno(carta.sol.signo, 'carta_natal');
+  } catch { borrar(); }
 }

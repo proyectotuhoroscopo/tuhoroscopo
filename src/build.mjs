@@ -105,7 +105,7 @@ for (const c of CARTAS) escribir(`lenormand/${c.id}.html`, conCss(paginaCarta(ct
 // Módulos que corren en el navegador (carta natal y tirada de cartas): se copian con la misma
 // estructura de carpetas para que sus imports relativos funcionen igual que en Node.
 const MODULOS = ['config.mjs', 'src/astro.mjs', 'src/natal.mjs', 'src/data/signos.mjs', 'src/data/natal.mjs', 'src/data/ciudades.mjs',
-  'src/data/lenormand.mjs', 'src/render/layout.mjs', 'src/render/svg.mjs', 'src/render/lenormand.mjs', 'src/cliente/carta.mjs', 'src/cliente/lenormand.mjs'];
+  'src/data/lenormand.mjs', 'src/render/layout.mjs', 'src/render/svg.mjs', 'src/render/lenormand.mjs', 'src/cliente/carta.mjs', 'src/cliente/lenormand.mjs', 'src/cliente/mi-signo.mjs'];
 for (const m of MODULOS) {
   fs.mkdirSync(path.dirname(path.join(SALIDA, 'js', m)), { recursive: true });
   fs.copyFileSync(path.join(RAIZ, m), path.join(SALIDA, 'js', m));

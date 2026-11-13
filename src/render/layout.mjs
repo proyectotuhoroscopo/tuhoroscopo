@@ -91,6 +91,7 @@ ${meta}
 </head>
 <body>
 ${cuerpo}
+<script type="module" src="${base}js/src/cliente/mi-signo.mjs"></script>
 </body>
 </html>
 `;
