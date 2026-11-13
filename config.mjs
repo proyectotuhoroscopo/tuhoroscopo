@@ -10,7 +10,7 @@ export default {
   // Cuando haya cuenta de AdSense, se pone el client id y se activan.
   adsenseClient: '',
   // Google Analytics 4: el ID de medición (G-XXXXXXXXXX). Vacío = sin medición.
-  analytics: '',
+  analytics: 'G-SRPVR8Y7VC',
   // Mail de contacto que figura en la página de privacidad.
   contacto: '',
 };
