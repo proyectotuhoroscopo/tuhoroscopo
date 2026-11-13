@@ -2,7 +2,7 @@
 export default {
   nombre: 'Tu Horóscopo',
   lema: 'Tu horóscopo de hoy, calculado con el cielo real',
-  url: 'https://proyectotuhoroscopo.github.io/tuhoroscopo', // cambiar cuando haya dominio propio
+  url: 'https://tuhoroscopo.com.ar',
   zonaHoraria: 'America/Argentina/Buenos_Aires',
   idioma: 'es',
   pais: 'Argentina',
