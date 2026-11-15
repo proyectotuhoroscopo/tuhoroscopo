@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-15T03:56:09.160Z",
+ "signos": {
+  "aries": {
+   "titular": "Momento de desbloquear tus proyectos",
+   "general": "Tus metas a largo plazo se clarifican y la Luna te ayuda a reconocer quiénes caminan realmente a tu lado. Con el cuarto creciente, es tiempo de poner en marcha lo que estaba detenido. Además, la expansión de Júpiter impulsa tu chispa creativa y la alegría personal.",
+   "amor": "Venus en Libra favorece el entendimiento en pareja, abriendo espacios para profundizar el compromiso o reconciliarte.",
+   "dinero": "Apoyarte en una idea apasionante y creativa te dará la motivación necesaria para generar nuevos recursos.",
+   "salud": "Tu nivel de energía es elevado y te llena de entusiasmo. Procura complementar este dinamismo con una buena pausa reparadora.",
+   "consejo": "Recuerda que menos es más."
+  },
+  "tauro": {
+   "titular": "Claridad en tus metas profesionales",
+   "general": "La posición de la Luna en lo más alto de tu cielo resalta tus responsabilidades y recompensa tu paciencia. El impulso del cuarto creciente te invita a resolver asuntos pendientes con determinación.",
+   "amor": "El afecto auténtico se demuestra mediante la presencia constante y la disposición para apoyar en las tareas diarias.",
+   "dinero": "Desarrollar tus labores en un entorno cómodo e íntimo incrementará notoriamente tu productividad.",
+   "salud": "Conectar con un espacio natural te ayudará a liberar la tensión acumulada frente a la tecnología.",
+   "consejo": "Tu intuición reconoce verdades que la mente aún no procesa."
+  },
+  "geminis": {
+   "titular": "Horizontes que se expanden",
+   "general": "La Luna te anima a salir de la rutina y explorar perspectivas totalmente nuevas. El dinamismo del cuarto creciente es la señal para poner en movimiento aquello que tenías pausado. Una charla enriquecedora activará tu entusiasmo por aprender.",
+   "amor": "La ligereza, la complicidad y las risas compartidas renovarán la chispa en tus relaciones.",
+   "dinero": "Compartir tus planteamientos con soltura puede dar origen a interesantes oportunidades de colaboración.",
+   "salud": "Dispones de una vitalidad magnífica que te invita a hacer ejercicio o dar un paseo vigorizante.",
+   "consejo": "Procura mantenerte cerca de quienes aporten valor a tu vida."
+  },
+  "cancer": {
+   "titular": "Renovación interna y orden práctico",
+   "general": "Es una jornada ideal para revisar compromisos financieros compartidos y hablar de aquellos temas que venías postergando. La fase de cuarto creciente te da el empujón necesario para solucionar lo que estaba trabado.",
+   "amor": "Prioriza los vínculos que te brinden contención real y tranquilidad, alejándote de dramatismos innecesarios.",
+   "dinero": "Mantén la prudencia frente a las compras de momento, confiando en que este ciclo favorece la estabilidad a largo plazo.",
+   "salud": "Si percibes cierto desgaste físico, dale prioridad a tu descanso sin sentir culpa.",
+   "consejo": "Una conversación sincera puede transformar favorablemente tu semana."
+  },
+  "leo": {
+   "titular": "Alianzas que impulsan tu camino",
+   "general": "Avanzar acompañado dará mejores resultados que actuar en soledad durante esta jornada. El cuarto creciente exige pasos concretos para superar cualquier estancamiento, mientras que la influencia de Júpiter fortalece tu optimismo personal.",
+   "amor": "El diálogo fluido alimentará el encanto en tus interacciones y alguien cercano te mostrará un interés especial.",
+   "dinero": "Canaliza tu gran determinación directamente en objetivos claros, evitando desgastarte en discusiones infructuosas.",
+   "salud": "Mantenerte bien hidratado y hacer pausas regulares evitará la acumulación de fatiga.",
+   "consejo": "Establece tus límites con plena amabilidad."
+  },
+  "virgo": {
+   "titular": "Estructura y enfoque preciso",
+   "general": "Hoy es un gran día para poner en orden tus hábitos diarios y resolver pendientes de trabajo. La Luna te brinda la constancia para encarar los detalles, y el cuarto creciente te motiva a desbloquear lo que estaba demorado.",
+   "amor": "En las cuestiones afectivas valorarás los hechos sólidos por encima de las simples promesas.",
+   "dinero": "Actúa con reserva respecto a la información delicada de tus actividades para prevenir malentendidos.",
+   "salud": "Salir a tomar aire fresco te vendrá de maravilla para despejar la mente de las demandas diarias.",
+   "consejo": "Acepta ayuda cuando la necesites, no tienes que cargarlo todo."
+  },
+  "libra": {
+   "titular": "Creatividad y encanto en acción",
+   "general": "Guíate por tu inspiración y dedica tiempo a las actividades que verdaderamente disfrutas. La fase de cuarto creciente te llena de iniciativa para ponerte en marcha, mientras la red de contactos se multiplica activamente.",
+   "amor": "Con Venus en tu signo, proyectas un atractivo natural que facilita conectar de forma genuina.",
+   "dinero": "Aprovecha la solidez de tus alianzas para abrir nuevas puertas en el terreno profesional.",
+   "salud": "Te sientes con excelente vitalidad y buen ánimo, perfecto para disfrutar la jornada de forma equilibrada.",
+   "consejo": "Modifica un detalle de tu rutina para renovar la energía."
+  },
+  "escorpio": {
+   "titular": "Fortalecimiento del hogar y metas",
+   "general": "La Luna dirige tu mirada hacia el espacio personal y la familia, pidiéndote momentos de calma y atención a tus seres queridos. El Sol en tu signo te recarga de fuerza vital en esta etapa de renovación, mientras el cuarto creciente te impulsa a actuar.",
+   "amor": "Dedicar tiempo a sanar episodios del pasado te permitirá abordar tus afectos con total apertura.",
+   "dinero": "Tu ambición laboral se destaca bajo el impulso de Marte, permitiéndote aspirar a metas más altas en tu carrera.",
+   "salud": "Haz pequeñas pausas a lo largo del día y mantén una hidratación constante.",
+   "consejo": "Prefiere la tranquilidad personal antes que desgastarte por convencer a otros."
+  },
+  "sagitario": {
+   "titular": "Comunicación y proyectos amplios",
+   "general": "Las conversaciones, la gestión de trámites y los contactos cercanos cobrarán gran dinamismo. El cuarto creciente te motiva a destrabar cualquier iniciativa que hubiese quedado rezagada, mientras abres el panorama a futuros aprendizajes.",
+   "amor": "Una relación cercana de amistad podría revelar matices afectivos impredecibles y valiosos.",
+   "dinero": "Invertir en tu preparación personal te brindará valiosas herramientas para tus objetivos.",
+   "salud": "Tu alto nivel de energía te invita a realizar caminatas al aire libre o actividades físicas.",
+   "consejo": "Aprende a poner límites con total cortesía."
+  },
+  "capricornio": {
+   "titular": "Valoración personal y finanzas",
+   "general": "Tu atención se concentra en administrar tus recursos y en definir qué es lo verdaderamente importante para ti. El cuarto creciente te anima a tomar decisiones claras para solucionar cualquier asunto estancado.",
+   "amor": "Tu profesionalismo genera admiración sincera en alguien de tu entorno cercano.",
+   "dinero": "Es un momento oportuno para revisar la contabilidad personal y reorganizar tu estrategia económica.",
+   "salud": "Gozas de una fortaleza constante; solo cuida mantener un descanso adecuado al final del día.",
+   "consejo": "Confía en la evolución de tus esfuerzos aunque los resultados tarden un poco."
+  },
+  "acuario": {
+   "titular": "Renovación personal y claridad",
+   "general": "Con la Luna recorriendo tu signo, cuentas con la sensibilidad necesaria para comprender tus necesidades reales e ir tras ellas. El cuarto creciente te da la energía de avance que requerías para disipar cualquier estancamiento.",
+   "amor": "Buscarás un entendimiento profundo con quien comparta tus ideales y visión del mundo.",
+   "dinero": "Enfrenta las exigencias del entorno comercial utilizando tu agudeza estratégica y paciencia.",
+   "salud": "La vitalidad te acompaña plenamente, permitiéndote disfrutar del día con optimismo.",
+   "consejo": "Hablar con transparencia transformará positivamente el rumbo de tu semana."
+  },
+  "piscis": {
+   "titular": "Cierre de ciclos y reflexión",
+   "general": "Estás en un periodo favorable para soltar cargas pasadas y ordenar tu mundo interior antes de iniciar nuevos compromisos. La energía del cuarto creciente te acompaña para resolver asuntos que requerían un término oportuno.",
+   "amor": "Expresar tus sentimientos con total honestidad sanará cualquier duda en la pareja.",
+   "dinero": "La precisión y dedicación en tus responsabilidades te permitirán consolidar excelentes avances.",
+   "salud": "Si sientes necesidad de bajar la velocidad, respeta los tiempos de descanso de tu cuerpo.",
+   "consejo": "Comprende que todo cierre da lugar a una valiosa oportunidad."
+  }
+ },
+ "frases": {
+  "1": "Reconoce tu fuerza propia y atrévete a dar el primer paso hoy.",
+  "2": "Organiza tus bienes con paciencia para sembrar una estabilidad duradera.",
+  "3": "Una palabra dicha con amabilidad abre los caminos que necesitas.",
+  "4": "Haz de tu espacio personal un refugio de calma y bienestar.",
+  "5": "Permítete disfrutar de tus talentos sin buscar la perfección.",
+  "6": "Transforma tu rutina diaria incorporando un hábito que te llene de vitalidad.",
+  "7": "Escucha atentamente a quien te acompaña para construir un acuerdo equilibrado.",
+  "8": "Acepta los cambios profundos como una oportunidad para renacer con más sabiduría.",
+  "9": "Abre tu mente a nuevas ideas que amplíen tu manera de ver el mundo.",
+  "10": "Avanza hacia tu meta profesional con constancia y absoluta convicción.",
+  "11": "Comparte tu visión con personas que inspiren tus proyectos a futuro.",
+  "12": "Regálate un momento de silencio para escuchar lo que tu interior necesita."
+ }
+}
