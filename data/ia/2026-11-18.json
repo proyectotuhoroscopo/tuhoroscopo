@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.8-flash",
+ "generado": "2026-11-17T03:55:49.960Z",
+ "signos": {
+  "aries": {
+   "titular": "Conecta con tu mundo interior",
+   "general": "La Luna en tu casa del descanso despierta tu intuición y trae revelaciones a través de tus sueños. El impulso del cuarto creciente te invita a resolver pendientes emocionales que venías postergando. Júpiter y Marte encienden tu fuego creativo y te llenan de magnetismo personal.",
+   "amor": "Venus en tu sector de la pareja crea un clima ideal para dialogar con dulzura y profundizar el compromiso.",
+   "dinero": "Tus proyectos más personales cobran fuerza; dale forma a esa idea creativa que puede dar frutos.",
+   "salud": "Haz pausas conscientes a lo largo del día y toma suficiente agua para liberar tensiones.",
+   "consejo": "Una conversación sincera aclarará el panorama."
+  },
+  "tauro": {
+   "titular": "La fuerza del trabajo colectivo",
+   "general": "Tus amistades y planes a futuro cobran protagonismo con la Luna transitando tu casa once. Es una jornada propicia para colaborar y compartir metas con personas afines. Aprovecha el cuarto creciente para dar ese paso que destrabe un proyecto común.",
+   "amor": "El afecto se expresa en los pequeños detalles de la rutina y en el apoyo incondicional.",
+   "dinero": "Surgen asuntos prácticos vinculados al hogar que requieren de tu atención y criterio financiero.",
+   "salud": "Tu cuerpo asimila muy bien los cuidados que inicias hoy; mantén hábitos que te nutran.",
+   "consejo": "Reconoce cada pequeño avance de tu camino."
+  },
+  "geminis": {
+   "titular": "Metas claras y visibilidad",
+   "general": "La Luna ilumina tu casa profesional, colocándote en un lugar visible donde tu esfuerzo resalta. La fase creciente te anima a destrabar gestiones y presentar tus iniciativas con seguridad. Tu elocuencia natural te ayudará a conectar con personas influyentes.",
+   "amor": "Venus en tu zona de romance te envuelve en una energía lúdica, perfecta para disfrutar y reír.",
+   "dinero": "Una propuesta expresada en el momento oportuno puede abrir una vía muy prometedora.",
+   "salud": "Procura alejarte de las pantallas un momento y busca el contacto con el aire libre.",
+   "consejo": "Distingue lo urgente de lo verdaderamente importante."
+  },
+  "cancer": {
+   "titular": "Horizontes que se expanden",
+   "general": "Tu espíritu busca ampliar fronteras gracias a la Luna transitando un signo afín. Sientes curiosidad por aprender cosas nuevas, explorar otras filosofías o planear un viaje transformador. La energía creciente te da el empuje necesario para salir de tu zona habitual.",
+   "amor": "El ambiente hogareño te brinda refugio; una velada íntima será más reconfortante que cualquier salida.",
+   "dinero": "Marte y Júpiter dinamizan tu economía y te impulsan a buscar alternativas para hacer crecer tus recursos.",
+   "salud": "Gozas de una vitalidad sólida que te permitirá rendir con serenidad si cuidas tus horas de sueño.",
+   "consejo": "Permítete disfrutar de una pausa bien merecida."
+  },
+  "leo": {
+   "titular": "Transformación y claridad interior",
+   "general": "La Luna en tu casa ocho te invita a revisar temas compartidos, acuerdos pendientes y emociones profundas. Con el cuarto creciente es momento de ordenar asuntos conjuntos y dejar atrás cargas innecesarias. Júpiter en tu signo renueva tu fe en tus capacidades y te llena de optimismo.",
+   "amor": "Las palabras cálidas y directas desarmarán cualquier distancia con la persona que te interesa.",
+   "dinero": "Aprovecha la determinación que te da Marte para resolver cuentas pendientes con practicidad.",
+   "salud": "Modera tu ritmo y no te exijas de más; tu cuerpo te agradecerá un descanso reparador.",
+   "consejo": "Hablar a tiempo evita confusiones futuras."
+  },
+  "virgo": {
+   "titular": "El valor de compartir",
+   "general": "El tránsito lunar por tu sector vincular resalta la importancia de trabajar a la par con otros. Las alianzas cobran sentido y te permiten avanzar con mayor respaldo en lo que te propongas. El cuarto creciente te motiva a destrabar acuerdos que estaban en pausa.",
+   "amor": "Prefieres la estabilidad y los hechos tangibles antes que promesas que se queden en el aire.",
+   "dinero": "Maneja tus proyectos con prudencia y reserva tus planes estratégicos hasta que maduren.",
+   "salud": "Baja la velocidad mental; un té caliente y una noche de descanso temprano te sentarán de maravilla.",
+   "consejo": "Elige bien con quién compartes tus pensamientos."
+  },
+  "libra": {
+   "titular": "Armonía en tus hábitos",
+   "general": "Tu atención se dirige hacia el orden cotidiano y el cuidado de tu bienestar general. La Luna en tu casa seis te ayuda a encontrar ritmo y sentido práctico en tus tareas diarias. Aprovecha el impulso creciente para reorganizar tu agenda con mayor eficiencia.",
+   "amor": "Con Venus en tu signo, tu encanto natural resalta sin esfuerzo y atrae miradas afables.",
+   "dinero": "El contacto con colegas y amistades puede acercarte a nuevas perspectivas laborales.",
+   "salud": "Te encuentras con buen tono vital; sostén ese equilibrio con comida ligera y pausas activas.",
+   "consejo": "Aprecia el progreso que vas logrando día a día."
+  },
+  "escorpio": {
+   "titular": "Vitalidad y brillo creativo",
+   "general": "El Sol en tu signo te da protagonismo mientras la Luna en Piscis resalta tu sensibilidad y pasión. Es un momento propicio para disfrutar de tus aficiones y plasmar tu sello en todo lo que creas. El cuarto creciente te brinda la chispa necesaria para poner en marcha lo que te ilusiona.",
+   "amor": "Tómate un espacio para sanar heridas pasadas y reconciliarte con tus sentimientos más íntimos.",
+   "dinero": "Tu ambición profesional recibe el impulso de Marte y Júpiter, favoreciendo tus metas a mediano plazo.",
+   "salud": "Es un momento excelente para adoptar rutinas que fortalezcan tu vitalidad general.",
+   "consejo": "Valora cada logro personal, sin importar su tamaño."
+  },
+  "sagitario": {
+   "titular": "Refugio en tus raíces",
+   "general": "La Luna transita tu sector del hogar, pidiéndote confort, intimidad y momentos cerca de los tuyos. Es un día para cultivar tu mundo privado y fortalecer los cimientos de tus proyectos. La fase creciente te alienta a resolver con calma cualquier fricción doméstica pendiente.",
+   "amor": "Las actividades compartidas con grupos de amigos renuevan la frescura en tus relaciones.",
+   "dinero": "Invertir tiempo en capacitarte o aprender algo nuevo ampliará tus horizontes a futuro.",
+   "salud": "Libera la tensión corporal mediante respiraciones lentas y estiramientos suaves al final del día.",
+   "consejo": "Camina a tu propio ritmo sin compararte con otros."
+  },
+  "capricornio": {
+   "titular": "Claridad para acordar",
+   "general": "Tu mente se encuentra ágil y abierta al diálogo gracias a la Luna en tu casa tres. Los trámites, llamadas y conversaciones clave fluyen con naturalidad y te permiten aclarar malentendidos. La luna creciente te da determinación para destrabar asuntos burocráticos o pactos pendientes.",
+   "amor": "Tu reputación y tu forma de comunicarte despiertan un interés genuino en alguien de tu entorno.",
+   "dinero": "Momento oportuno para revisar convenios compartidos y equilibrar compromisos económicos.",
+   "salud": "Canaliza tu energía en una caminata a paso firme que despeje tus pensamientos.",
+   "consejo": "Expresar lo que piensas es el primer paso para resolverlo."
+  },
+  "acuario": {
+   "titular": "Seguridad en tus recursos",
+   "general": "La Luna en tu casa de los valores te anima a reconocer tus habilidades y poner orden en tus posesiones. El cuarto creciente te pide pasar a la acción para concretar lo que venías planificando con cautela. Confía en lo que sabes hacer y dale solidez a tus proyectos.",
+   "amor": "El intercambio con personas de otras culturas o entornos amplía gratamente tu perspectiva afectiva.",
+   "dinero": "Llega la ocasión de negociar con tus socios desde una postura equilibrada y constructiva.",
+   "salud": "Recuerda hidratarte bien y programar breves descansos para no sobrecargar tu mente.",
+   "consejo": "Despeja tu entorno físico para encontrar paz mental."
+  },
+  "piscis": {
+   "titular": "Renovación a flor de piel",
+   "general": "Con la Luna transitando por tu signo, tu intuición y magnetismo están en su punto más alto. Es un momento propicio para tomar iniciativas personales y sembrar intenciones claras bajo la luz creciente. Lo que emprendas hoy con entusiasmo encontrará un terreno fértil para avanzar.",
+   "amor": "Una charla sincera te permitirá renovar la confianza y profundizar la complicidad mutua.",
+   "dinero": "Tu ritmo cotidiano puede ser exigente; administra tu energía con orden para rendir sin desgastarte.",
+   "salud": "Cuentas con una fuerza vital renovada; aprovecha para ejercitarte y conectar con tu cuerpo.",
+   "consejo": "Termina la jornada dando gracias por un detalle especial."
+  }
+ },
+ "frases": {
+  "1": "Adueñate de tu presencia y permite que tu autenticidad marque el compás del día.",
+  "2": "Aprecia el valor de lo que ya posees y administra tus talentos con sabiduría.",
+  "3": "Una palabra dicha con amabilidad tiene el poder de abrir cualquier puerta.",
+  "4": "Haz de tu espacio íntimo un santuario donde tu corazón encuentre calma.",
+  "5": "Permite que tu curiosidad despierte el gozo de crear algo espontáneo.",
+  "6": "Encuentra la belleza en la sencillez de cumplir tus tareas con dedicación.",
+  "7": "El encuentro genuino con el otro enriquece tu propia mirada sobre el mundo.",
+  "8": "Acepta las transformaciones internas que hoy renuevan tu fortaleza emocional.",
+  "9": "Abre tu mente a nuevas ideas que desafíen tus horizontes cotidianos.",
+  "10": "Avanza hacia tus propósitos profesionales con la seguridad de quien conoce su camino.",
+  "11": "La afinidad sincera con tus semejantes impulsa tus proyectos más nobles.",
+  "12": "Regálate una pausa de silencio para escuchar los susurros de tu intuición."
+ }
+}
