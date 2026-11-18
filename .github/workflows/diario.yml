@@ -52,3 +52,13 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  # Avisa a Bing y otros buscadores (IndexNow) qué páginas cambiaron. La corrida de las 06:05
+  # solo reintenta textos, así que no vuelve a avisar.
+  avisar:
+    needs: deploy
+    if: github.event.schedule != '5 9 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node src/indexnow.mjs ${{ github.event_name == 'schedule' && ' ' || '--todas' }}
+        continue-on-error: true

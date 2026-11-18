@@ -126,6 +126,7 @@ const DIARIAS = /^(index|luna-hoy|calendario-astral|tarot-lenormand)\.html$|^hor
 const urls = archivos.filter((f) => f.endsWith('.html'))
   .map((f) => `  <url><loc>${CONFIG.url}/${f.replace(/index\.html$/, '').replace(/\.html$/, '')}</loc>${DIARIAS.test(f) ? `<lastmod>${clave}</lastmod>` : ''}</url>`);
 fs.writeFileSync(path.join(SALIDA, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
+if (CONFIG.indexnow) fs.writeFileSync(path.join(SALIDA, `${CONFIG.indexnow}.txt`), CONFIG.indexnow);
 fs.writeFileSync(path.join(SALIDA, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${CONFIG.url}/sitemap.xml\n`);
 
 console.log(`Sitio generado para ${ctx.fechaLarga}: ${archivos.length} archivos en ${path.relative(RAIZ, SALIDA)}/ (textos: hoy ${hoyIA.fuente}, mañana ${mananaIA.fuente})`);
