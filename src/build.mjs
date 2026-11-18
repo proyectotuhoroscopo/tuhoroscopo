@@ -120,8 +120,11 @@ for (const f of fs.readdirSync(path.join(RAIZ, 'public'))) {
   fs.cpSync(path.join(RAIZ, 'public', f), path.join(SALIDA, f), { recursive: true });
   archivos.push(f);
 }
+// Solo las páginas que cambian cada día llevan la fecha de hoy; si todas la llevaran, Google
+// dejaría de creerle al sitemap.
+const DIARIAS = /^(index|luna-hoy|calendario-astral|tarot-lenormand)\.html$|^horoscopo\//;
 const urls = archivos.filter((f) => f.endsWith('.html'))
-  .map((f) => `  <url><loc>${CONFIG.url}/${f.replace(/index\.html$/, '').replace(/\.html$/, '')}</loc><lastmod>${clave}</lastmod></url>`);
+  .map((f) => `  <url><loc>${CONFIG.url}/${f.replace(/index\.html$/, '').replace(/\.html$/, '')}</loc>${DIARIAS.test(f) ? `<lastmod>${clave}</lastmod>` : ''}</url>`);
 fs.writeFileSync(path.join(SALIDA, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(SALIDA, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${CONFIG.url}/sitemap.xml\n`);
 

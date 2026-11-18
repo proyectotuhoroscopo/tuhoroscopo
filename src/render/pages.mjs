@@ -61,7 +61,7 @@ export function portada(ctx, opts = {}) {
 <section class="sky"><div class="wrap">
   <div>
     <div class="eyebrow">${esc(ctx.fechaLarga)}</div>
-    <h1>El cielo de hoy</h1>
+    <h1>Horóscopo de hoy</h1>
     <p>La Luna está en <strong>${N(L.signo)}</strong>, ${L.fase.nombre.toLowerCase()} y ${Math.round(L.iluminacion * 100)}% iluminada${cambioHoy ? `. A las ${hora(L.cambioSigno)} pasa a <strong>${N(L.proximoSigno)}</strong>` : ''}.</p>
     <p>El Sol recorre <strong>${N(sol.signo)}</strong>. ${retros.length ? `Hay ${retros.length} planetas retrógrados: ${retros.map((p) => PLANETA_NOMBRE[p.body]).join(', ')}.` : 'No hay planetas retrógrados.'}</p>
     <ul class="sky-facts">${cielo.posiciones.map((p) => `<li><span class="glyph">${g(PLANETA_SIMBOLO[p.body])}</span> ${PLANETA_NOMBRE[p.body]} en ${N(p.signo)}${p.retro ? ' <span class="r">℞</span>' : ''}</li>`).join('')}</ul>
@@ -70,7 +70,7 @@ export function portada(ctx, opts = {}) {
 </div></section>
 
 <section class="section"><div class="wrap">
-  <h2>Horóscopo de hoy para cada signo</h2>
+  <h2>Los 12 signos hoy</h2>
   <p class="lead">Elige tu signo y lee cómo te afecta el cielo de hoy en el amor, el dinero y la salud.</p>
   <div id="mi-signo" class="mi-signo" data-luna="${L.signo}" hidden></div>
   <div class="signs">
@@ -201,7 +201,13 @@ export function paginaSigno(ctx, id, { manana = false } = {}) {
     titulo: `Horóscopo de ${s.nombre} ${cuando}, ${manana ? ctx.fechaCortaManana : ctx.fechaCorta} | ${CONFIG.nombre}`,
     descripcion: `Horóscopo de ${s.nombre} para ${cuando}, ${fechaTxt.toLowerCase()}: amor, dinero, salud, número de la suerte y signo afín. ${h.titular}.`,
     ruta: `horoscopo/${id}${manana ? '-manana' : ''}.html`, base: '../', seccion: 'inicio', contenido, actualizado: ctx.actualizado,
-    jsonld: { '@context': 'https://schema.org', '@type': 'Article', headline: `Horóscopo de ${s.nombre} ${cuando}`, datePublished: ctx.fechaISO, inLanguage: 'es', publisher: { '@type': 'Organization', name: CONFIG.nombre } },
+    jsonld: {
+      '@type': 'Article', headline: `Horóscopo de ${s.nombre} ${cuando}`, description: h.titular,
+      datePublished: ctx.fechaISO, dateModified: ctx.fechaISO, inLanguage: CONFIG.idioma,
+      image: `${CONFIG.url}/img/og/${id}.jpg`,
+      mainEntityOfPage: `${CONFIG.url}/horoscopo/${id}${manana ? '-manana' : ''}`,
+      author: { '@id': `${CONFIG.url}/#org` }, publisher: { '@type': 'Organization', '@id': `${CONFIG.url}/#org`, name: CONFIG.nombre, url: `${CONFIG.url}/` },
+    },
   });
 }
 

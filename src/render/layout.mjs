@@ -43,9 +43,30 @@ export { adSlot };
  * - base: prefijo relativo hasta la raíz ('' o '../')
  * - fragmento: true para la página principal del artifact (sin doctype/html/head/body)
  */
+// Secciones que agrupan páginas, para las migas de pan que lee Google.
+const PADRES = { 'compatibilidad/': ['Compatibilidad', 'compatibilidad'], 'lenormand/': ['Tarot Lenormand', 'tarot-lenormand'] };
+
+// Datos estructurados: sitio y organización en la portada, migas de pan en el resto.
+function datosEstructurados({ ruta, titulo, canonical, jsonld }) {
+  const raiz = `${CONFIG.url}/`;
+  const org = { '@type': 'Organization', '@id': `${raiz}#org`, name: CONFIG.nombre, url: raiz };
+  const datos = [];
+  if (ruta === 'index.html') {
+    datos.push({ '@type': 'WebSite', '@id': `${raiz}#web`, name: CONFIG.nombre, url: raiz, inLanguage: CONFIG.idioma, publisher: { '@id': org['@id'] } }, org);
+  } else {
+    const padre = Object.entries(PADRES).find(([carpeta]) => ruta.startsWith(carpeta))?.[1];
+    const migas = [['Inicio', raiz], ...(padre ? [[padre[0], `${CONFIG.url}/${padre[1]}`]] : []), [titulo.split(' | ')[0].split(':')[0], canonical]];
+    datos.push({ '@type': 'BreadcrumbList', itemListElement: migas.map(([name, item], i) => ({ '@type': 'ListItem', position: i + 1, name, item })) });
+  }
+  if (jsonld) datos.push(jsonld);
+  return datos.map((d) => `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', ...d })}</script>`).join('\n');
+}
+
 export function pagina(opts) {
   const { titulo, descripcion, ruta, base = '', seccion, contenido, css, fragmento, jsonld, actualizado } = opts;
   const canonical = `${CONFIG.url}/${ruta.replace(/index\.html$/, '').replace(/\.html$/, '')}`;
+  // Imagen para compartir: la del signo en sus páginas, la general en el resto.
+  const imagen = `${CONFIG.url}/img/og/${ruta.match(/^horoscopo\/([a-z]+?)(-manana)?\.html$/)?.[1] || 'sitio'}.jpg`;
   const estilos = css ? `<style>${css}</style>` : `<link rel="stylesheet" href="${base}styles.css">`;
   const adsense = CONFIG.adsenseClient
     ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CONFIG.adsenseClient}" crossorigin="anonymous"></script>` : '';
@@ -60,13 +81,17 @@ export function pagina(opts) {
 <meta property="og:description" content="${esc(descripcion)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:locale" content="es_AR">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="${imagen}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(titulo.split(' | ')[0])}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${base}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FUENTES}">
 ${estilos}
-${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
+${datosEstructurados({ ruta, titulo, canonical, jsonld })}
 ${adsense}
 ${CONFIG.analytics && !fragmento ? analytics(CONFIG.analytics) : ''}`;
 
