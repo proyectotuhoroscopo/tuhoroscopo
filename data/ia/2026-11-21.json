@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.8-flash",
+ "generado": "2026-11-20T03:56:42.843Z",
+ "signos": {
+  "aries": {
+   "titular": "Energía renovada a tu favor",
+   "general": "La Luna transita por tu signo y te devuelve el protagonismo, despertando tus emociones y tus ganas de emprender. Estás en la antesala de ver frutos, por lo que afinar los últimos detalles marcará la diferencia. Además, Júpiter y Marte en tu zona creativa encienden tu entusiasmo y magnetismo.",
+   "amor": "Con Venus favoreciendo tu área de pareja, es un gran momento para dialogar con armonía y profundizar compromisos.",
+   "dinero": "Si canalizas tu pasión en ideas creativas, encontrarás caminos muy prometedores para hacer crecer tus recursos.",
+   "salud": "Tienes un impulso vital excelente; aprovéchalo para iniciar una rutina física que te revitalice.",
+   "consejo": "Duerme lo suficiente para tomar mejores decisiones."
+  },
+  "tauro": {
+   "titular": "Pausa necesaria para ordenar prioridades",
+   "general": "Tu intuición se agudiza mientras la Luna recorre tu zona de introspección, invitándote a prestar atención a tus sensaciones internas. Es una jornada para observar con calma antes de actuar, puliendo detalles pendientes sin apresurarte. El hogar y la familia demandan presencia, pero sin agotarte.",
+   "amor": "El afecto sincero se demuestra con pequeños gestos cotidianos y estando presente para quienes quieres.",
+   "dinero": "Los asuntos vinculados a tu casa o entorno familiar requieren acuerdos prácticos y decisiones serenas.",
+   "salud": "Si notas tensión muscular, regálate unos minutos de estiramiento y respiración consciente.",
+   "consejo": "Descansa para recuperar la claridad mental."
+  },
+  "geminis": {
+   "titular": "Conexiones que impulsan tus metas",
+   "general": "El apoyo de tus amistades y los proyectos en común te llenan de vitalidad. La Luna en tu casa de planes futuros te anima a pulir ideas colectivas antes de dar el paso definitivo. Tu capacidad de comunicación está muy activa gracias a la energía de Marte.",
+   "amor": "Venus en tu zona romántica despierta tu encanto natural, facilitando momentos dulces y espontáneos.",
+   "dinero": "Compartir tus ideas en equipo puede abrir puertas que más adelante darán frutos concretos.",
+   "salud": "Mantienes un buen nivel de energía, pero recuerda no sobrecargar tu mente con demasiados compromisos.",
+   "consejo": "Diferencia lo urgente de lo que realmente importa."
+  },
+  "cancer": {
+   "titular": "Enfoque claro en tus objetivos",
+   "general": "La Luna ilumina tu área profesional y tus metas más altas, invitándote a dejar una huella positiva en lo que realizas. Estás muy cerca de ver resultados importantes, así que ajusta los aspectos prácticos con paciencia. En lo personal, buscarás la serenidad de tu entorno íntimo.",
+   "amor": "Elige la paz sobre las discusiones y rodéate de personas que te brinden contención emocional.",
+   "dinero": "Júpiter favorece tu crecimiento económico, pero procura evitar gastos impulsivos motivados por el entusiasmo del momento.",
+   "salud": "Haz pausas regulares a lo largo del día y mantente bien hidratado para aliviar la tensión.",
+   "consejo": "Tómate una pausa y respira antes de reaccionar."
+  },
+  "leo": {
+   "titular": "Impulso para expandir tus horizontes",
+   "general": "El optimismo regresa con fuerza gracias al paso de la Luna por tu zona de expansión y conocimiento. Con Júpiter en tu signo, sientes la confianza necesaria para soñar en grande y planificar pasos firmes. Ajusta los preparativos de cualquier proyecto o viaje antes de lanzarlo.",
+   "amor": "Un mensaje sincero o una conversación afectuosa bastarán para encender una conexión especial.",
+   "dinero": "Tu iniciativa personal destaca en cualquier ámbito, solo procura enfocar esa fuerza en tareas concretas sin dispersarte.",
+   "salud": "Gozas de excelente dinamismo; acompáñalo con alimentos ligeros y un buen descanso nocturno.",
+   "consejo": "Confía en las señales sutiles de tu intuición."
+  },
+  "virgo": {
+   "titular": "Introspección y balance emocional",
+   "general": "Es un día de emociones profundas mientras la Luna transita tu sector de transformación y confianza. Conviene revisar tus acuerdos y afinar los detalles de lo que compartes con otros antes de cerrar acuerdos. Ve con calma y respeta tus propios tiempos de procesamiento.",
+   "amor": "Hoy valoras la lealtad y los hechos tangibles por encima de cualquier promesa vacía.",
+   "dinero": "Sé prudente con la información que manejas en tu entorno laboral y mantén tus cuentas en orden.",
+   "salud": "Dedica la noche a desconectarte de las pantallas con una infusión tibia y música suave.",
+   "consejo": "Elige compartir tu tiempo con personas que te sumen tranquilidad."
+  },
+  "libra": {
+   "titular": "Armonía en tus vínculos cercanos",
+   "general": "La Luna en tu sector de relaciones pone el foco en la cooperación y los acuerdos compartidos. Con Venus visitando tu signo, proyectas gracia y magnetismo natural que facilitan el entendimiento. Es un instante ideal para ajustar términos y sumar voluntades con miras al futuro.",
+   "amor": "Te sientes a gusto contigo y eso se nota; permite que te conozcan con total autenticidad.",
+   "dinero": "Tus amistades y redes de contacto pueden ser el puente hacia una oportunidad interesante.",
+   "salud": "Tu cuerpo responderá con vitalidad si incorporas una pequeña caminata al aire libre.",
+   "consejo": "Desconéctate un rato de la tecnología y sal a caminar."
+  },
+  "escorpio": {
+   "titular": "Organización y cuidado de tu ritmo",
+   "general": "Con el Sol en tu signo, tu vitalidad se renueva para definir los propósitos de tu nuevo ciclo personal. La Luna en tu sector de rutinas te impulsa a ordenar tus tareas y pulir pendientes cotidianos. El trabajo constante de hoy construirá bases muy firmes para tus ambiciones.",
+   "amor": "Cierra ciclos pendientes en tu interior para poder recibir el amor con el corazón liviano.",
+   "dinero": "Marte y Júpiter respaldan tu carrera, dándote empuje para asumir responsabilidades con liderazgo.",
+   "salud": "Mantén horarios regulares para tus comidas y evita exigirte más allá de tus límites físicos.",
+   "consejo": "Aprende a pausar y contemplar antes de responder."
+  },
+  "sagitario": {
+   "titular": "Creatividad y alegría en movimiento",
+   "general": "La Luna en tu área de diversión y romance enciende tus ganas de disfrutar y expresarte con total espontaneidad. Es una jornada propicia para afinar proyectos artísticos o compartir momentos distendidos. Júpiter amplía tu visión y te recuerda que los planes grandes requieren paciencia.",
+   "amor": "Los encuentros grupales y las salidas informales traen sorpresas agradables y risas compartidas.",
+   "dinero": "Se perfilan alternativas favorables vinculadas a estudios, publicaciones o contactos en el exterior.",
+   "salud": "Tienes un ánimo radiante; mantén esa vitalidad equilibrando tus actividades con un descanso reparador.",
+   "consejo": "Escucha esa corazonada que tu mente aún intenta descifrar."
+  },
+  "capricornio": {
+   "titular": "Calma y orden en el hogar",
+   "general": "La Luna transita tu zona familiar y te pide volver la mirada hacia tus espacios más íntimos. Es un buen momento para ordenar tu casa, aclarar temas familiares y resolver pequeños detalles domésticos. Tomarte las cosas con serenidad te ayudará a recargar fuerzas.",
+   "amor": "Tu profesionalismo y madurez despiertan una admiración sincera en alguien cercano.",
+   "dinero": "Revisa acuerdos compartidos o compromisos financieros pendientes para dejarlos completamente claros.",
+   "salud": "Libera la rigidez acumulada en la espalda con estiramientos suaves y respiraciones profundas.",
+   "consejo": "Acepta la ayuda de otros sin pretender resolverlo todo a solas."
+  },
+  "acuario": {
+   "titular": "Comunicación fluida y nuevas ideas",
+   "general": "Tus conversaciones, gestos e intercambios cobran relevancia hoy gracias al paso lunar por tu sector de comunicación. Es un momento propicio para aclarar malos entendidos y afinar acuerdos antes de firmar o avanzar. Júpiter favorece las alianzas, sumando puntos a tu favor si actúas con tacto.",
+   "amor": "Una conversación estimulante o un contacto a la distancia puede despertar un interés muy especial.",
+   "dinero": "Ante cualquier discrepancia en el trabajo, responde con diplomacia y fundamentos sólidos.",
+   "salud": "Aprovecha tu buena disposición de ánimo para moverte al aire libre o practicar alguna actividad física.",
+   "consejo": "Encuentra al final del día un motivo sincero para agradecer."
+  },
+  "piscis": {
+   "titular": "Valoración personal y pasos seguros",
+   "general": "La Luna se mueve por tu casa de recursos, poniendo el acento en tus finanzas y en cómo valoras tu propio esfuerzo. Conviene afinar presupuestos y organizar tus cuentas antes de asumir compromisos mayores. Júpiter protege tu entorno cotidiano, promoviendo mayor bienestar en tus labores.",
+   "amor": "La sinceridad y la transparencia fortalecerán la complicidad con tu pareja o con quien te interesa.",
+   "dinero": "Tu dedicación en el día a día dará resultados visibles si mantienes el orden en tus obligaciones.",
+   "salud": "Baja las revoluciones hacia la noche y disfruta de una infusión relajante para dormir plácidamente.",
+   "consejo": "Presta más atención a escuchar que a dar respuestas apresuradas."
+  }
+ },
+ "frases": {
+  "1": "Reconoce tu propia fuerza y date el permiso de empezar de nuevo sin pedir aprobación.",
+  "2": "Valora lo que ya posees y administra tus talentos con serenidad y certeza.",
+  "3": "Exprésate con claridad y permite que una conversación sencilla transforme tu perspectiva.",
+  "4": "Vuelve a tu centro creando un refugio de calma en tu propio hogar.",
+  "5": "Despierta tu chispa creativa jugando y dedicándole tiempo a lo que de verdad disfrutas.",
+  "6": "Ordena tus pequeñas tareas diarias para que tu cuerpo y tu mente encuentren ligereza.",
+  "7": "Abre un diálogo sincero y busca el equilibrio en los lazos que más te importan.",
+  "8": "Suelta lo que ya cumplió su ciclo y permítete sanar desde la raíz.",
+  "9": "Amplía tus horizontes atreviéndote a aprender algo nuevo que renueve tu curiosidad.",
+  "10": "Da un paso firme y visible hacia la meta que vienes construyendo con constancia.",
+  "11": "Comparte tus ilusiones con quienes vibran en tu misma sintonía comunitaria.",
+  "12": "Regálate un momento de silencio absoluto para escuchar lo que tu interior necesita decirte."
+ }
+}
