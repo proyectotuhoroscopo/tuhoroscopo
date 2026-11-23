@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-23T04:07:33.955Z",
+ "signos": {
+  "aries": {
+   "titular": "Jornada de buenas noticias",
+   "general": "La Luna llena en Géminis activa tu área de la comunicación y trae claridad a tus ideas. Lo que expreses hoy tendrá un impacto directo en tu entorno, así que elige bien tus palabras. Aprovecha el impulso creativo de Júpiter para darle forma a tus proyectos y disfrutar del momento.",
+   "amor": "Venus beneficia tus relaciones personales. Es un gran momento para resolver diferencias o proyectar planes a futuro en pareja.",
+   "dinero": "Tu lado apasionado y creativo puede convertirse en una fuente real de recursos. Confía en tus ideas más auténticas.",
+   "salud": "Tu vitalidad se encuentra en un punto alto. Es un día ideal para consolidar un hábito que beneficie tu bienestar corporal.",
+   "consejo": "Escucha a tu intuición antes de buscar respuestas afuera."
+  },
+  "tauro": {
+   "titular": "Escucha antes de actuar",
+   "general": "La Luna llena ilumina tus recursos y la valoración que haces de ti mismo. Antes de lanzarte a nuevas metas, reconoce todo el camino que ya has recorrido. Permite que las certezas salgan a la superficie sin prisas.",
+   "amor": "La rutina o el ambiente cotidiano pueden sorprenderte con miradas o encuentros interesantes.",
+   "dinero": "Se mueven decisiones asociadas a tu espacio personal o tu vivienda. Evalúa bien tus opciones antes de dar el siguiente paso.",
+   "salud": "Tu cuerpo responderá de maravilla si decides cuidar tu ritmo diario con pequeños cambios.",
+   "consejo": "Regálate un momento de pausa y disfruta de tus logros."
+  },
+  "geminis": {
+   "titular": "Un día para brillar",
+   "general": "La Luna llena en tu signo te coloca en el centro de atención y potencia tu vitalidad. Tus emociones salen a la luz y te dan la claridad necesaria para iniciar nuevos caminos. Es un momento propicio para expresarte con total autenticidad.",
+   "amor": "El carisma y el buen humor enriquecen tus vínculos. Te espera una jornada ligera y llena de química.",
+   "dinero": "Las conversaciones y negociaciones avanzarán a paso firme si mantienes un discurso transparente.",
+   "salud": "Cuentas con una energía envidiable para estar en movimiento y activar tu físico.",
+   "consejo": "Pon en orden tu entorno para despejar tus pensamientos."
+  },
+  "cancer": {
+   "titular": "Avanza paso a paso",
+   "general": "Tu mundo interno cobra mucha fuerza con la Luna llena iluminando tu zona de descanso. Presta atención a tus intuiciones y a los mensajes que surgen en la tranquilidad. Permitirte bajar el ritmo te dará las respuestas que buscas.",
+   "amor": "Busca la compañía de personas que te aporten paz y serenidad en este momento.",
+   "dinero": "La influencia de Marte y Júpiter impulsa tus esfuerzos y abre posibilidades de crecimiento en tus ingresos.",
+   "salud": "Regálate una noche de reposo reparador y evita las sobrecargas.",
+   "consejo": "Descansa lo suficiente para decidir con claridad."
+  },
+  "leo": {
+   "titular": "Claridad en tus proyectos",
+   "general": "La Luna llena aclara tus metas a largo plazo y destaca el valor de tus amistades. Con Júpiter en tu signo, atraviesas una etapa de gran optimismo y crecimiento personal. Identifica quiénes suman valor real a tus sueños.",
+   "amor": "Una conversación casual puede despertar sensaciones especiales con alguien de tu entorno.",
+   "dinero": "Cuentas con la iniciativa necesaria para liderar propuestas y avanzar en tu trabajo.",
+   "salud": "Es un día propicio para adoptar costumbres saludables que favorezcan tu energía.",
+   "consejo": "Introduce un pequeño cambio en tu rutina para renovarte."
+  },
+  "virgo": {
+   "titular": "Momento de observar",
+   "general": "Tu trayectoria y metas principales quedan bajo la luz de la Luna llena. Es una excelente oportunidad para mostrar tus talentos y entablar diálogos constructivos sobre tu futuro. Mantén la calma frente a cualquier revelación.",
+   "amor": "En el terreno afectivo valorarás la estabilidad y las acciones concretas más que el discurso.",
+   "dinero": "Maneja tus asuntos laborales con discreción y evita involucrarte en tensiones ajenas.",
+   "salud": "Dedica un tiempo a estirar el cuerpo y liberar la tensión acumulada.",
+   "consejo": "Establece límites claros desde la amabilidad."
+  },
+  "libra": {
+   "titular": "Momento de avanzar",
+   "general": "Una nueva visión o un proyecto de aprendizaje renueva tu entusiasmo hoy. La Luna llena expande tus horizontes y aclara tus convicciones más profundas. Júpiter amplifica tus oportunidades al conectar con grupos.",
+   "amor": "Venus en tu signo resalta tu atractivo natural y facilita encuentros auténticos.",
+   "dinero": "Tus conexiones sociales pueden abrir puertas hacia nuevos caminos profesionales.",
+   "salud": "Aprovecha tu buen nivel de energía para realizar actividades al aire libre.",
+   "consejo": "Libera la necesidad de tener todo bajo control."
+  },
+  "escorpio": {
+   "titular": "Jornada de equilibrio",
+   "general": "La Luna llena invita a la transformación interior y a cerrar ciclos pendientes. Aceptar los cambios con madurez te abrirá el paso hacia etapas más prósperas. Confía en tu proceso personal.",
+   "amor": "Permítete sanar experiencias pasadas para construir lazos afectivos más sanos.",
+   "dinero": "Marte y Júpiter impulsan tu proyección profesional; toma decisiones valientes en tu carrera.",
+   "salud": "Una respiración consciente te ayudará a soltar la rigidez muscular.",
+   "consejo": "Busca la compañía de personas que impulsen tu crecimiento."
+  },
+  "sagitario": {
+   "titular": "Nuevas alianzas en puerta",
+   "general": "Con el Sol en tu signo celebras tu temporada de renovación personal y metas claras. La Luna llena en tu sector de alianzas aclara el estado de tus relaciones cercanas. El trabajo en equipo te brindará grandes satisfacciones.",
+   "amor": "Una amistad cercana podría mostrar una faceta mucho más profunda y especial.",
+   "dinero": "Surgen alternativas prometedoras asociadas a proyectos de gran alcance o formación.",
+   "salud": "Mantén una buena hidratación y pausa tu ritmo a lo largo de la jornada.",
+   "consejo": "Confía en el proceso y suelta las exigencias excesivas."
+  },
+  "capricornio": {
+   "titular": "Tiempo de ordenar",
+   "general": "La Luna llena te motiva a organizar tus tareas cotidianas y saldar pendientes. Es una jornada ideal para perfeccionar detalles y estructurar tu día a día con calma. Notarás cómo la constancia rinde frutos.",
+   "amor": "Tu dedicación personal despierta admiración en alguien muy cercano.",
+   "dinero": "Es buen momento para revisar acuerdos financieros compartidos o recursos en común.",
+   "salud": "Busca un espacio para conectar con la naturaleza y desconectar de las pantallas.",
+   "consejo": "Rodéate de personas que aporten tranquilidad a tu vida."
+  },
+  "acuario": {
+   "titular": "Energía a tu favor",
+   "general": "Tu faceta creativa y festiva se enciende con fuerza bajo la Luna llena. Regálate espacios de entretenimiento y proyectos donde puedas volcar tu estilo único. Júpiter favorece tus vínculos estratégicos.",
+   "amor": "Buscas conexiones intelectuales que estimulen tu curiosidad y te hagan crecer.",
+   "dinero": "Responde a las exigencias laborales con astucia y planificación en lugar de actuar por impulso.",
+   "salud": "Te acompaña un excelente estado de ánimo; cuídalo manteniendo un descanso reparador.",
+   "consejo": "Recuerda que a veces menos es más."
+  },
+  "piscis": {
+   "titular": "Paso a paso hoy",
+   "general": "El foco de la jornada se traslada a tu hogar y a tus afectos más íntimos. La Luna llena te invita a buscar refugio en tu espacio seguro y atender necesidades familiares. Júpiter respalda tu bienestar y tu clima de trabajo.",
+   "amor": "La intimidad cobra vital importancia; prioriza los diálogos sinceros y profundos.",
+   "dinero": "Organiza tu agenda con orden para cumplir con los requerimientos diarios sin agotarte.",
+   "salud": "Dedica unos minutos a estirar tu espalda y liberar las tensiones acumuladas.",
+   "consejo": "Al ordenar tus espacios personales aportarás serenidad a tu mente."
+  }
+ },
+ "frases": {
+  "1": "Hoy reconoces tu propio valor y das un paso firme hacia lo que realmente quieres ser.",
+  "2": "Tu abundancia comienza al valorar los talentos únicos que ya posees.",
+  "3": "Una palabra dicha a tiempo abre las puertas que necesitabas despejar hoy.",
+  "4": "Encuentra refugio en tu centro para fortalecer cada uno de tus lazos afectivos.",
+  "5": "Permítete disfrutar del momento presente y deja que tu talento fluya sin juicio.",
+  "6": "Pequeñas acciones constantes en tu día a día construyen un bienestar duradero.",
+  "7": "El verdadero equilibrio nace cuando escuchas al otro con empatía y apertura.",
+  "8": "Soltar lo antiguo te da la libertad necesaria para transformarte por completo.",
+  "9": "Abre tu mente a nuevas ideas y descubrirás horizontes llenos de posibilidades.",
+  "10": "Tu constancia de hoy sienta las bases del éxito que mañana vas a cosechar.",
+  "11": "Compartir tus sueños con la gente correcta multiplica tu fuerza para alcanzarlos.",
+  "12": "Regálate momentos de silencio para escuchar las verdades que guarda tu corazón."
+ }
+}
