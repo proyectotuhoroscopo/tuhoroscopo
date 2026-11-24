@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.5-flash",
+ "generado": "2026-11-24T04:02:35.583Z",
+ "signos": {
+  "aries": {
+   "titular": "La comunicación abre tus puertas",
+   "general": "Tu entorno cercano cobra un ritmo vertiginoso hoy gracias a la Luna llena en Géminis. Las conversaciones pendientes salen a la luz y es un momento excelente para poner en orden tus proyectos. Júpiter estimula tu faceta más auténtica y creativa para que disfrutes cada momento.",
+   "amor": "Con Venus favoreciendo tus alianzas y Marte encendiendo la pasión, puedes conectar profundamente con alguien especial.",
+   "dinero": "Canalizar tus ideas en proyectos creativos te dará muy buenos resultados financieros a mediano plazo.",
+   "salud": "Tu dinamismo se encuentra en un punto alto, ideal para activarte con alguna disciplina al aire libre.",
+   "consejo": "Pon límites claros pero siempre desde el afecto."
+  },
+  "tauro": {
+   "titular": "Estabilidad y claridad de valores",
+   "general": "La Luna llena en Géminis ilumina tu sector financiero y te invita a revisar qué es lo verdaderamente valioso para ti. Es un momento propicio para tomar conciencia de lo que aportas al mundo. Mientras tanto, tu rutina encuentra momentos de armonía que alivian la carga diaria.",
+   "amor": "Los pequeños gestos en tu día a día pueden despertar un interés afectivo muy especial.",
+   "dinero": "Surgen novedades sobre el hogar o bienes familiares que requerirán tu sentido práctico para tomar buenas decisiones.",
+   "salud": "Dedicar unos minutos a desconectarte de las pantallas renovará tu equilibrio interno.",
+   "consejo": "Suelta el deseo de controlarlo todo y confía."
+  },
+  "geminis": {
+   "titular": "Tu magnetismo está en plenitud",
+   "general": "La Luna llena alcanza su máximo esplendor en tu signo, regalándote una jornada de gran claridad personal y visibilidad. Las emociones salen a la superficie y te impulsan a mostrarte tal como eres. Tu palabra adquiere fuerza y la gente cercana prestará mucha atención a lo que propones.",
+   "amor": "Venus potencia tu encanto personal, haciendo de hoy un día perfecto para el romance o el juego compartido.",
+   "dinero": "Confía en tu agilidad mental para comunicar un proyecto que puede convertirse en un plan productivo.",
+   "salud": "Es una excelente jornada para renovar tus hábitos y darle a tu cuerpo la atención que merece.",
+   "consejo": "Cuida la intención detrás de cada palabra que pronuncias."
+  },
+  "cancer": {
+   "titular": "Escucha tu sabiduría interior",
+   "general": "La Luna llena en Géminis te invita al descanso y a mirar hacia adentro con calma. Es un momento ideal para hacer una pausa, soltar viejas preocupaciones y prestar atención a tus corazonadas. Tu intuición estará sumamente afilada para guiarte en los próximos pasos.",
+   "amor": "El ambiente de tu hogar será el refugio perfecto para vivir momentos cálidos en la intimidad.",
+   "dinero": "Marte y Júpiter dan un gran impulso a tus recursos financieros, permitiéndote encarar mejoras en tus ingresos.",
+   "salud": "Tu cuerpo te pide bajar la intensidad; regálate momentos de silencio y descanso reparador.",
+   "consejo": "Confía en la velocidad de tu proceso sin forzar las etapas."
+  },
+  "leo": {
+   "titular": "Conexiones que impulsan tu futuro",
+   "general": "La energía de la Luna llena en Géminis ilumina tu área de amistades y proyectos grupales, haciendo que resaltes en tu entorno. Júpiter en tu signo llena de optimismo tu mirada e inspira a quienes te rodean. Es el momento adecuado para compartir ideas y construir alianzas duraderas.",
+   "amor": "Una conversación afectuosa y franca puede encender la chispa que necesitabas.",
+   "dinero": "Marte te llena de determinación para tomar la iniciativa laboral y liderar con éxito tus tareas.",
+   "salud": "Canaliza todo tu vigor en actividades físicas que te diviertan y te llenen de vitalidad.",
+   "consejo": "Entiende que el cierre de una etapa prepara el terreno para algo mejor."
+  },
+  "virgo": {
+   "titular": "Tu talento profesional resalta hoy",
+   "general": "La Luna llena brilla en lo más alto de tu cielo planetario, trayendo visibilidad a tus logros académicos o profesionales. Es un día para reconocer cuánto has avanzado y ajustar tus metas a largo plazo. Mantén la serenidad si las exigencias externas se incrementan de golpe.",
+   "amor": "Un detalle sutil o una atención especial consolidará la confianza con esa persona que quieres.",
+   "dinero": "Prepara con minucia tus planes en privado; la constancia de hoy dará frutos firmes mañana.",
+   "salud": "Evita acumular tensiones innecesarias regalándote breves pausas de respiración consciente.",
+   "consejo": "Celebra cada paso que das sin exigir la perfección."
+  },
+  "libra": {
+   "titular": "Amplía tus perspectivas sin miedo",
+   "general": "La Luna llena en Géminis estimula tu deseo de aprender, viajar y explorar nuevos horizontes de vida. Sentirás que tu mente se abre a ideas diferentes y enriquecedoras. Con Venus en tu signo, tu presencia resulta naturalmente armónica para los demás.",
+   "amor": "Tu magnetismo natural atrae miradas y te permite disfrutar de encuentros profundos y sinceros.",
+   "dinero": "Los esfuerzos colectivos prosperan si mantienes una actitud colaborativa y positiva con tu equipo.",
+   "salud": "Aprovecha tu buen nivel de energía para realizar caminatas prolongadas o hacer ejercicio.",
+   "consejo": "Procura escuchar con paciencia antes de emitir un juicio."
+  },
+  "escorpio": {
+   "titular": "Transformación y claridad emocional",
+   "general": "Esta Luna llena ilumina tus emociones más profundas y los acuerdos que compartes con otros. Es un día favorable para hacer limpiezas emocionales y dejar atrás temores del pasado. Júpiter y Marte te impulsan a dar pasos firmes hacia tus grandes objetivos profesionales.",
+   "amor": "Permítete procesar lo que sientes en calma antes de revelar tus vulnerabilidades.",
+   "dinero": "Asume el liderazgo de tus asuntos laborales sin esperar la aprobación externa para actuar.",
+   "salud": "Si notas cierto agotamiento mental, dedica la noche a desconectarte de los problemas cotidianos.",
+   "consejo": "Prioriza tu paz mental por encima de cualquier discusión."
+  },
+  "sagitario": {
+   "titular": "Renovación profunda en tus alianzas",
+   "general": "El Sol en tu signo te recarga de fuerza vital, mientras la Luna llena enfrente ilumina tus relaciones de pareja y sociedad. Es un gran momento para equilibrar lo que ofreces con lo que recibes en tus vínculos. Júpiter abre tus caminos hacia aprendizajes inspiradores.",
+   "amor": "Una amistad de confianza podría transformarse en algo mucho más profundo de lo esperado.",
+   "dinero": "Invertir tiempo en capacitarte fortalecerá notoriamente tu desempeño a futuro.",
+   "salud": "Incorpora rutinas saludables que acompañen el gran entusiasmo que sientes hoy.",
+   "consejo": "Practica la escucha activa en cada una de tus conversaciones."
+  },
+  "capricornio": {
+   "titular": "Orden y bienestar en tu día",
+   "general": "La Luna llena en Géminis pone la lupa en tus hábitos diarios y tus compromisos de trabajo. Organizar tus tiempos te permitirá liberar espacio para ti y cuidar de tu bienestar físico. Es un momento propicio para ajustar tus rutinas de forma realista.",
+   "amor": "Compartir objetivos comunes reforzará la complicidad y la confianza mutua.",
+   "dinero": "Momento oportuno para revisar tus números, ajustar gastos y planificar tus compromisos económicos.",
+   "salud": "Mantente bien hidratado y haz pequeñas pausas para evitar sobrecargas de tensión en la espalda.",
+   "consejo": "Respira profundamente antes de responder ante una situación imprevista."
+  },
+  "acuario": {
+   "titular": "Creatividad y entusiasmo renovado",
+   "general": "La Luna llena activa tu zona de alegría, romance y expresión personal con gran brillantez. Sientes el deseo de conectar con lo que te apasiona y compartir momentos auténticos con quienes aprecias. Júpiter y Marte aportan dinamismo a tus alianzas y proyectos compartidos.",
+   "amor": "Se abren oportunidades para conectar con personas afines a través de viajes o actividades culturales.",
+   "dinero": "Promueve acuerdos colaborativos donde la cooperación sea equitativa para todas las partes.",
+   "salud": "Tu vitalidad está renovada, perfecta para practicar alguna actividad artística o física.",
+   "consejo": "Evita medir tu ritmo personal con los logros de los demás."
+  },
+  "piscis": {
+   "titular": "Cuidado de tus raíces familiares",
+   "general": "El foco de la Luna llena está en tu espacio familiar y personal, invitándote a crear un ambiente de confort. Es un día propicio para resolver asuntos del hogar y reconectar con tus afectos más íntimos. Júpiter acompaña tus esfuerzos diarios mejorando tu calidad de vida.",
+   "amor": "La autenticidad en la intimidad fortalecerá los lazos de afecto con esa persona querida.",
+   "dinero": "Tu eficiencia profesional dará excelentes frutos si te concentras en cumplir con tus tareas del día.",
+   "salud": "Realiza estiramientos suaves al final de la jornada para disipar el cansancio acumulado.",
+   "consejo": "Dedica un rato a caminar en la naturaleza sin distracciones digitales."
+  }
+ },
+ "frases": {
+  "1": "Hoy reconoces la fuerza interior que te mueve y te permites ser completamente tú.",
+  "2": "Valora cada talento que posees, pues ahí reside tu verdadera riqueza de hoy.",
+  "3": "Una palabra dicha con amabilidad abre las puertas de quienes te rodean.",
+  "4": "Encuentra en tu espacio un refugio sagrado para renovar tu tranquilidad.",
+  "5": "Permítete jugar y crear hoy sin preocuparte por el juicio ajeno.",
+  "6": "Cuidar los pequeños detalles de tu día a día es la mejor forma de quererte.",
+  "7": "El equilibrio verdadero nace al escuchar al otro con el corazón abierto.",
+  "8": "Transforma tus temores en confianza para vivir tus alianzas con mayor entrega.",
+  "9": "Mira más allá de lo cotidiano y permite que una nueva idea guíe tu camino.",
+  "10": "Cada esfuerzo constante que realizas te acerca con paso firme a tu propósito.",
+  "11": "Rodéate de quienes impulsan tus sueños y comparte tu luz en comunidad.",
+  "12": "Regálate un instante de silencio para escuchar los susurros de tu intuición."
+ }
+}
