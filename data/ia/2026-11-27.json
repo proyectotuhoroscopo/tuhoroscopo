@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-26T04:04:39.432Z",
+ "signos": {
+  "aries": {
+   "titular": "Un espacio para la calma",
+   "general": "La Luna menguante en Cáncer invita a replegarte en el hogar y cuidar de los tuyos. Es un momento propicio para agradecer lo vivido y soltar tensiones familiares acumuladas. Con Júpiter avivando tu creatividad, descubrirás formas originales de inspirarte.",
+   "amor": "Venus en tu casa de las relaciones impulsa acuerdos afectivos profundos y reconexiones cálidas.",
+   "dinero": "Marte en tu zona laboral te exige orden; evita abrumarte organizando tus prioridades.",
+   "salud": "La jornada pide un descanso consciente para recuperar fuerzas y evitar el cansancio.",
+   "consejo": "Escucha con paciencia antes de responder."
+  },
+  "tauro": {
+   "titular": "Conversaciones que inspiran confianza",
+   "general": "Los mensajes y diálogos cercanos marcan el ritmo de tu día gracias a la Luna en Cáncer. Aprovecha la luz menguante para expresar tu gratitud a quienes te acompañan siempre. Tus ideas fluyen con claridad si te permites comunicar con amabilidad.",
+   "amor": "El ambiente cotidiano puede sorprenderte con miradas o gestos llenos de empatía.",
+   "dinero": "Tu motivación creativa se traduce en soluciones prácticas para tus proyectos actuales.",
+   "salud": "La vitalidad te acompaña, ideal para caminar al aire libre y estirar el cuerpo.",
+   "consejo": "Una pequeña acción transforma más que mil palabras."
+  },
+  "geminis": {
+   "titular": "Reconoce tus propios logros",
+   "general": "Es momento de valorar lo que has construido en lugar de precipitarte tras nuevas metas. La Luna menguante calma tu ritmo y te anima a compartir lo aprendido con generosidad. Conecta con la paz de saberte bien asentado.",
+   "amor": "Venus en tu sector del romance enciende el entusiasmo y la ternura en tus relaciones.",
+   "dinero": "Concentrarte en el trabajo desde un ambiente tranquilo aumentará considerablemente tu rendimiento.",
+   "salud": "Toma pausas breves durante tus tareas para mantenerte hidratado y relajado.",
+   "consejo": "Cultiva el hábito de escuchar atentamente."
+  },
+  "cancer": {
+   "titular": "Renueva tu fortaleza interior",
+   "general": "Con la Luna transitando por tu signo, tu sensibilidad se convierte en tu mayor virtud. Es un día ideal para cuidar de ti y agradecer el camino recorrido hasta ahora. Júpiter respalda tus finanzas con un soplo de optimismo para lo que viene.",
+   "amor": "Disfrutar del refugio del hogar fortalecerá el lazo con esa persona especial.",
+   "dinero": "Comunicar tus ideas con claridad facilitará negociaciones y acuerdos importantes.",
+   "salud": "Te sientes lleno de energía; procura conservar tu bienestar manteniendo hábitos equilibrados.",
+   "consejo": "Actúa hoy con determinación en lugar de postergar."
+  },
+  "leo": {
+   "titular": "Tiempo de introspección reparadora",
+   "general": "Antes de iniciar un nuevo ciclo, la Luna menguante en Cáncer te invita a descansar y reflexionar. Suelta los pendientes emocionales para dar paso a la frescura que Júpiter en tu signo promete traer. Valora el aprendizaje que te dejó el pasado reciente.",
+   "amor": "Un mensaje afectuoso o una palabra amable puede marcar la diferencia en tu día.",
+   "dinero": "Tu empuje natural te ayuda a buscar nuevas oportunidades de crecimiento económico.",
+   "salud": "Respeta la necesidad de descanso de tu cuerpo sin exigirte más de la cuenta.",
+   "consejo": "Mide tus palabras para que construyan puentes."
+  },
+  "virgo": {
+   "titular": "Alianzas que alimentan el alma",
+   "general": "La Luna en tu zona de amistades te conecta con personas afines que renuevan tu perspectiva. Compartir lo aprendido en equipo reforzará la confianza en tus planes a largo plazo. Mantén la apertura hacia proyectos colaborativos.",
+   "amor": "Un gesto sencillo o un detalle considerado consolidará el afecto en tu relación.",
+   "dinero": "Canaliza la fuerza de Marte en tu signo hacia objetivos claros sin dispersar tu energía.",
+   "salud": "Cuentas con un excelente nivel de energía para realizar actividad física reconfortante.",
+   "consejo": "Avanza a tu propio ritmo sin compararte."
+  },
+  "libra": {
+   "titular": "Claridad en tus metas",
+   "general": "La Luna en lo más alto de tu cielo enfoca la atención en tus metas y responsabilidades. Reflexiona sobre tus avances y agradece las oportunidades conquistadas mientras Júpiter expande tus redes. Mantén la templanza ante las exigencias del entorno.",
+   "amor": "Venus en tu signo realza tu encanto natural y fortalece tu capacidad de conectar.",
+   "dinero": "Avanzar de manera prudente y sin hacer demasiado ruido dará frutos duraderos.",
+   "salud": "Regálate un momento lejos de pantallas para despejar la mente y relajar la vista.",
+   "consejo": "Tu voz importa cuando te expresas con calma."
+  },
+  "escorpio": {
+   "titular": "Horizontes que se expanden",
+   "general": "La Luna en Cáncer despierta tus ganas de explorar nuevos conocimientos y ampliar tu mirada. Aprovecha este día de fase menguante para soltar ideas rígidas y compartir tus aprendizajes. Júpiter impulsa tus aspiraciones profesionales con fuerza.",
+   "amor": "Es un tiempo propicio para sanar antiguas memorias y dejar espacio a la serenidad.",
+   "dinero": "El trabajo en equipo dará resultados sólidos si todos comparten la misma visión.",
+   "salud": "Tu cuerpo responde con vitalidad; aprovéchala para salir a caminar y renovar el aire.",
+   "consejo": "Sigue tu camino sin medirte con los demás."
+  },
+  "sagitario": {
+   "titular": "Transformación y luz propia",
+   "general": "El Sol en tu signo te brinda vitalidad renovada mientras la Luna toca tus fibras más profundas. Es una jornada adecuada para afianzar la confianza y agradecer la madurez conquistada. Con Júpiter a tu favor en temas de estudio o expansión, tu visión se fortalece.",
+   "amor": "La camaradería puede transformar una buena amistad en una conexión más estrecha.",
+   "dinero": "Tu dedicación profesional se percibe con claridad y abre paso a nuevas metas.",
+   "salud": "Procura descansar lo suficiente para asimilar toda la energía de tu temporada.",
+   "consejo": "Elige la tranquilidad por encima de las discusiones."
+  },
+  "capricornio": {
+   "titular": "El valor de cooperar",
+   "general": "La Luna en tu signo opuesto pone el foco en los vínculos cara a cara y en las alianzas. Escuchar al otro te dará valiosas respuestas para tus propios proyectos en esta fase de gratitud. Compartir responsabilidades te hará sentir acompañado.",
+   "amor": "La complicidad mutua beneficiará tanto tus afectos como tus planes futuros.",
+   "dinero": "Invertir tiempo en aprender herramientas nuevas reforzará tu desempeño profesional.",
+   "salud": "Una pausa al aire libre aligerará la carga de la semana de forma notable.",
+   "consejo": "Date el permiso de disfrutar el presente."
+  },
+  "acuario": {
+   "titular": "Bienestar en tu rutina",
+   "general": "La Luna en tu sector del cuidado diario te pide ordenar tu espacio y escuchar tu cuerpo. La fase menguante es perfecta para soltar hábitos agotadores y priorizar la simplicidad. Júpiter favorece tus vínculos haciendo tus relaciones más fluidas.",
+   "amor": "Buscas conexiones maduras que amplíen tu horizonte emocional y estimulen tu mente.",
+   "dinero": "Mantener el orden en las cuentas compartidas te dará absoluta tranquilidad.",
+   "salud": "Disfrutas de un buen estado general; sostén tu bienestar con descanso adecuado.",
+   "consejo": "Concédete un detalle amable durante el día."
+  },
+  "piscis": {
+   "titular": "Creatividad que libera",
+   "general": "La Luna en Cáncer enciende tu expresión artística y tus ganas de disfrutar lo espontáneo. Dedica tiempo a lo que apasiona tu corazón y comparte tu alegría con quienes quieres. Júpiter te brinda mejoras en la salud y en el entorno de trabajo.",
+   "amor": "La honestidad emocional te permitirá conectar desde un lugar seguro y profundo.",
+   "dinero": "Las negociaciones avanzan mejor si escuchas con empatía y defiendes tu trabajo.",
+   "salud": "Tu energía se encuentra en ascenso; aprovéchala para mover el cuerpo con soltura.",
+   "consejo": "Prioriza tu sueño para decidir con lucidez."
+  }
+ },
+ "frases": {
+  "1": "Reivindica tu autenticidad hoy sin buscar la aprobación de los demás.",
+  "2": "Valora lo que has construido y reconoce la riqueza de tus propios talentos.",
+  "3": "Una palabra sincera compartida hoy puede transformar un vínculo cotidiano.",
+  "4": "Vuelve a tus raíces para encontrar el refugio y la serenidad que necesitas.",
+  "5": "Regálate un espacio para crear y disfrutar la vida con espontaneidad.",
+  "6": "Simplifica tus tareas diarias para habitar tu rutina con mayor ligereza.",
+  "7": "Encuentra el equilibrio escuchando atentamente la perspectiva de quien camina a tu lado.",
+  "8": "Suelta los viejos temores para permitir una conexión verdaderamente profunda.",
+  "9": "Abre tu mente a nuevas perspectivas que enriquezcan tu visión del mundo.",
+  "10": "Confía en tu experiencia para dar un paso firme hacia tus verdaderas aspiraciones.",
+  "11": "Rodéate de quienes alimentan tus sueños y suman luz a tus proyectos.",
+  "12": "Regálate un momento de silencio para conectar con tu sabiduría interna."
+ }
+}
