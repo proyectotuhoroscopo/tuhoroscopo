@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-27T04:09:04.269Z",
+ "signos": {
+  "aries": {
+   "titular": "Abre espacio para el entusiasmo",
+   "general": "La Luna en tu zona de creatividad te invita a conectar con lo que apasiona tu corazón. Al estar en su fase menguante, es el instante perfecto para valorar los logros recientes y compartir tus aprendizajes. Además, Júpiter fortalece tu confianza para disfrutar cada proyecto con alegría.",
+   "amor": "Si estás sin pareja, una coincidencia especial podría acercarte a alguien muy afín a ti. Abre tu corazón al juego del coqueteo.",
+   "dinero": "Tu constancia en el trabajo empieza a notarse. Aprovecha para mostrar tus resultados más sólidos.",
+   "salud": "Sientes mucha vitalidad, así que aprovecha el día para salir a caminar o practicar tu disciplina preferida.",
+   "consejo": "Expresa lo que sientes antes de que se vuelva una molestia."
+  },
+  "tauro": {
+   "titular": "Busca refugio en tu centro",
+   "general": "Hoy la energía te pide hacer una pausa y cuidar de tu hogar y tus espacios íntimos. Una conversación sincera con la familia o un pequeño orden en casa renovará tu tranquilidad. Aprovecha el clima lunar menguante para soltar tensiones y agradecer lo vivido.",
+   "amor": "El cariño verdadero se demuestra con pequeños actos cotidianos de apoyo y compañía.",
+   "dinero": "Mantén la prudencia con tus finanzas y evita decisiones impulsivas con tu capital.",
+   "salud": "Baja las revoluciones de tu jornada, prepara una bebida tibia y descansa temprano.",
+   "consejo": "Distingue lo verdaderamente importante de lo que solo parece urgente."
+  },
+  "geminis": {
+   "titular": "Ideas que abren caminos",
+   "general": "Tu mente se percibe ágil y lista para aprender cosas distintas. Es un momento ideal para escribir, dialogar con vecinos o poner al día mensajes pendientes. La fase lunar menguante te sugiere compartir tus conocimientos de manera generosa.",
+   "amor": "Venus estimula tu lado afectivo y renueva el entusiasmo en tus vínculos amorosos.",
+   "dinero": "Organizar tus asuntos profesionales desde casa te resultará sumamente productivo.",
+   "salud": "Es una jornada estupenda para incorporar un hábito saludable que sostengas a largo plazo.",
+   "consejo": "Afronta hoy mismo aquello que venías postergando."
+  },
+  "cancer": {
+   "titular": "Valora tus logros personales",
+   "general": "La Luna pone la atención en tus finanzas y en el valor que te das a ti mismo. Reflexiona sobre tus prioridades y agradece los recursos con los que cuentas en esta fase menguante. El paso de Júpiter respalda tus esfuerzos por consolidar tu seguridad.",
+   "amor": "Busca la compañía de personas que te aporten paz y estabilidad emocional.",
+   "dinero": "Compartir tus ideas en voz alta podría abrir la puerta a una colaboración rentable.",
+   "salud": "Desconéctate de las pantallas y sal a disfrutar de un paseo al aire libre.",
+   "consejo": "Aprende a establecer límites con amabilidad y firmeza."
+  },
+  "leo": {
+   "titular": "Tu brillo natural destaca",
+   "general": "Con la Luna transitando por tu signo junto al impulso de Júpiter, sientes una gran renovación de entusiasmo. Es momento de expresar claramente lo que deseas y caminar hacia tus sueños personales. La fase menguante te invita a cerrar ciclos con gratitud.",
+   "amor": "La conversación fluida será tu mejor herramienta para conectar con alguien que te atrae.",
+   "dinero": "Marte activa tu sector de ingresos, animándote a negociar mejoras o explorar nuevas fuentes económicas.",
+   "salud": "Tienes la energía al máximo, excelente para hacer ejercicio o mover tu cuerpo.",
+   "consejo": "Habla con honestidad para aclarar cualquier malentendido."
+  },
+  "virgo": {
+   "titular": "Escucha tu sabiduría interna",
+   "general": "Tu intuición se encuentra especialmente afinada durante esta jornada. Presta atención a las corazonadas y tómate un momento para la meditación o el descanso. Es una fase estupenda para procesar aprendizajes antes de emprender nuevas metas.",
+   "amor": "Un gesto atento o un detalle especial fortalecerá la complicidad en tu relación.",
+   "dinero": "Marte en tu signo te brinda el impulso necesario para tomar la iniciativa en tus tareas.",
+   "salud": "Si notas cansancio acumulado, dale prioridad al reposo y evita cargarte de compromisos.",
+   "consejo": "Elige conservar tu tranquilidad antes que enfrascarte en discusiones."
+  },
+  "libra": {
+   "titular": "Conexiones que te enriquen",
+   "general": "La energía del día favorece el contacto con amigos y el trabajo en equipo. Un intercambio de ideas en grupo puede brindarte perspectivas frescas e inesperadas. Con la Luna menguante, agradece el apoyo de quienes siempre están a tu lado.",
+   "amor": "Venus en tu signo resalta tu encanto personal, haciendo que te desenvuelvas de forma muy auténtica.",
+   "dinero": "Avanza en tus proyectos con discreción, ya que lo que prepares ahora dará frutos sólidos.",
+   "salud": "Procura mantenerte bien hidratado y realizar pausas breves durante el día.",
+   "consejo": "Da el primer paso en ese asunto que habías dejado pendiente."
+  },
+  "escorpio": {
+   "titular": "Enfoque claro en tus metas",
+   "general": "Tus objetivos profesionales cobran gran importancia durante esta jornada. La dedicación que pongas hoy construirá bases muy favorables para tu futuro inmediato. Recuerda agradecer el recorrido realizado mientras la Luna mengua.",
+   "amor": "Es un buen momento para cultivar la intimidad desde la discreción y el respeto por tus tiempos.",
+   "dinero": "El trabajo colaborativo dará grandes resultados si todos enfocan la energía en la misma dirección.",
+   "salud": "Mantén una rutina equilibrada de alimentación y descanso para conservar tu vitalidad.",
+   "consejo": "Procura descansar lo suficiente para tomar mejores decisiones."
+  },
+  "sagitario": {
+   "titular": "Nuevos horizontes por descubrir",
+   "general": "Con el Sol en tu signo y la Luna en un signo afín, tu mente anhela expansión y aprendizaje. Es un período fantástico para proyectar viajes, estudios o metas de amplio alcance. Celebra esta etapa de renovación personal compartiendo tu optimismo.",
+   "amor": "Una linda relación de amistad podría evolucionar hacia algo más profundo.",
+   "dinero": "Tu proyección profesional recibe un gran impulso, ideal para postularte a metas más elevadas.",
+   "salud": "Tu vitalidad se encuentra muy elevada, perfecta para realizar actividades en la naturaleza.",
+   "consejo": "Aprovecha el día de hoy para resolver tus tareas pendientes."
+  },
+  "capricornio": {
+   "titular": "Transformación y claridad interna",
+   "general": "La Luna te invita a mirar en lo profundo y soltar aquello que ya no te aporta. Aceptar los cambios de etapa te permitirá renovar tu energía con serenidad. Agradece lo aprendido en el camino mientras la fase menguante completa su curso.",
+   "amor": "Un proyecto compartido puede consolidar la confianza y el entendimiento con tu pareja.",
+   "dinero": "Surgen oportunidades prometedoras vinculadas a alianzas o aprendizajes en el extranjero.",
+   "salud": "Regálate momentos de calma y asegúrate de dormir las horas necesarias.",
+   "consejo": "Confía en lo que te dicta tu intuición."
+  },
+  "acuario": {
+   "titular": "Equilibrio en tus alianzas",
+   "general": "El foco del día se sitúa en tus relaciones de pareja y alianzas cercanas. Buscar el equilibrio justo entre tus necesidades y las del otro será clave para mantener la armonía. La fase menguante te ayuda a soltar viejos roces con comprensión.",
+   "amor": "Las mejores conversaciones sentimentales pueden surgir en entornos de aprendizaje o viajes.",
+   "dinero": "Revisa con calma tus acuerdos y compromisos compartidos para optimizar tus recursos.",
+   "salud": "Procura sostener un ritmo constante en tus actividades sin exigirte demasiado.",
+   "consejo": "Prioriza un buen descanso nocturno."
+  },
+  "piscis": {
+   "titular": "Orden y bienestar cotidiano",
+   "general": "Es un día excelente para estructurar tu rutina diaria y poner en orden tus pendientes. Dedicar tiempo a la organización te brindará una agradable sensación de alivio. La Luna menguante apoya el hábito de soltar cargas innecesarias.",
+   "amor": "La sinceridad y la profundidad fortalecerán el vínculo afectivo que estás construyendo.",
+   "dinero": "Responde ante las exigencias laborales con serenidad y estrategia bien pensada.",
+   "salud": "Dedica un tiempo a caminar al aire libre para despejar tu mente de la tecnología.",
+   "consejo": "Concédete un pequeño gusto personal durante el día."
+  }
+ },
+ "frases": {
+  "1": "Reconoce tu fuerza presente y permite que tus acciones hablen de lo que vales.",
+  "2": "Valora tus talentos con firmeza y verás cómo el bienestar material sigue a tu confianza.",
+  "3": "Una palabra honesta en el momento justo transforma por completo la dinámica a tu alrededor.",
+  "4": "Convierte tu espacio personal en un refugio donde tu mente pueda hallar calma real.",
+  "5": "Permítete disfrutar de la vida sin culpas y deja que tu ingenio abra caminos.",
+  "6": "Organiza tus tareas pequeñas hoy para liberar espacio de tranquilidad mañana.",
+  "7": "Escucha activamente a quien camina a tu lado y construye acuerdos desde el respeto mutuo.",
+  "8": "Suelta el control sobre lo inevitable y abre espacio para una renovación interna profunda.",
+  "9": "Atrévete a cuestionar tus certezas para descubrir nuevas perspectivas estimulantes.",
+  "10": "Define tu siguiente paso con claridad y camina hacia tus metas sin mirar atrás.",
+  "11": "Rodéate de personas que impulsen tu crecimiento y sumen valor a tus proyectos.",
+  "12": "Regálate un momento de verdadero silencio para escuchar las respuestas que residen en ti."
+ }
+}
