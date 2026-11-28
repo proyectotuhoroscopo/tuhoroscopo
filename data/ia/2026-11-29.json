@@ -1,0 +1,116 @@
+{
+ "modelo": "gemini-3.6-flash",
+ "generado": "2026-11-28T04:00:40.562Z",
+ "signos": {
+  "aries": {
+   "titular": "Un día para brillar y disfrutar",
+   "general": "La Luna en Leo ilumina tu lado más creativo y te invita a disfrutar de aquello que enciende tu corazón. Este cuarto menguante es perfecto para soltar proyectos o pasatiempos que ya no te generan entusiasmo. Aprovecha la expansión que sientes para darle espacio al gozo genuino.",
+   "amor": "Venus desde tu zona de pareja favorece el entendimiento mutuo y fortalece el compromiso en tus relaciones.",
+   "dinero": "Tu esfuerzo diario y organización con Marte destacan en tu entorno laboral, mostrando grandes resultados.",
+   "salud": "Cuentas con excelente energía física, ideal para hacer deporte o dar una caminata reparadora.",
+   "consejo": "Una pequeña acción constante vale más que un gran plan sin ejecutar."
+  },
+  "tauro": {
+   "titular": "Calma y orden en el hogar",
+   "general": "La Luna en tu zona familiar te invita a conectar con tus raíces e intimidad. Es un buen momento para limpiar espacios y dejar ir viejas tensiones emocionales bajo este cuarto menguante. Dale prioridad a tu tranquilidad interior.",
+   "amor": "La buena sintonía en tus rutinas cotidianas puede despertar una complicidad inesperada con alguien cercano.",
+   "dinero": "Tu creatividad se activa con fuerza; apostar por proyectos personales puede traer valiosos frutos económicos.",
+   "salud": "Evita acumular tensiones innecesarias y dedica un momento a estirarte o meditar.",
+   "consejo": "Define tus límites personales con amabilidad y firmeza."
+  },
+  "geminis": {
+   "titular": "Palabras que abren caminos",
+   "general": "Tu mente y comunicación se iluminan hoy gracias al paso de la Luna. Es un momento propicio para expresar tus pensamientos y cerrar conversaciones inconclusas bajo la fase de cuarto menguante. Elige con delicadeza aquello que deseas manifestar.",
+   "amor": "Venus en tu casa del romance despierta tu atractivo y renueva el entusiasmo en tu vida afectiva.",
+   "dinero": "Decisiones relacionadas con la vivienda o el espacio familiar requieren tu atención práctica.",
+   "salud": "Mantienes un ritmo ágil y vital; aprovéchalo para mantenerte en movimiento activo.",
+   "consejo": "Prioriza tu paz mental por encima de ganar cualquier discusión."
+  },
+  "cancer": {
+   "titular": "Claridad en tus prioridades",
+   "general": "La Luna se posa en tu sector financiero para ayudarte a definir lo que realmente te aporta estabilidad. Este cuarto menguante te sugiere simplificar tus gastos y soltar apegos materiales. Júpiter aporta una perspectiva optimista a tus recursos.",
+   "amor": "Buscar la serenidad y la contención en tu espacio íntimo será tu mayor fortaleza hoy.",
+   "dinero": "Tus conversaciones y negociaciones fluirán si mantienes la claridad y la precisión en tus mensajes.",
+   "salud": "Tu vitalidad es constante, pero conviene respetar tus pausas y horarios de descanso.",
+   "consejo": "Regálate un momento de disfrute merecido hoy."
+  },
+  "leo": {
+   "titular": "Tu magnetismo está en lo alto",
+   "general": "Con la Luna y Júpiter transitando tu propio signo, tu presencia no pasa desapercibida. Este cuarto menguante te anima a desprenderte de viejas facetas que ya no te representan para renovarte plenamente. Tu optimismo se contagia con facilidad.",
+   "amor": "Las conversaciones afectuosas y los detalles sencillos reforzarán la cercanía con quien quieres.",
+   "dinero": "Marte impulsa tu capacidad para generar ingresos; es un gran momento para negociar con determinación.",
+   "salud": "Te sientes pleno de vitalidad, aunque un descanso reparador mantendrá tu equilibrio.",
+   "consejo": "Procura escuchar a los demás tanto como expresas tus ideas."
+  },
+  "virgo": {
+   "titular": "Un tiempo para recargar energía",
+   "general": "La Luna en tu zona de introspección te invita al recogimiento antes de su próximo ciclo. Aprovecha este cuarto menguante para liberarte de cargas mentales y cerrar capítulos que ya cumplieron su función. Escucha a tu intuición en silencio.",
+   "amor": "Buscas demostraciones de afecto reales y compromisos firmes por encima de las palabras vacías.",
+   "dinero": "Marte en tu signo te dota de una gran iniciativa, perfecta para encarar tus objetivos con precisión.",
+   "salud": "Libera la rigidez corporal mediante estiramientos suaves y respiraciones conscientes.",
+   "consejo": "Recuerda que a veces menos es más."
+  },
+  "libra": {
+   "titular": "Conexiones que enriquecen tu visión",
+   "general": "Los proyectos en equipo y las amistades cobran protagonismo gracias a la posición de la Luna. La fase menguante ayuda a purificar tu círculo social y a enfocar la energía en planes viables a futuro. Júpiter potencia tus oportunidades de colaboración.",
+   "amor": "Con Venus en tu propio signo, tu carisma natural florece y atrae miradas de aprecio.",
+   "dinero": "Trabajar con paciencia desde un segundo plano dará excelentes frutos en el momento adecuado.",
+   "salud": "Disfrutas de un buen nivel de energía, ideal para ejercitarte al aire libre.",
+   "consejo": "Aprende a establecer límites sanos sin perder la amabilidad."
+  },
+  "escorpio": {
+   "titular": "Pasos firmes en tus metas",
+   "general": "La Luna se ubica en lo más alto de tu mapa, destacando tu labor profesional y tus metas. El cuarto menguante te permite recortar compromisos innecesarios para concentrarte en tus verdaderas ambiciones. Júpiter respalda tu crecimiento laboral.",
+   "amor": "Dedicar tiempo a sanar emociones pasadas te dará la frescura necesaria para vincularte mejor.",
+   "dinero": "El trabajo conjunto y las alianzas estratégicas impulsarán tus proyectos compartidos.",
+   "salud": "Procura mantener hábitos estables para asegurar un rendimiento físico constante.",
+   "consejo": "Protege tu espacio personal con elegancia y diplomacia."
+  },
+  "sagitario": {
+   "titular": "Horizontes abiertos y entusiasmo renovado",
+   "general": "El Sol en tu signo te brinda un impulso vital extraordinario para comenzar tu nuevo ciclo. La Luna en un signo afín expande tus deseos de aprender y viajar, mientras el cuarto menguante te libera de viejas creencias limitantes.",
+   "amor": "Compartir momentos grupales o reuniones sociales traerá gratos encuentros afectivos.",
+   "dinero": "Tu proyección profesional cobra fuerza con Marte en la cima de tu cielo, impulsando tu liderazgo.",
+   "salud": "Cuentas con un dinamismo envidiable, excelente para realizar actividades en la naturaleza.",
+   "consejo": "Desconecta un momento de las pantallas y disfruta la caminata."
+  },
+  "capricornio": {
+   "titular": "Transformación interna y solidez",
+   "general": "La Luna en tu zona de transformación invita a revisar tus vínculos emocionales profundos. Es un momento propicio bajo el cuarto menguante para soltar miedos y renovar tus acuerdos compartidos. Todo cambio te fortalece si lo recibes con madurez.",
+   "amor": "Tu profesionalismo e imagen pública despiertan admiración en personas de tu entorno.",
+   "dinero": "Invertir tiempo en tu formación profesional ampliará tus oportunidades futuras.",
+   "salud": "Una pausa al aire libre te ayudará a despejar la mente y renovar fuerzas.",
+   "consejo": "Concédete un premio por el esfuerzo realizado."
+  },
+  "acuario": {
+   "titular": "Armonía en tus relaciones",
+   "general": "La Luna ilumina el área de las asociaciones, invitándote a equilibrar la balanza en tus vínculos. Aprovecha el cuarto menguante para resolver desacuerdos y dejar ir expectativas irrealistas en la pareja o socios. Júpiter favorece el entendimiento mutuo.",
+   "amor": "La posibilidad de conectar con alguien afín a través de estudios o viajes está muy presente.",
+   "dinero": "Buen momento para organizar tus finanzas compartidas y saldar compromisos pendientes.",
+   "salud": "Mantén un ritmo cotidiano pausado para preservar tu bienestar interior.",
+   "consejo": "Valora tu propio recorrido sin medirte con el ajeno."
+  },
+  "piscis": {
+   "titular": "Equilibrio en tu día a día",
+   "general": "La Luna en tu sector del trabajo diario y la salud pide simplificar tus rutinas. El cuarto menguante es óptimo para dejar hábitos nocivos y organizar mejor tu tiempo. Júpiter aporta un clima favorable en tu entorno cotidiano.",
+   "amor": "La honestidad en tus conversaciones permitirá profundizar la confianza con tu pareja.",
+   "dinero": "Las alianzas exigen claridad; negocia con firmeza sin perder la flexibilidad.",
+   "salud": "Cuida tus hábitos de alimentación y respeta tus momentos de descanso reparador.",
+   "consejo": "Recuerda distinguir lo verdaderamente importante de lo urgente."
+  }
+ },
+ "frases": {
+  "1": "Hoy reafirmas tu verdadera esencia al tomar decisiones centradas en ti mismo.",
+  "2": "Reconocer tu propio valor es el primer paso para multiplicar tu abundancia.",
+  "3": "Una palabra transparente y dicha desde el corazón transforma tu entorno inmediato.",
+  "4": "Al cultivar la paz en tu refugio personal, todo lo demás encuentra su sitio.",
+  "5": "Permitirte crear y jugar despierta la alegría que hoy necesitas compartir.",
+  "6": "Simplificar tus tareas cotidianas de hoy despeja el camino hacia un bienestar duradero.",
+  "7": "Encontrar el punto medio en tus relaciones fortalece el lazo con los demás.",
+  "8": "Soltar el control del pasado abre espacio para una verdadera transformación interior.",
+  "9": "Ampliar tu perspectiva del mundo te ayuda a descubrir nuevas posibilidades.",
+  "10": "Cada acción realizada con constancia impulsa tu vocación hacia el lugar deseado.",
+  "11": "Rodearte de personas afines nutre los sueños que estás construyendo para el mañana.",
+  "12": "El silencio de hoy es la simiente de la claridad que tendrás mañana."
+ }
+}
